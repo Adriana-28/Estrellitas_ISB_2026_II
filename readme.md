@@ -1,13 +1,7 @@
-# ESTA REPO ES DE PRUEBA
+# Introducción a Señales Biomédicas 2026 - II
 Veremos q sucede
 Desarrollemos muchos proyectos 
-## Lista de grupos
--adri
-bla 
-bla bla
-
-colocamos mi empresa
-
-![](./img/mameluco%20cierre.png)
-besito
-otra cosa
+## Bienvenidos al Repositorio de estrellitas ISB 2026-2
+## ¿Quiénes somos?
+| Foto | Presentación | 
+|----------|----------|
