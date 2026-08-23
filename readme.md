@@ -31,10 +31,10 @@ Nuestro objetivo es aplicar los conocimientos adquiridos durante el curso median
 ## Integrantes
 | Foto | Integrante | Presentación | Contacto |
 |:---:|:---|:---|:---:|
-| (<img src="img/rolando2.jpg") width="120" alt="Adriana Quispe"> | **Adriana Quispe** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en el procesamiento de señales biomédicas y el desarrollo de tecnologías aplicadas a la salud. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
+| (<img src="img/adriana.jpg") width="120" alt="Adriana Quispe"> | **Adriana Quispe** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en el procesamiento de señales biomédicas y el desarrollo de tecnologías aplicadas a la salud. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
 | <img src="img/lucas2.jpg" width="120" alt="Lucas"> | **Lucas [Apellido]** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en el análisis de señales y las aplicaciones de la ingeniería en el ámbito clínico. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
-| <img src="img/lenna.jpg" width="120" alt="Lenna"> | **Lenna [Apellido]** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en el uso de herramientas tecnológicas para el estudio de sistemas biológicos. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
-| <img src="img/claudia.jpg" width="120" alt="Claudia"> | **Claudia [Apellido]** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en la investigación y el desarrollo de soluciones para el área de la salud. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
-| <img src="img/rolando2.jpg" width="120" alt="Rolando"> | **Rolando [Apellido]** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en la instrumentación biomédica y el procesamiento de señales fisiológicas. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
+| <img src="img/lenna.jpg" width="120" alt="Lenna"> | **Lenna Guevara** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en el uso de herramientas tecnológicas para el estudio de sistemas biológicos. | [Correo institucional](mailto:lenna.guevara@upch.pe) |
+| <img src="img/claudia.jpg" width="120" alt="Claudia"> | **Claudia Casanova** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en la investigación y el desarrollo de soluciones para el área de la salud. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
+| <img src="img/rolando2.jpg" width="120" alt="Rolando"> | **Rolando Yantas** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en la instrumentación biomédica y el procesamiento de señales fisiológicas. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
 
 ---
