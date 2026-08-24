@@ -1,1 +1,5 @@
+Resumen de la Clase 1: Aprendimos acerca de como funciona internamente la plataforma Git, que cuenta con un directorio de trabajo (donde puedes editar), el área de staging (comando git add), el repositorio local (git commit) y el repositorio que ya conociamos GitHub. Iniciamos instalando y configurando Git, el primer comando que usamos fue git init para crear un repositorio y aprendimos que se pueden usar otros comandos como  git push, git pull y git clone. En conclusión, aprendimos como hacer uso de este repositorio de manera conjunta con dos herramientas más, que fueron Git + Visual Studio Code + GitHub, esto nos permitió poder crear nuestro repositorio 
+donde colocaremos los avances de nuestro proyecto.
+Con respecto a la clase teórica, se hizo una breve introducción de los métodos de evaluación y se explicó acerca de conceptos previos que eran importantes recordar de asignaturas previas como anatomía y fisiología, como por ejemplo, se repasasó acerca de lo que era un potencial de acción y sobre que es la homeostasis.
 
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/58ed1935-15ed-4df4-9773-d2da16c2ac20" />
