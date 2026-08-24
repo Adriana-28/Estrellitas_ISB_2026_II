@@ -35,6 +35,6 @@ Nuestro objetivo es aplicar los conocimientos adquiridos durante el curso median
 | <img src="img/lucas3.jpg" width="120" alt="Lucas"> | **Lucas Mendoza** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en el análisis de señales y las aplicaciones de la ingeniería en el ámbito clínico. | [Correo institucional](mailto:lucas.mendoza.r@upch.pe) |
 | <img src="img/lenna.jpg" width="120" alt="Lenna"> | **Lenna Guevara** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en el uso de herramientas tecnológicas para el estudio de sistemas biológicos. | [Correo institucional](mailto:lenna.guevara@upch.pe) |
 | <img src="img/claudia2.jpg" width="120" alt="Claudia"> | **Claudia Casanova** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesada en la investigación y el desarrollo de soluciones para el área de la salud. | [Correo institucional](mailto:maria.casanova@upch.pe) |
-| <img src="img/rolando2.jpg" width="120" alt="Rolando"> | **Rolando Yantas** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en la instrumentación biomédica y el procesamiento de señales fisiológicas. | [Correo institucional](mailto:adriana.quispe@upch.pe) |
+| <img src="img/rolando.png" width="120" alt="Rolando"> | **Rolando Yantas** | Estudiante de séptimo ciclo de Ingeniería Biomédica PUCP–UPCH. Interesado en la instrumentación biomédica y el procesamiento de señales fisiológicas. | [Correo institucional](mailto:rolando.yantas@upch.pe) |
 
 ---
