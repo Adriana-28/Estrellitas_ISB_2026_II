@@ -1,4 +1,5 @@
 Resumen de la Clase 1: Durante el laboratorio aprendimos sobre conceptos fundamentales de Git y Github, tambien acerca de como funciona internamente la plataforma Git, que cuenta con un directorio de trabajo (donde puedes editar), el área de staging (comando git add), el repositorio local (git commit) y el repositorio que ya conociamos GitHub. Iniciamos aprendiendo como instalar y configurar Git, como crear un repositorio, como registrar los cambio y subir los cambios hechos en Visual Studio Code al Github grupal; entre los comando explicados, el primer comando que usamos fue git init para crear un repositorio y aprendimos que se pueden usar otros comandos como  git push, git pull y git clone.
+
 "¿Qué es Git?"
 Es un sistema de control de versiones que ayuda a registrar y administrar los cambios que se realizan en los archivos de un proyecto. Cuando se quiera registrar los cambios se realiza mediante un commit.
 "¿Qué es Github?"
