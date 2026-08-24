@@ -4,7 +4,7 @@
 ![Image](https://github.com/Adriana-28/Biodise-o1/blob/main/trash/200_d.gif)
 -----------------------------------------
 
-### Repositorio del Grupo X
+### Repositorio del Grupo Estrellitas
 
 **Ingeniería Biomédica PUCP–UPCH**
 
@@ -14,7 +14,7 @@
 
 ## Descripción del repositorio
 
-Bienvenidos al repositorio del **Grupo X** del curso **Introducción a Señales Biomédicas 2026-II**.
+Bienvenidos al repositorio del **Grupo Estrellitas** del curso **Introducción a Señales Biomédicas 2026-II**.
 
 Este espacio ha sido creado para organizar y documentar las actividades desarrolladas durante el curso. Aquí se encontrarán los certificados del programa CITI, los informes y archivos de los laboratorios, así como el desarrollo del hardware y software correspondiente al proyecto del curso.
 
