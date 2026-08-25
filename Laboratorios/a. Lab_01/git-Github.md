@@ -19,6 +19,21 @@ Comandos importantes:
 - git clone: Permite crear una copia local del repositorio remoto
 - git checkout: Ayuda a cambiar entre las versiones del proyecto
 
+Instalación y Configuración de Git:
+- Desde la página oficial de descarga de Git, se elige el sistema operativo de tu dispositivo y se descarga el instalador
+- Ingresa a la carpeta en la que se descargó el instalador de Git y hacer doble click para ejecutarlo
+- Seguir los pasos del instalador, eligiendo la configuración (predeterminada o personalizada) deseada hasta finalizar
+- Abre el símbolo del sistema e ingresa los siguientes comandos para decirle a Git quien eres: git config --global user.name "Your name" (para colocar tu nombre) y git config --global user.email "Your email" (para colocar el correo electrónico que usarás)
+- Listo, Git ya está configurado y listo para usarse
+
+Instalación de Visual Studio Code y conexión con GitHub:
+- Primero se debe acceder a https://cli.github.com/ y copiar el comando indicado (winget install --id GitHub.cli)
+- Abrir el símbolo del sistema, copiar el comando y ejecutarlo (Esta herramienta de código abierto permite usar las funciones de GitHub directamente desde la terminal de tu computadora)
+- Desde la página oficial descargar el instalador de VS Code para tu sistema operativo
+- Ingresa a la carpeta en la que se descargó el instalador de VS Code y hacer doble click para ejecutarlo, seguir los pasos de instalación hasta finalizar
+- Abrir VS Code e ingresar usando su cuenta de GitHub (es de ayuda tener una ventana de navegardor abierta donde ya esté iniciada la sesión en la cuenta de GitHub)
+- Ahora que VS Code está vinculado con su cuenta de GitHub, puede acceder a los repositorios que tenga en su cuenta
+
 En conclusión, aprendimos como hacer uso de este repositorio de manera conjunta con dos herramientas más, que fueron Git + Visual Studio Code + GitHub, esto nos permitió poder crear nuestro repositorio donde colocaremos los avances de nuestro proyecto.
 Con respecto a la clase teórica, se hizo una breve introducción de los métodos de evaluación y se explicó acerca de conceptos previos que eran importantes recordar de asignaturas previas como anatomía y fisiología, como por ejemplo, se repasasó acerca de lo que era un potencial de acción y sobre que es la homeostasis.
 
