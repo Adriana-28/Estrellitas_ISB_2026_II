@@ -1,1 +1,0 @@
-#Laboratorios de manera completa
