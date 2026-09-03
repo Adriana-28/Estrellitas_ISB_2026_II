@@ -50,10 +50,45 @@ donde `n` representa el índice de la muestra y `fs` la frecuencia de muestreo.
 
 La señal ECG fue estudiada mediante cuatro representaciones:
 
-1. **ECG completo:** permitió observar el comportamiento global del registro y detectar cambios bruscos o posibles artefactos.
-2. **Segmento de 10 segundos:** facilitó la observación de la morfología cardiaca y de estructuras como los complejos QRS.
-3. **Histograma de amplitudes:** mostró la distribución de los valores de amplitud, aunque no conserva información sobre el momento en que aparece cada valor.
-4. **Representación discreta:** permitió observar las muestras individuales que forman la señal digital.
+### 1. ECG completo
+
+Permitió observar el comportamiento global del registro y detectar cambios bruscos o posibles artefactos.
+
+<p align="center">
+  <img src="../../img/cuadro1.png" alt="Señal ECG completa" width="850">
+</p>
+
+<p align="center"><em>Figura 1. Representación completa de la señal ECG.</em></p>
+
+### 2. Segmento ECG de 10 segundos
+
+Facilitó la observación detallada de la morfología cardiaca y de estructuras como los complejos QRS.
+
+<p align="center">
+  <img src="img/cuadro%202.png" alt="Segmento ECG de 10 segundos" width="850">
+</p>
+
+<p align="center"><em>Figura 2. Segmento correspondiente a los primeros 10 segundos del ECG.</em></p>
+
+### 3. Histograma de amplitudes
+
+Mostró la distribución de los valores de amplitud de la señal. Sin embargo, esta representación no conserva información sobre el instante en el que aparece cada valor.
+
+<p align="center">
+  <img src="img/cuadro%203.png" alt="Histograma de amplitudes del ECG" width="700">
+</p>
+
+<p align="center"><em>Figura 3. Distribución de las amplitudes del segmento ECG analizado.</em></p>
+
+### 4. Representación discreta
+
+Permitió observar individualmente las muestras que forman la señal digital y comprobar que estas fueron adquiridas en instantes separados.
+
+<p align="center">
+  <img src="img/cuadro%204.png" alt="Representación discreta del ECG" width="850">
+</p>
+
+<p align="center"><em>Figura 4. Representación discreta de las primeras muestras del ECG.</em></p>
 
 En el segmento de 10 segundos del registro 100 se obtuvieron los siguientes resultados:
 
@@ -64,6 +99,7 @@ En el segmento de 10 segundos del registro 100 se obtuvieron los siguientes resu
 | Mínimo | −0.6450 mV |
 | Máximo | 0.9600 mV |
 | Rango | 1.6050 mV |
+
 
 ## Comparación con otro registro
 
