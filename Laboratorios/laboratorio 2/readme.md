@@ -65,7 +65,7 @@ Permitió observar el comportamiento global del registro y detectar cambios brus
 Facilitó la observación detallada de la morfología cardiaca y de estructuras como los complejos QRS.
 
 <p align="center">
-  <img src="img/cuadro%202.png" alt="Segmento ECG de 10 segundos" width="850">
+  <img src="../../img/cuadro2.png" alt="Segmento ECG de 10 segundos" width="850">
 </p>
 
 <p align="center"><em>Figura 2. Segmento correspondiente a los primeros 10 segundos del ECG.</em></p>
@@ -75,7 +75,7 @@ Facilitó la observación detallada de la morfología cardiaca y de estructuras 
 Mostró la distribución de los valores de amplitud de la señal. Sin embargo, esta representación no conserva información sobre el instante en el que aparece cada valor.
 
 <p align="center">
-  <img src="img/cuadro%203.png" alt="Histograma de amplitudes del ECG" width="700">
+  <img src="../../img/cuadro3.png" alt="Histograma de amplitudes del ECG" width="700">
 </p>
 
 <p align="center"><em>Figura 3. Distribución de las amplitudes del segmento ECG analizado.</em></p>
@@ -85,7 +85,7 @@ Mostró la distribución de los valores de amplitud de la señal. Sin embargo, e
 Permitió observar individualmente las muestras que forman la señal digital y comprobar que estas fueron adquiridas en instantes separados.
 
 <p align="center">
-  <img src="img/cuadro%204.png" alt="Representación discreta del ECG" width="850">
+  <img src="../../img/cuadro4.png" alt="Representación discreta del ECG" width="850">
 </p>
 
 <p align="center"><em>Figura 4. Representación discreta de las primeras muestras del ECG.</em></p>
