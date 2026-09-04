@@ -272,9 +272,7 @@ La caracterización inicial permitió establecer que antes de filtrar una señal
 
 Para una señal discreta:
 
-\[
-T_s = \frac{1}{f_s}
-\]
+T_s = 1/f_s
 
 donde \(T_s\) es el periodo de muestreo y \(f_s\) la frecuencia de muestreo.
 
