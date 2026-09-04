@@ -167,3 +167,48 @@ El análisis estadístico permitió comparar cuantitativamente diferentes segmen
 
 Finalmente, se exportó un segmento ECG a formato WAV conservando su organización temporal. Este laboratorio permitió establecer las bases para posteriores procedimientos de procesamiento digital de señales, como la aplicación de filtros FIR e IIR, el análisis en frecuencia y la Transformada Z. Los resultados obtenidos son descriptivos y no deben interpretarse como un diagnóstico clínico.
 
+# Resumen del Laboratorio 2: Análisis Multidominio de Señales Biomédicas
+
+Este Laboratorio 2 se centró en la exploración y análisis de señales biomédicas, específicamente registros de electrocardiograma (ECG) de la base de datos NSRDB (Normal Sinus Rhythm Database) de PhysioNet. El objetivo primordial fue comprender cómo una señal puede ser analizada desde tres perspectivas complementarias: el dominio temporal, el dominio frecuencial (utilizando la Transformada Rápida de Fourier - FFT) y el dominio tiempo-frecuencia (mediante la Transformada de Fourier de Tiempo Corto - STFT).
+
+### Objetivos Específicos del Laboratorio
+
+- **Importación y Caracterización de Registros**: Aprender a importar registros fisiológicos desde PhysioNet usando la librería `wfdb` e identificar sus características básicas como frecuencia de muestreo (fs), número de muestras, cantidad y nombres de canales, y unidades de medida.
+- **Representación Temporal**: Visualizar las señales en el dominio del tiempo para observar su morfología, amplitud, periodicidad, y la presencia de eventos o artefactos.
+- **Análisis Frecuencial (FFT)**: Calcular y analizar el contenido frecuencial de las señales mediante la FFT, comparando los espectros antes y después de eliminar la componente de corriente directa (DC), que representa el valor medio de la señal.
+- **Análisis Tiempo-Frecuencia (STFT)**: Estudiar cómo evoluciona el contenido frecuencial de las señales a lo largo del tiempo, mediante la generación de espectrogramas, y comprender el compromiso entre resolución temporal y frecuencial al ajustar el tamaño de la ventana (`nperseg`).
+- **Comparación y Conclusión**: Comparar los hallazgos de tres registros ECG específicos (16265, 16272, 16420) en los diferentes dominios y extraer conclusiones sobre su comportamiento.
+
+### Pasos Clave y Herramientas Utilizadas
+
+- **Configuración del Entorno**: Se utilizaron librerías fundamentales como `wfdb` para el acceso a datos de PhysioNet, NumPy para operaciones numéricas y la implementación de la FFT, SciPy para el cálculo de la STFT, y Matplotlib para la visualización de las señales y sus transformadas.
+
+- **Carga de Registros**: Se cargaron los registros 16265, 16272 y 16420 desde la base de datos `nsrdb` de PhysioNet, extrayendo un segmento inicial de 3600 muestras (aproximadamente 28.12 segundos a una fs de 128 Hz) para cada uno. Se verificó que todos compartían una frecuencia de muestreo de 128 Hz y dos canales (ECG1, ECG2).
+
+- **Análisis en el Dominio Temporal**: Se graficaron las señales en función del tiempo. Se observó que los registros 16265 y 16420 presentaban morfologías ECG periódicas y relativamente estables, mientras que el registro 16272 mostró una mayor variabilidad en amplitud y una morfología menos definida, sugiriendo posiblemente ruido o una condición fisiológica diferente.
+
+  A continuación, se muestra un ejemplo de la representación temporal para el registro 16420:
+
+  `[Imagen aquí]`
+
+- **Análisis en el Dominio Frecuencial (FFT)**:
+  - Se implementó una función para calcular la FFT con y sin la componente DC. La eliminación de la DC (`x - np.mean(x)`) resultó crucial para una visualización clara del contenido frecuencial no estacionario.
+  - Para los registros 16265 y 16420, se identificaron picos dominantes de frecuencia alrededor de 1.60 Hz y 1.636 Hz, respectivamente, lo cual es consistente con las frecuencias cardíacas esperadas.
+  - El registro 16272 mostró un comportamiento atípico, con un pico dominante muy bajo de 0.142 Hz, lo que podría indicar una oscilación lenta subyacente o la presencia de artefactos significativos en el rango de muy baja frecuencia.
+
+  Un ejemplo de la FFT sin componente DC para el registro 16420:
+
+  `[Imagen aquí]`
+
+- **Análisis en el Dominio Tiempo-Frecuencia (STFT)**:
+  - Se calculó la STFT para los registros, utilizando una ventana `nperseg=256` para todos (lo que representa 2 segundos de señal). Esto permitió generar espectrogramas que muestran la evolución del contenido frecuencial a lo largo del tiempo.
+  - Los espectrogramas de 16265 y 16420 exhibieron concentraciones de energía estables en bajas frecuencias a lo largo del tiempo, reflejando la periodicidad de sus ECG.
+  - El espectrograma de 16272, aunque también mostró energía concentrada en bajas frecuencias, su contexto de mayor variabilidad temporal sugiere que una ventana `nperseg` más pequeña (como 32, sugerido en el ejercicio original) podría haber ofrecido una mejor resolución temporal para eventos transitorios.
+
+  Observa el espectrograma STFT del registro 16420:
+
+  `[Imagen aquí]`
+
+### Conclusiones Generales
+
+El laboratorio reafirmó la importancia del análisis multidominio para una comprensión integral de las señales biomédicas. Mientras que el dominio temporal es indispensable para la observación directa de la morfología y eventos visibles, el dominio frecuencial (FFT) revela el contenido de frecuencia global y la STFT ofrece una ventana a la dinámica de esas frecuencias a lo largo del tiempo. La comparación de los registros destacó que, aunque superficialmente todos eran ECG, el registro 16272 presentó características distintivas en todos los dominios que sugieren una fisiología alterada o una mayor influencia de ruido, diferenciándolo claramente de los patrones más regulares de 16265 y 16420. La elección adecuada de parámetros en las transformadas (como la eliminación de DC en FFT y el tamaño de ventana en STFT) es crucial para extraer la información más relevante de las señales.
