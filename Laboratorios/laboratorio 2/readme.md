@@ -274,13 +274,11 @@ Para una señal discreta:
 
 T_s = 1/f_s
 
-donde \(T_s\) es el periodo de muestreo y \(f_s\) la frecuencia de muestreo.
+donde T_s es el periodo de muestreo y f_s es la frecuencia de muestreo.
 
 Para el ECG utilizado:
 
-\[
-T_s = \frac{1}{250}=0.004\;s
-\]
+T_s = 1/250 = 0.004 s
 
 
 # 4. Análisis en el dominio del tiempo
@@ -289,11 +287,9 @@ El análisis temporal permitió observar directamente cómo varía la amplitud d
 
 Se utilizó un eje temporal construido a partir de:
 
-\[
-t=\frac{n}{f_s}
-\]
+t = n/f_s
 
-donde \(n\) representa el índice de muestra.
+donde n representa el número total de muestras de la señal.
 
 Este análisis fue importante principalmente para:
 
@@ -305,7 +301,6 @@ Este análisis fue importante principalmente para:
 
 Una señal filtrada no debe evaluarse únicamente observando si "se ve más limpia"; también debe verificarse que conserve la información fisiológica.
 
----
 
 # 5. Análisis en el dominio de la frecuencia
 
@@ -331,7 +326,6 @@ El análisis realizado consideró que:
 
 Por esta razón, no es correcto asumir que todas las frecuencias altas son ruido. Eliminar indiscriminadamente las frecuencias altas podría deformar el complejo QRS.
 
----
 
 # 6. Frecuencia de muestreo y criterio de Nyquist
 
@@ -339,18 +333,15 @@ La frecuencia de muestreo determina la máxima frecuencia que puede representars
 
 Según el criterio de Nyquist:
 
-\[
-f_s \geq 2f_{max}
-\]
+f_s = 2*f_max
 
 donde:
 
-- \(f_s\): frecuencia de muestreo.
-- \(f_{max}\): máxima frecuencia de interés.
+- f_s: frecuencia de muestreo.
+- f_max: máxima frecuencia de interés.
 
 Esto permite evitar problemas de **aliasing** durante la adquisición y representación digital de la señal.
 
----
 
 # 7. Diseño de filtros digitales
 
@@ -372,7 +363,6 @@ El número de coeficientes o *taps* influye en la precisión de la respuesta del
 
 En la señal ECG limpia se probaron diferentes valores de `numtaps` y frecuencia de corte y no se observaron cambios significativos. Esto se explicó porque la señal no presentaba componentes importantes de alta frecuencia que requirieran una separación muy precisa.
 
----
 
 ## 7.2 Filtros IIR
 
@@ -389,7 +379,6 @@ Se eligió Butterworth porque presenta una respuesta plana en la banda de paso, 
 
 La representación SOS se utilizó para mejorar la estabilidad numérica, especialmente cuando se trabaja con filtros de orden elevado.
 
----
 
 # 8. Comparación FIR vs IIR
 
@@ -413,7 +402,6 @@ El **IIR presentó el menor MSE** en esta prueba, indicando una mayor similitud 
 
 Sin embargo, la selección del filtro no se realizó únicamente con el MSE. También se consideraron la respuesta en frecuencia, la morfología temporal, la fase y la estabilidad.
 
----
 
 # 9. Respuesta en frecuencia de los filtros
 
@@ -433,7 +421,6 @@ La comparación mostró que:
 
 La respuesta en frecuencia permitió complementar el análisis temporal y comprobar cómo cada filtro modifica las diferentes componentes frecuenciales.
 
----
 
 # 10. Relación entre Transformada Z, polos y ceros
 
@@ -460,15 +447,12 @@ z=e^{j\omega}
 
 Por ello, la Transformada de Fourier puede entenderse como un caso particular del análisis de la Transformada Z sobre el círculo unitario.
 
----
 
 # 11. Construcción de una señal ECG contaminada
 
 Para evaluar realmente el filtrado se creó una señal ECG contaminada agregando una interferencia sinusoidal:
 
-\[
 x[n]=ECG[n]+A\sin(2\pi f_{noise}t)
-\]
 
 Se utilizaron:
 
@@ -485,7 +469,6 @@ f_{noise}\approx35\;Hz
 
 Esto permitió seleccionar la frecuencia de corte de manera fundamentada en lugar de escogerla arbitrariamente.
 
----
 
 # 12. Selección y aplicación del filtro para eliminar la interferencia
 
@@ -494,46 +477,19 @@ Para recuperar la señal se utilizó un filtro **Butterworth pasa-bajas IIR** en
 En el notebook se aplicó:
 
 - Frecuencia de corte: **26 Hz**
-- Orden: **7**
+- Orden: **6**
 - `sosfiltfilt`
 
 El criterio utilizado fue colocar la frecuencia de corte por debajo de la interferencia de aproximadamente 35 Hz, pero manteniéndola suficientemente alta para conservar la mayor parte del contenido fisiológico del ECG.
 
-> **Nota:** en el código aparece una frecuencia de corte de 26 Hz, mientras que el texto de justificación menciona 25 Hz. Esta diferencia debe tenerse en cuenta si se presenta el laboratorio final.
 
----
-
-# 13. Filtrado de fase cero
-
-Para el filtro IIR se utilizó:
-
-```python
-signal.sosfiltfilt(...)
-```
-
-en lugar de aplicar únicamente `sosfilt`.
-
-Un filtro IIR aplicado en un solo sentido puede producir desplazamiento temporal debido a su respuesta de fase.
-
-`filtfilt`/`sosfiltfilt` aplica el filtrado hacia adelante y hacia atrás, compensando el desplazamiento de fase y obteniendo un filtrado de **fase cero**.
-
-Esto es importante en ECG porque un desplazamiento de los picos R o de otras estructuras puede alterar la medición de intervalos temporales.
-
-La principal limitación es que el procesamiento hacia adelante y hacia atrás requiere disponer de la señal completa, por lo que no es directamente un método de filtrado en tiempo real.
-
----
-
-# 14. Validación cuantitativa
+# 13. Validación cuantitativa
 
 Una parte fundamental del laboratorio fue comprobar objetivamente si el filtro mejoró la señal.
 
 Se utilizaron principalmente tres métricas:
 
-## 14.1 Error cuadrático medio (MSE)
-
-\[
-MSE=\frac{1}{N}\sum_{n=1}^{N}(x[n]-\hat{x}[n])^2
-\]
+## 13.1 Error cuadrático medio (MSE)
 
 El MSE mide la diferencia promedio cuadrática entre la señal de referencia y la señal filtrada.
 
@@ -542,46 +498,15 @@ El MSE mide la diferencia promedio cuadrática entre la señal de referencia y l
 - MSE bajo → mayor similitud con la señal de referencia.
 - MSE alto → mayor diferencia o distorsión.
 
----
 
-## 14.2 Raíz del error cuadrático medio (RMSE)
-
-\[
-RMSE=\sqrt{MSE}
-\]
-
-El RMSE representa el error en las mismas unidades de amplitud de la señal.
-
-En el ejercicio de recuperación se obtuvo:
-
-\[
-RMSE=0.005604
-\]
-
----
-
-## 14.3 Relación señal/ruido (SNR)
+## 13.2 Relación señal/ruido (SNR)
 
 La SNR permite comparar la potencia de la señal respecto a la potencia del ruido:
 
-\[
-SNR=10\log_{10}\left(\frac{P_{signal}}{P_{noise}}\right)
-\]
+## Inspección visual
 
-En el experimento:
 
-| Métrica | Resultado |
-|---|---:|
-| SNR antes del filtrado | **5.27 dB** |
-| SNR después del filtrado | **33.31 dB** |
-| MSE | **3.1407 × 10⁻⁵** |
-| RMSE | **0.005604** |
-
-El aumento de la SNR de **5.27 dB a 33.31 dB** indicó una mejora importante en la relación entre señal y ruido.
-
----
-
-# 15. Validación en el dominio temporal y frecuencial
+# 14. Validación en el dominio temporal y frecuencial
 
 Las métricas numéricas no fueron utilizadas de manera aislada.
 
@@ -606,28 +531,19 @@ Mediante FFT se comprobó que:
 Se consideró:
 
 - **MSE bajo**
-- **RMSE bajo**
+- **Inspección visual**
 - **SNR alta**
 
 Por lo tanto, la evaluación correcta de un filtro debe combinar **análisis temporal + análisis frecuencial + métricas cuantitativas + interpretación fisiológica**.
 
----
 
-# 16. Consecuencias de diseñar mal un filtro
+# 15. Consecuencias de diseñar mal un filtro
 
-El laboratorio también permitió observar que un filtro mal diseñado puede ser perjudicial para una señal biomédica.
 
 ## Frecuencia de corte demasiado baja
 
 Cuando se utilizó un corte de **3 Hz**, el complejo QRS perdió gran parte de su forma característica.
 
-El MSE obtenido fue:
-
-\[
-MSE\approx4.111\times10^{-2}
-\]
-
-Esto demuestra una diferencia considerable respecto a la señal original.
 
 El problema ocurre porque una frecuencia de corte demasiado baja elimina componentes necesarias para representar correctamente los cambios rápidos del QRS.
 
@@ -635,7 +551,6 @@ El problema ocurre porque una frecuencia de corte demasiado baja elimina compone
 
 Se puede perder información fisiológica relevante, aunque la señal aparentemente parezca más "suave".
 
----
 
 ## Orden excesivamente alto
 
@@ -652,81 +567,8 @@ Un orden excesivo:
 - puede generar problemas numéricos;
 - no aporta beneficios significativos cuando un orden menor ya cumple el objetivo.
 
-Para el caso estudiado, órdenes alrededor de **4 a 6** fueron considerados suficientes para obtener una respuesta adecuada.
+Para lo estudiado, órdenes alrededor de **4 a 6** fueron considerados suficientes para obtener una respuesta adecuada.
 
----
-
-# 17. Principales criterios aprendidos para diseñar un filtro
-
-La selección de un filtro debe realizarse siguiendo el comportamiento real de la señal.
-
-### 1. Analizar primero la señal
-Determinar frecuencia de muestreo, duración, número de muestras y morfología.
-
-### 2. Analizar el espectro
-Utilizar FFT para identificar las componentes fisiológicas y las posibles interferencias.
-
-### 3. Determinar la frecuencia de corte
-La frecuencia de corte debe separar, en la medida de lo posible, el contenido fisiológico del ruido sin eliminar información relevante.
-
-### 4. Seleccionar el tipo de filtro
-Elegir FIR o IIR considerando estabilidad, fase, orden y costo computacional.
-
-### 5. Seleccionar el orden
-Utilizar el menor orden que permita obtener la respuesta necesaria sin introducir complejidad innecesaria.
-
-### 6. Considerar la fase
-En ECG es importante evitar desplazamientos temporales cuando se necesitan mediciones precisas de los eventos cardíacos.
-
-### 7. Validar
-Comparar la señal antes y después del filtrado mediante:
-
-- Dominio temporal.
-- FFT.
-- MSE.
-- RMSE.
-- SNR.
-- Conservación de la morfología fisiológica.
-
----
-
-# 18. Idea central del laboratorio
-
-El aprendizaje principal del laboratorio fue que **filtrar una señal biomédica no significa simplemente eliminar frecuencias altas o hacer que la señal se vea más limpia**.
-
-Un filtro adecuado debe eliminar o reducir las componentes no deseadas mientras conserva la información fisiológica relevante.
-
-Por ello, la decisión debe basarse en un proceso:
-
-\[
-\boxed{
-\text{Caracterizar}
-\rightarrow
-\text{Analizar FFT}
-\rightarrow
-\text{Diseñar}
-\rightarrow
-\text{Filtrar}
-\rightarrow
-\text{Validar}
-}
-\]
-
-La validación debe demostrar simultáneamente que:
-
-\[
-\boxed{
-\text{Ruido}\downarrow
-\qquad
-\text{MSE}\downarrow
-\qquad
-\text{SNR}\uparrow
-\qquad
-\text{Información fisiológica conservada}
-}
-\]
-
----
 
 # Conclusiones
 
