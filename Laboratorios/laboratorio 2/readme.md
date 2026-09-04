@@ -229,7 +229,6 @@ El flujo de trabajo utilizado fue:
 
 **Señal → inspección → caracterización → análisis temporal → análisis frecuencial → identificación del ruido → selección del filtro → diseño → aplicación → validación → interpretación fisiológica.**
 
----
 
 ## 2. Herramientas y librerías utilizadas
 
@@ -253,7 +252,6 @@ Dentro de `scipy.signal` se trabajó principalmente con:
 - `sosfilt`: filtrado IIR en un solo sentido.
 - `sosfiltfilt`: filtrado IIR hacia adelante y hacia atrás para evitar desplazamiento de fase.
 
----
 
 # 3. Caracterización de la señal ECG
 
@@ -286,7 +284,6 @@ Para el ECG utilizado:
 T_s = \frac{1}{250}=0.004\;s
 \]
 
----
 
 # 4. Análisis en el dominio del tiempo
 
