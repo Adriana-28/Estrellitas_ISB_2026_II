@@ -189,7 +189,9 @@ Este Laboratorio 2 se centró en la exploración y análisis de señales bioméd
 
   A continuación, se muestra un ejemplo de la representación temporal para el registro 16420:
 
-  `[Imagen aquí]`
+  <p align="center">
+  <img src="../../img/reto_lab2_timedomain.png" alt="Señal ECG completa" width="850">
+  </p>
 
 - **Análisis en el Dominio Frecuencial (FFT)**:
   - Se implementó una función para calcular la FFT con y sin la componente DC. La eliminación de la DC (`x - np.mean(x)`) resultó crucial para una visualización clara del contenido frecuencial no estacionario.
@@ -198,7 +200,9 @@ Este Laboratorio 2 se centró en la exploración y análisis de señales bioméd
 
   Un ejemplo de la FFT sin componente DC para el registro 16420:
 
-  `[Imagen aquí]`
+  <p align="center">
+  <img src="../../img/reto_lab2_fftsdc.png" alt="Señal ECG completa" width="850">
+  </p>
 
 - **Análisis en el Dominio Tiempo-Frecuencia (STFT)**:
   - Se calculó la STFT para los registros, utilizando una ventana `nperseg=256` para todos (lo que representa 2 segundos de señal). Esto permitió generar espectrogramas que muestran la evolución del contenido frecuencial a lo largo del tiempo.
@@ -207,7 +211,9 @@ Este Laboratorio 2 se centró en la exploración y análisis de señales bioméd
 
   Observa el espectrograma STFT del registro 16420:
 
-  `[Imagen aquí]`
+  <p align="center">
+  <img src="../../img/reto_lab2_stft.png" alt="Señal ECG completa" width="850">
+  </p>
 
 ### Conclusiones Generales
 
