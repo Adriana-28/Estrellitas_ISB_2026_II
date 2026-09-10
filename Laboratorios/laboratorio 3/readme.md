@@ -24,7 +24,10 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 
 ## **4. Procedimiento**
 
-
+1. Se elige el músculo que se va a evaluar y se limpia la zona (preferentemente una zona sin vellos)
+2. Colocar los electrodos positivo y negativo en el músculo a evaluar y el electrodo de referencia en unza zona eléctricamente muerta (ej. hueso del codo)
+3. Conectar el BITalino y la laptop mediante Bluetooth
+4. Realizar las mediciones utilizando el software OpenSignals del músculo en reposo, esfuezo leve y efuerzo fuerte
 
 ## **5. Resultados**
 
