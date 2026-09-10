@@ -5,7 +5,10 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 
 ## **2. Objetivos**
 
-
+- Aprender lo básico acerca de recolección de señales fisiológicas usando el BITalino
+- Visualizar en tiempo real, almacenar y exportar señales biomédicas usando OpenSignals (r)evolution
+- Aplicar filtros para procesar y mejorar la calidad de las señales recolectadas
+- Analizar e interpretar las señales obtenidas
 
 ## **3. Materiales y equipos**
 
