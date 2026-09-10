@@ -57,6 +57,8 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 *4.3 EMG de la porción descendente del trapecio*
 
+Para la sección descendente del músculo trapecio se tuvieron en cuenta las mismas recomendaciones que con el músculo flexor radial del carpo para tener una adecuada medición. Para garantizar que la calidad de la señal, se recomienda que la separación entre los electrodos positivo y negativo sea de ~20 mm, lo que equilibra la amplitud y disminuye el riesgo de contaminación de la señal.
+
 ## **5. Resultados**
 
 En esta sección se presentan los resultados obtenidos a partir de las señales de electromiografía superficial (EMG) registradas durante las diferentes condiciones de actividad muscular. El procesamiento permitió visualizar las señales tanto en el dominio temporal como en el dominio frecuencial, con el propósito de facilitar la comparación de la actividad eléctrica muscular entre las distintas condiciones evaluadas.
