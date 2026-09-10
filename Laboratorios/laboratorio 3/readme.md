@@ -53,11 +53,15 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 | Reposo | Sin oposición | Con oposición |
 |:-----------|:--------:|:------:|
-| <img src="../../img/flexor_reposo_comprimido.gif" alt="Flexor Reposo" width="250"> | <img src="../../img/flexor_leve_comprimido.gif" alt="Flexor Leve" width="250"> | <img src="../../vids/flexor_fuerte_comprimido.gif" alt="Flexor Fuerte" width="250"> |
+| <img src="../../img/flexor_reposo_comprimido.gif" alt="Flexor Reposo" width="250"> | <img src="../../img/flexor_leve_comprimido.gif" alt="Flexor Leve" width="250"> | <img src="../../img/flexor_fuerte_comprimido.gif" alt="Flexor Fuerte" width="250"> |
 
 *4.3 EMG de la porción descendente del trapecio*
 
 Para la sección descendente del músculo trapecio se tuvieron en cuenta las mismas recomendaciones que con el músculo flexor radial del carpo para tener una adecuada medición. Para garantizar que la calidad de la señal, se recomienda que la separación entre los electrodos positivo y negativo sea de ~20 mm, lo que equilibra la amplitud y disminuye el riesgo de contaminación de la señal.
+
+| Sin oposición | Con oposición |
+|:--------:|:------:|
+| <img src="../../img/trapecio_leve_comprimido.gif" alt="Trapecio Leve" width="250"> | <img src="../../img/trapecio_fuerte_comprimido.gif" alt="Trapecio Fuerte" width="250"> |
 
 ## **5. Resultados**
 
