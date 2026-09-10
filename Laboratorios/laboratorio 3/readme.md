@@ -288,13 +288,13 @@ En esta sección se presentan las gráficas correspondientes al registro del **f
 
 | Condición                       | Señal original             | Señal filtrada             | Señal rectificada          |
 | ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
-| Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original"> | <img src="../../resultados_lab3/antebrazo_reposo_filtrada.png" width="867" alt="antebrazo_reposo_original"> | <img src="../../resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_rectificada"> | 
+| Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original"> | <img src="../../resultados_lab3/antebrazo_reposo_filtrada.png" width="867" alt="antebrazo_reposo_filtrada"> | <img src="../../resultados_lab3/antebrazo_reposo_rectificada.png" width="867" alt="antebrazo_reposo_rectificada"> | 
 | Movimiento leve sin oposición   | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 
 | Condición                       | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT) |
 | ------------------------------- | -------------------------------------- | ----------------------------- |
-| Reposo                          | <img src="resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original">             | **Colocar aquí la imagen**    |
+| Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_welch.png" width="867" alt="antebrazo_reposo_welch"> | <img src="../../resultados_lab3/antebrazo_reposo_fft.png" width="867" alt="antebrazo_reposo_fft">    |
 | Movimiento leve sin oposición   | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
 
