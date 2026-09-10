@@ -352,3 +352,14 @@ Al igual que en el caso anterior, sigue un comportamiento similar pero con valor
 - **Reposo**: La señal permanece cercana al nivel basal durante gran parte del registro, aunque se observan algunos picos hacia el final, esto último puede deberse a algún movimiento que hizo el participante durante la medición.
 - **Movimiento leve sin oposición**: Se visualizan tres cambios claros y moderados. La rectificación facilita su visualización y los análisis de Welch y FFT muestran un aumento de la actividad espectral.
 - **Movimineto fuerte con oposición**: Presenta los mayores picos de amplitud temporal de toda la prueba. El análisis en el dominio de la frecuencia (Welch y FFT) muestra un incremento en la potencia de la señal. Con ello se puede decir que en esta prueba, se realizó una mayor actividad muscular para poder vencer la resistencia producida por la oposicón.
+
+## **7. Limitaciones**
+- Las señales EMG pueden verse afectadas por factores externos como el desplazamiento de los electrodos, el movimiento de los cables y la interferencia eléctrica, incluso después del filtrado aplicado.
+- Los resultados sólo permiten comparar la actividad muscular entre las 3 condiciones evaluadas
+- Diafonía (Cross-talk): Especialmente en el antebrazo (flexor radial del carpo), al haber múltiples músculos cercanos, es posible que la señal adquirida capte la actividad eléctrica (cross-talk) de músculos adyacentes durante los movimientos, afectando la pureza del registro.
+- La impedancia en la interfaz piel-electrodo.
+
+## **8. Conclusiones**
+- El procesamiento aplicado permitió obtener señales EMG más adecuadas para su análisis mediante el filtrado, la rectificación y el análisis en los dominios temporal y frecuencial.
+- Tanto el flexor radial del carpo como las fibras descendentes del trapecio presentaron una mayor actividad durante el movimiento fuerte con oposición en comparación con el reposo y el movimiento leve sin oposición.
+- Los resultados muestran que el aumento de la exigencia del movimiento se relaciona con un incremento de la amplitud y de la potencia de las señales EMG analizadas, comprobando de esa manera la relación fisiológica directa entre la intensidad del esfuerzo y la amplitud de la señal EMG.
