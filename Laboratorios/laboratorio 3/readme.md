@@ -59,6 +59,12 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 Para la sección descendente del músculo trapecio se tuvieron en cuenta las mismas recomendaciones que con el músculo flexor radial del carpo para tener una adecuada medición. Para garantizar que la calidad de la señal, se recomienda que la separación entre los electrodos positivo y negativo sea de ~20 mm, lo que equilibra la amplitud y disminuye el riesgo de contaminación de la señal.
 
+<p align="center">
+  <img src="../../img/trapecio.jpeg" alt="Flexor 1" width="350">
+</p>
+
+A continuación se muestran los videos recolectados al realizar los esfuerzos en dicho músculo para el EMG:
+
 | Sin oposición | Con oposición |
 |:--------:|:------:|
 | <img src="../../img/trapecio_leve_comprimido.gif" alt="Trapecio Leve" width="250"> | <img src="../../img/trapecio_fuerte_comprimido.gif" alt="Trapecio Fuerte" width="250"> |
