@@ -296,7 +296,7 @@ En esta sección se presentan las gráficas correspondientes al registro del **f
 | ------------------------------- | -------------------------------------- | ----------------------------- |
 | Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_welch.png" width="867" alt="antebrazo_reposo_welch"> | <img src="../../resultados_lab3/antebrazo_reposo_fft.png" width="867" alt="antebrazo_reposo_fft"> |
 | Movimiento leve sin oposición   | <img src="../../resultados_lab3/movimiento_leve_welch.png" width="867" alt="movimiento_leve_welch">             | <img src="../../resultados_lab3/movimiento_leve_fft.png" width="867" alt="movimiento_leve_fft">    |
-| Movimiento fuerte con oposición | <img src="../../resultados_lab3/antebrazo_fuerza_welch.png" width="867" alt="antebrazo_fuerza_welch">             | <img src="../../resultados_lab3/antebrazo_fuerza_welch.png" width="867" alt="antebrazo_fuerza_fft">    |
+| Movimiento fuerte con oposición | <img src="../../resultados_lab3/antebrazo_fuerza_welch.png" width="867" alt="antebrazo_fuerza_welch">             | <img src="../../resultados_lab3/antebrazo_fuerza_fft.png" width="867" alt="antebrazo_fuerza_fft">    |
 
 
 ### **5.3. EMG - Fibras descendentes del trapecio**
@@ -322,9 +322,13 @@ El procesamiento de las señales mediante filtros pasabanda y notch (60 Hz) demo
 ### **6.1. EMG - Flexor radial del carpo**
 En los registros de este músculo, la amplitud y el espectro varían según la actividad realizada.
 
-**[Análisis y discusión por completar a partir de las gráficas y los parámetros obtenidos.]**
+- **Reposo**: La señal presenta una amplitud baja y oscilaciones distribuidas durante el registro. Después del filtrado y rectificado se observa una actividad muscular baja, y en los análisis de Welch y FFT se muestran un contenido frecuencial de menor magnitud.
+- **Movimiento leve sin oposición**: Se observan aproximadamente tres periodos de activación claramente diferenciados, característicos de las 3 repeticiones que se realizó. La señal rectificada permite identificar mejor estos eventos y con el Welch y FFT se muestran un incremento de la potencia y amplitud respecto al reposo y distribuídas en las frecuencias bajas y medias.
+- **Movimiento fuerte con aceleración**: Se observa un mismo patrón como en las anteriores actividades pero con mayor magnitud, evidenciando con ello una mayor actividad muscular.
 
 ### **6.2. EMG - Fibras descendentes del trapecio**
 Al igual que en el caso anterior, sigue un comportamiento similar pero con valores distintos.
 
-**[Análisis y discusión por completar a partir de las gráficas y los parámetros obtenidos.]**
+- **Reposo**: La señal permanece cercana al nivel basal durante gran parte del registro, aunque se observan algunos picos hacia el final, esto último puede deberse a algún movimiento que hizo el participante durante la medición.
+- **Movimiento leve sin oposición**: Se visualizan tres cambios claros y moderados. La rectificación facilita su visualización y los análisis de Welch y FFT muestran un aumento de la actividad espectral.
+- **Movimineto fuerte con oposición**: Presenta los mayores picos de amplitud temporal de toda la prueba. El análisis en el dominio de la frecuencia (Welch y FFT) muestra un incremento en la potencia de la señal. Con ello se puede decir que en esta prueba, se realizó una mayor actividad muscular para poder vencer la resistencia producida por la oposicón.
