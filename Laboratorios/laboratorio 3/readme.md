@@ -29,6 +29,10 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 3. Conectar el BITalino y la laptop mediante Bluetooth
 4. Realizar las mediciones utilizando el software OpenSignals del músculo en reposo, esfuezo leve y efuerzo fuerte
 
+*4.1 Colocación de los electrodos*
+
+
+
 ## **5. Resultados**
 
 En esta sección se presentan los resultados obtenidos a partir de las señales de electromiografía superficial (EMG) registradas durante las diferentes condiciones de actividad muscular. El procesamiento permitió visualizar las señales tanto en el dominio temporal como en el dominio frecuencial, con el propósito de facilitar la comparación de la actividad eléctrica muscular entre las distintas condiciones evaluadas.
