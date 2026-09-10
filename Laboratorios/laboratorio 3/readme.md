@@ -317,11 +317,14 @@ En esta sección se presentan los resultados correspondientes a las **fibras des
 
 
 ## **6. Análisis y discusión**
+El procesamiento de las señales mediante filtros pasabanda y notch (60 Hz) demostró ser efectivo para atenuar el ruido de red eléctrica y eliminar componentes fuera del rango de interés, permitiendo visualizar las respuestas musculares.
 
 ### **6.1. EMG - Flexor radial del carpo**
+En los registros de este músculo, la amplitud y el espectro varían según la actividad realizada.
 
 **[Análisis y discusión por completar a partir de las gráficas y los parámetros obtenidos.]**
 
 ### **6.2. EMG - Fibras descendentes del trapecio**
+Al igual que en el caso anterior, sigue un comportamiento similar pero con valores distintos.
 
 **[Análisis y discusión por completar a partir de las gráficas y los parámetros obtenidos.]**
