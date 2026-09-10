@@ -53,7 +53,7 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 | Reposo | Sin oposición | Con oposición |
 |:-----------|:--------:|:------:|
-| <video src="https://raw.githubusercontent.com/Adriana-28/Estrellitas_ISB_2026_II/master/vids/flexor_reposo.mp4" controls width="300"></video> | <video src="../../vids/flexor_leve.mp4" controls width="300"></video> | <video src="../../vids/flexor_fuerte.mp4" controls width="300"></video> |
+| <img src="../../img/flexor_reposo_comprimido.gif" alt="Flexor Reposo" width="250"> | <img src="../../img/flexor_leve_comprimido.gif" alt="Flexor Leve" width="250"> | <img src="../../img/flexor_fuerte_comprimido" alt="Flexor Fuerte" width="250"> |
 
 *4.3 EMG de la porción descendente del trapecio*
 
