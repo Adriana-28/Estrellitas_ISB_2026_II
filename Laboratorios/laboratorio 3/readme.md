@@ -14,11 +14,11 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 
 | Materiales | Cantidad | Imagen |
 |:-----------|:--------:|:------:|
-| Software OpenSignals | 1 | ![Batería](ruta/opensignals.jpg) |
-| Electrodos descartables | 6 | ![Batería](ruta/electrodos.jpg) |
-| BITalino (r)evolution | 1 | ![Batería](ruta/bitalino_revolution.jpg) |
-| Cable de 3 electrodos | 1 | ![Batería](ruta/cable_3_electrodos.jpg) |
-| Laptop | 1 | ![Batería](ruta/laptop_ejemplo.jpg) |
+| Software OpenSignals | 1 | ![Software OpenSignals](ruta/opensignals.jpg) |
+| Electrodos descartables | 6 | ![Electrodos descartables](ruta/electrodos.jpg) |
+| BITalino (r)evolution | 1 | ![BITalino (r)evolution](ruta/bitalino_revolution.jpg) |
+| Cable de 3 electrodos | 1 | ![Cable de 3 electrodos](ruta/cable_3_electrodos.jpg) |
+| Laptop | 1 | ![Laptop](ruta/laptop_ejemplo.jpg) |
 
 ## **4. Procedimiento**
 
