@@ -363,3 +363,28 @@ Al igual que en el caso anterior, sigue un comportamiento similar pero con valor
 - El procesamiento aplicado permitió obtener señales EMG más adecuadas para su análisis mediante el filtrado, la rectificación y el análisis en los dominios temporal y frecuencial.
 - Tanto el flexor radial del carpo como las fibras descendentes del trapecio presentaron una mayor actividad durante el movimiento fuerte con oposición en comparación con el reposo y el movimiento leve sin oposición.
 - Los resultados muestran que el aumento de la exigencia del movimiento se relaciona con un incremento de la amplitud y de la potencia de las señales EMG analizadas, comprobando de esa manera la relación fisiológica directa entre la intensidad del esfuerzo y la amplitud de la señal EMG.
+
+## **9. Cuestionario**
+
+**P1. ¿Cuáles son las frecuencias significativas para las adquisiciones de EMG? ¿Son las mismas en todas las zonas del cuerpo, como el área facial?**
+
+Las señales EMG presentan principalmente componentes de frecuencia en un rango aproximado de 20 a 450 Hz, por lo que en el procesamiento realizado se utilizó un filtro pasabanda de este rango. Sin embargo, las frecuencias predominantes pueden variar dependiendo del músculo, la ubicación de los electrodos y las características de la actividad muscular. Por ello, no necesariamente son iguales en todas las zonas del cuerpo, como el área facial.
+
+**P2. ¿Qué tipo de filtro es esencial cuando se trabaja con señales EMG? ¿Por qué necesitamos aplicar dicho filtro?**
+
+
+Un filtro pasabanda es fundamental para eliminar componentes de frecuencia que no corresponden principalmente a la actividad electromiográfica de interés. En este caso se utilizó un filtro de 20 a 450 Hz. Además, se aplicó un filtro notch de 60 Hz para reducir la interferencia proveniente de la red eléctrica. Estos filtros permiten obtener una señal más limpia y facilitar su análisis tanto en el dominio temporal como frecuencial.
+
+**P3. ¿Cómo difiere la amplitud en cada contracción muscular? ¿Existe alguna diferencia según la ubicación del músculo en el cuerpo?**
+
+En las señales obtenidas se observó que la amplitud aumentó conforme aumentó la exigencia del movimiento. Durante el reposo se registraron amplitudes bajas, mientras que en el movimiento leve sin oposición aparecieron periodos de activación más definidos. Finalmente, durante el movimiento fuerte con oposición se observaron las mayores amplitudes en ambos músculos. La amplitud también puede variar entre músculos debido a sus características anatómicas, su función y la ubicación de los electrodos.
+
+**P4. Muestra una captura de pantalla de una parte relevante de los datos de Electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondiente a un músculo de interés.**
+
+¿Esta señal corresponde con lo que esperabas? ¿Por qué? ¿Qué emoción y acción realizaste para activar el músculo? ¿Qué músculo activaste?
+
+Se puede observar las imágenes obtenidas en la sección de resultados, donde la señal obtenida corresponde con lo esperado, ya que se observó una actividad muscular baja durante el reposo y un incremento de la amplitud durante las condiciones de movimiento. Para el flexor radial del carpo, se realizó un movimiento del antebrazo, observándose una mayor activación durante el movimiento fuerte con oposición. Para las fibras descendentes del trapecio, se realizó un movimiento que involucró la elevación o estabilización del hombro, observándose también una mayor actividad durante el movimiento fuerte con oposición.
+
+**P5. Según tu conocimiento, ¿la amplitud de la señal EMG es igual a la cantidad de fuerza que has generado con tu músculo?**
+
+No necesariamente. La amplitud de la señal EMG está relacionada con el nivel de activación muscular, pero no es igual directamente a la fuerza generada. Una mayor amplitud puede indicar un mayor reclutamiento de unidades motoras, pero la relación entre la señal EMG y la fuerza depende de diferentes factores, como el músculo analizado, la posición, la ubicación de los electrodos y las condiciones de la contracción. Por ello, en este experimento la amplitud permite comparar el nivel de actividad entre las condiciones evaluadas, pero no determinar directamente la fuerza producida.
