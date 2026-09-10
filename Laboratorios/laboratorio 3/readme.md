@@ -1,3 +1,4 @@
+<img src="../resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original">
 ## **5. Resultados**
 
 En esta sección se presentan los resultados obtenidos a partir de las señales de electromiografía superficial (EMG) registradas durante las diferentes condiciones de actividad muscular. El procesamiento permitió visualizar las señales tanto en el dominio temporal como en el dominio frecuencial, con el propósito de facilitar la comparación de la actividad eléctrica muscular entre las distintas condiciones evaluadas.
