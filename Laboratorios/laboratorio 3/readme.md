@@ -53,7 +53,7 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 | Reposo | Sin oposición | Con oposición |
 |:-----------|:--------:|:------:|
-| <video src="../vids/flexor_reposo.mp4" controls width="300"></video> | <video src="../../vids/flexor_leve.mp4" controls width="300"></video> | <video src="../../vids/flexor_fuerte.mp4" controls width="300"></video> |
+| <video src="../vids/flexor_reposo.mp4" controls width="300"></video> | <video src="../vids/flexor_leve.mp4" controls width="300"></video> | <video src="../vids/flexor_fuerte.mp4" controls width="300"></video> |
 
 *4.3 EMG de la porción descendente del trapecio*
 
