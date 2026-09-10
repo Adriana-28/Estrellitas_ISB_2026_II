@@ -1,6 +1,6 @@
 ## **1. Introducción**
 
-
+La electromiografía (EMG) es un método de registro biomédico que hace posible la medición de la actividad eléctrica producida por los músculos esqueléticos mientras estos se contraen. Esta actividad eléctrica se produce en los potenciales de acción que se propagan por las fibras musculares cuando reciben activación de las neuronas motoras del sistema nervioso.
 
 ## **2. Objetivos**
 
