@@ -289,13 +289,13 @@ En esta sección se presentan las gráficas correspondientes al registro del **f
 | Condición                       | Señal original             | Señal filtrada             | Señal rectificada          |
 | ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
 | Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original"> | <img src="../../resultados_lab3/antebrazo_reposo_filtrada.png" width="867" alt="antebrazo_reposo_filtrada"> | <img src="../../resultados_lab3/antebrazo_reposo_rectificada.png" width="867" alt="antebrazo_reposo_rectificada"> | 
-| Movimiento leve sin oposición   | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
+| Movimiento leve sin oposición   | <img src="../../resultados_lab3/movimiento_leve_original.png" width="867" alt="movimiento_leve_original"> | <img src="../../resultados_lab3/movimiento_leve_filtrada.png" width="867" alt="movimiento_leve_filtrada"> | <img src="../../resultados_lab3/movimiento_leve_rectificada.png" width="867" alt="movimiento_leve_rectificada"> |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 
 | Condición                       | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT) |
 | ------------------------------- | -------------------------------------- | ----------------------------- |
 | Reposo                          | <img src="../../resultados_lab3/antebrazo_reposo_welch.png" width="867" alt="antebrazo_reposo_welch"> | <img src="../../resultados_lab3/antebrazo_reposo_fft.png" width="867" alt="antebrazo_reposo_fft"> |
-| Movimiento leve sin oposición   | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
+| Movimiento leve sin oposición   | <img src="../../resultados_lab3/movimiento_leve_welch.png" width="867" alt="movimiento_leve_welch">             | <img src="../../resultados_lab3/movimiento_leve_fft.png" width="867" alt="movimiento_leve_fft">    |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
 
 
@@ -306,13 +306,13 @@ En esta sección se presentan los resultados correspondientes a las **fibras des
 | Condición                       | Señal original             | Señal filtrada             | Señal rectificada          |
 | ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
 | Reposo                          | <img src="../../resultados_lab3/cuello_reposo_original.png" width="867" alt="cuello_reposo_original"> | <img src="../../resultados_lab3/cuello_reposo_filtrada.png" width="867" alt="cuello_reposo_filtrada"> | <img src="../../resultados_lab3/cuello_reposo_rectificada.png" width="867" alt="cuello_reposo_rectificada"> |
-| Movimiento leve sin oposición   | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
+| Movimiento leve sin oposición   | <img src="../../resultados_lab3/rolando_original.png" width="867" alt="rolando_original"> | <img src="../../resultados_lab3/rolando_filtrada.png" width="867" alt="rolando_filtrada"> | <img src="../../resultados_lab3/rolando_rectificada.png" width="867" alt="rolando_rectificada"> |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 
 | Condición                       | Densidad Espectral de Potencia (Welch) | Espectro de Frecuencias (FFT) |
 | ------------------------------- | -------------------------------------- | ----------------------------- |
 | Reposo                          | <img src="../../resultados_lab3/cuello_reposo_welch.png" width="867" alt="cuello_reposo_welch"> | <img src="../../resultados_lab3/cuello_reposo_fft.png" width="867" alt="cuello_reposo_fft"> |
-| Movimiento leve sin oposición   | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
+| Movimiento leve sin oposición   | <img src="../../resultados_lab3/rolando_welch.png" width="867" alt="rolando_welch">             | <img src="../../resultados_lab3/rolando_fft.png" width="867" alt="rolando_fft">    |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen**             | **Colocar aquí la imagen**    |
 
 
