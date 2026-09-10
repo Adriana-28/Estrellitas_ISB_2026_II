@@ -14,11 +14,11 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 
 | Materiales | Cantidad | Imagen |
 |:-----------|:--------:|:------:|
-| Software OpenSignals | 1 | <img src="../../img/opensignals.jpg" alt="Señal ECG completa" width="250"> |
-| Electrodos descartables | 6 | <img src="../../img/electrodos.jpg" alt="Señal ECG completa" width="250"> |
-| BITalino (r)evolution | 1 | <img src="../../img/bitalino_revolution.jpg" alt="Señal ECG completa" width="250"> |
-| Cable de 3 electrodos | 1 | <img src="../../img/cable_3_electrodos.jpg" alt="Señal ECG completa" width="250"> |
-| Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Señal ECG completa" width="250"> |
+| Software OpenSignals | 1 | <img src="../../img/opensignals.jpg" alt="Software OpenSignals" width="250"> |
+| Electrodos descartables | 6 | <img src="../../img/electrodos.jpg" alt="Electrodos descartables" width="250"> |
+| BITalino (r)evolution | 1 | <img src="../../img/bitalino_revolution.jpg" alt="BITalino (r)evolution" width="250"> |
+| Cable de 3 electrodos | 1 | <img src="../../img/cable_3_electrodos.jpg" alt="Cable de 3 electrodos" width="250"> |
+| Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Laptop" width="250"> |
 
 ## **4. Procedimiento**
 
