@@ -53,7 +53,7 @@ A continuación se muestran los videos recolectados al realizar los esfuerzos en
 
 | Reposo | Sin oposición | Con oposición |
 |:-----------|:--------:|:------:|
-| <img src="../../img/flexor_reposo_comprimido.gif" alt="Flexor Reposo" width="250"> | <img src="../../img/flexor_leve_comprimido.gif" alt="Flexor Leve" width="250"> | <img src="../../img/flexor_fuerte_comprimido.gif" alt="Flexor Fuerte" width="250"> |
+| <img src="../../img/flexor_reposo_comprimido.gif" alt="Flexor Reposo" width="250"> | <img src="../../img/flexor_leve_comprimido.gif" alt="Flexor Leve" width="250"> | <img src="../../vids/flexor_fuerte_comprimido.gif" alt="Flexor Fuerte" width="250"> |
 
 *4.3 EMG de la porción descendente del trapecio*
 
