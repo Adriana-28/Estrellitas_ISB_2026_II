@@ -40,6 +40,10 @@ Los electrodos positivo y negativo deben estar alineados a lo largo de las fibra
   <img src="../../img/colocacion_electrodos.jpg" alt="Colocación de electrodos" width="450">
 </p>
 
+*4.2 EMG del flexor radial del carpo*
+
+*4.3 EMG de la porción descendente del trapecio*
+
 ## **5. Resultados**
 
 En esta sección se presentan los resultados obtenidos a partir de las señales de electromiografía superficial (EMG) registradas durante las diferentes condiciones de actividad muscular. El procesamiento permitió visualizar las señales tanto en el dominio temporal como en el dominio frecuencial, con el propósito de facilitar la comparación de la actividad eléctrica muscular entre las distintas condiciones evaluadas.
