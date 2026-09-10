@@ -288,7 +288,7 @@ En esta sección se presentan las gráficas correspondientes al registro del **f
 
 | Condición                       | Señal original             | Señal filtrada             | Señal rectificada          |
 | ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
-| Reposo                          | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** | 
+| Reposo                          | <img src="image/antebrazo_reposo_original.png" width="867" alt="antebrazo_reposo_original"> | <img src="image/antebrazo_reposo_filtrada.png" width="867" alt="antebrazo_reposo_filtrada"> | **Colocar aquí la imagen** | 
 | Movimiento leve sin oposición   | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 | Movimiento fuerte con oposición | **Colocar aquí la imagen** | **Colocar aquí la imagen** | **Colocar aquí la imagen** |
 
