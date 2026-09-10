@@ -45,8 +45,8 @@ Los electrodos positivo y negativo deben estar alineados a lo largo de las fibra
 La ubicación más recomendada para la colocación de electrodos en el flexor radial del carpo es sobre el vientre muscular, específicamente entre la zona de inervación y el tendón distal, de esta forma se mejora la estabilidad de la señal y reduce el ruido en el registro electromiográfico. Para garantizar que la calidad de la señal, se recomienda que la separación entre los electrodos positivo y negativo sea de ~20 mm, lo que equilibra la amplitud y disminuye el riesgo de contaminación de la señal.
 
 <p align="center">
-  <img src="../../img/flexor1.jpg" alt="Flexor 1" width="350">
-  <img src="../../img/flexor2.jpg" alt="Flexor 2" width="350">
+  <img src="../../img/flexor1.jpeg" alt="Flexor 1" width="350">
+  <img src="../../img/flexor2.jpeg" alt="Flexor 2" width="350">
 </p>
 
 *4.3 EMG de la porción descendente del trapecio*
