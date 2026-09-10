@@ -51,9 +51,9 @@ La ubicación más recomendada para la colocación de electrodos en el flexor ra
 
 A continuación se muestran los videos recolectados al realizar los esfuerzos en dicho músculo para el EMG:
 
-| Reposo | Sin oposición | Con oposici+on |
+| Reposo | Sin oposición | Con oposición |
 |:-----------|:--------:|:------:|
-| <video src="../../videos/flexor_reposo.mp4" controls width="300"></video> | <video src="../../videos/flexor_leve.mp4" controls width="300"></video> | <video src="../../videos/flexor_fuerte.mp4" controls width="300"></video> |
+| <video src="../../vids/flexor_reposo.mp4" controls width="300"></video> | <video src="../../vids/flexor_leve.mp4" controls width="300"></video> | <video src="../../vids/flexor_fuerte.mp4" controls width="300"></video> |
 
 *4.3 EMG de la porción descendente del trapecio*
 
