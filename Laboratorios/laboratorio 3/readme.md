@@ -31,7 +31,8 @@ La electromiografía (EMG) es un método de registro biomédico que hace posible
 
 *4.1 Colocación de los electrodos*
 
-
+Los electrodos positivo y negativo deben estar alineados a lo largo de las fibras musculares y colocados en la zona ventral del músculo, esto es fundamental par asegurar una correcta detección de la actividad muscular, reduciendo el crosstalk de músculos adyacentes y el ruido.
+[Imágen aquí]
 
 ## **5. Resultados**
 
