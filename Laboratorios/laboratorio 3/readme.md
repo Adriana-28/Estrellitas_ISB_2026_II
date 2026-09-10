@@ -1,3 +1,5 @@
+# Resumen del Laboratorio 3
+
 ## **1. Introducción**
 
 La electromiografía (EMG) es un método de registro biomédico que hace posible la medición de la actividad eléctrica producida por los músculos esqueléticos mientras estos se contraen. Esta actividad eléctrica se produce en los potenciales de acción que se propagan por las fibras musculares cuando reciben activación de las neuronas motoras del sistema nervioso. Para la obtención de dichas señales fisiológicas se hace uso del BITalino, el cual es un dispositivo que permite recolectar datos biomédicos (EMG, EEG, ECG, etc). Además, se hace uso del software OpenSignals (r)evolution para poder visualizar en tiempo real las señales obtenidas, guardarlas y exportarlas.
