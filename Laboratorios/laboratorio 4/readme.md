@@ -26,4 +26,8 @@ Desde el un punto de vista clínico, el ECG es una herramienta fundamental ya qu
 | Cable de 3 electrodos | 1 | <img src="../../img/cable_3_electrodos.jpg" alt="Cable de 3 electrodos" width="250"> |
 | Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Laptop" width="250"> |
 
-## **4. Procedimiento**
+## **4. El electrocardiograma**
+
+
+
+## **5. Procedimiento**
