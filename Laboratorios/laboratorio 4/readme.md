@@ -6,7 +6,7 @@ El electrocardiograma, o ECG, es el registro de la actividad eléctrica del cora
 Desde el un punto de vista clínico, el ECG es una herramienta fundamental ya que permite evaluar el ritmo cardíaco, detectar infartos, arritmias e isquemias, entre otras alteraciones estructurales o funcionales del corazón, de forma no invasiva y de bajo costo. Su estudio es especialmente valioso porque combina fisiología, instrumentación y procesamiento digital de señales.
 
 <p align="center">
-  <img src="../../img/ecg_ondas.jpg" alt="Ondas caracteríasticas del ECG" width="450">
+  <img src="../../img/ecg_ondas.jpg" alt="Ondas caracteríasticas del ECG" width="350">
 </p>
 
 ## **2. Objetivos**
