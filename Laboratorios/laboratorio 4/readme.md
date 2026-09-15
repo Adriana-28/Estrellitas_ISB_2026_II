@@ -15,4 +15,12 @@ Desde el un punto de vista clínico, el ECG es una herramienta fundamental ya qu
 
 ## **3. Materiales y equipo**
 
+| Materiales | Cantidad | Imagen |
+|:-----------|:--------:|:------:|
+| Software OpenSignals | 1 | <img src="../../img/opensignals.jpg" alt="Software OpenSignals" width="250"> |
+| Electrodos descartables | 6 | <img src="../../img/elctrodos.jpg" alt="Electrodos descartables" width="250"> |
+| BITalino (r)evolution | 1 | <img src="../../img/bitalino_revolution.jpg" alt="BITalino (r)evolution" width="250"> |
+| Cable de 3 electrodos | 1 | <img src="../../img/cable_3_electrodos.jpg" alt="Cable de 3 electrodos" width="250"> |
+| Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Laptop" width="250"> |
+
 ## **4. Procedimiento**
