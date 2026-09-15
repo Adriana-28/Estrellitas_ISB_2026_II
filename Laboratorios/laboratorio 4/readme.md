@@ -8,6 +8,11 @@ Desde el un punto de vista clínico, el ECG es una herramienta fundamental ya qu
 
 ## **2. Objetivos**
 
+- Aprender a configurar correctamente el BITalino (r)evolution para la adquisición de señales cardíacas
+- Registrar y observar una señal ECG usando el software OpenSignals
+- Reconocer las ondas principales (P, QRS, T) en un registro electrocardiográfico
+- Analizar los cambios en la señal EMG bajo diferentes condiciones fisiológicas (Reposo, hiperventilación, hipoventilación, actividad física)
+
 ## **3. Materiales y equipo**
 
 ## **4. Procedimiento**
