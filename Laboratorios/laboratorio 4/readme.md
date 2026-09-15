@@ -4,6 +4,6 @@
 
 ## **2. Objetivos**
 
-## **3. Materiales**
+## **3. Materiales y equipo**
 
-## **1. Introducción**
+## **4. Procedimiento**
