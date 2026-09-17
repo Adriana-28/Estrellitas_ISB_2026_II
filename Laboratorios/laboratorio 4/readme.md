@@ -74,7 +74,7 @@ Para el procesamiento y análisis de los datos se desarrolló un código en Pyth
 
 El procesamiento se realizó sobre el archivo basal1.txt, correspondiente a la adquisición de la señal ECG en condición basal. A partir de este archivo se obtuvo la señal de interés, se realizó su filtrado y posteriormente se compararon sus características tanto en el dominio temporal como en el dominio frecuencial.
 
-### a) Librerías usadas**
+### a) Librerías usadas
 
 Se importaron las librerías necesarias para la manipulación de los datos, visualización de las señales y aplicación de los filtros digitales.
 
@@ -84,3 +84,31 @@ from scipy.signal import butter, filtfilt, iirnotch
 from pathlib import Path
 
 La librería NumPy se utilizó para el manejo de los datos y para realizar el cálculo de la FFT. Matplotlib permitió generar las gráficas de las señales en el dominio temporal y frecuencial. Por su parte, SciPy proporcionó las funciones necesarias para implementar los filtros pasa-banda y notch. Finalmente, Path se utilizó para organizar la ubicación de los archivos y almacenar las gráficas generadas en una carpeta de resultados.
+
+### b) Cargar y organizar los datos
+
+Los datos de la adquisición se encuentran almacenados en el archivo basal1.txt. Debido a que el archivo contiene líneas de información que comienzan con el carácter #, estas líneas fueron excluidas antes de convertir los datos a un arreglo numérico.
+
+# Abrimos el archivo sin incluir las filas que inician con "#"
+with open("basal1.txt", "r") as f:
+    lineas = f.readlines()
+
+datos_limpios = [line.strip().split() for line in lineas if not line.startswith("#")]
+datos = np.array(datos_limpios, dtype=float)
+
+Posteriormente, se seleccionó la última columna del archivo como la señal ECG. La señal fue multiplicada por -1 para invertir su polaridad y obtener la orientación utilizada durante el análisis.
+
+ecg = datos[:, -1] * -1
+
+La frecuencia de muestreo utilizada fue de 1000 Hz, por lo que se generó un vector de tiempo a partir del número de muestras de la señal:
+
+fs = 1000
+tiempo = np.arange(len(ecg)) / fs
+
+De esta manera, cada muestra de la señal queda asociada con su correspondiente instante de tiempo mediante la relación:
+
+[
+t=\frac{n}{f_s}
+]
+
+donde (t) corresponde al tiempo en segundos, (n) al número de muestra y (f_s) a la frecuencia de muestreo.
