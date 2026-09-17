@@ -48,7 +48,7 @@ A continuación, se muestran los videos grabados durante la adquisición de las 
   
   | Basal DI | Basal DII | Basal DIII |
   |:-----------|:--------:|:------:|
-  | https://github.com/user-attachments/assets/08c10fd2-b14d-4df7-9ab7-0c01d74b590f |  | |
+  | https://github.com/user-attachments/assets/08c10fd2-b14d-4df7-9ab7-0c01d74b590f | https://github.com/user-attachments/assets/cce29694-c699-446d-b7e8-08ea2e9777f7 | |
   
 - Hiperventilación:
   
