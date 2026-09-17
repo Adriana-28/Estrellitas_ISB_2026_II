@@ -89,14 +89,16 @@ La librería NumPy se utilizó para el manejo de los datos y para realizar el c�
 
 ### b) Cargar y organizar los datos
 
-Los datos de la adquisición se encuentran almacenados en el archivo basal1.txt. Debido a que el archivo contiene líneas de información que comienzan con el carácter #, estas líneas fueron excluidas antes de convertir los datos a un arreglo numérico.
+Se cargaron los datos de la adquisición se encuentran almacenados en el archivo basal1.txt. Debido a que el archivo contiene líneas de información que comienzan con el carácter #, estas líneas fueron excluidas antes de convertir los datos a un arreglo numérico.
 
 # Abrimos el archivo sin incluir las filas que inician con "#"
+```python
 with open("basal1.txt", "r") as f:
     lineas = f.readlines()
 
 datos_limpios = [line.strip().split() for line in lineas if not line.startswith("#")]
 datos = np.array(datos_limpios, dtype=float)
+```
 
 Posteriormente, se seleccionó la última columna del archivo como la señal ECG. La señal fue multiplicada por -1 para invertir su polaridad y obtener la orientación utilizada durante el análisis.
 
