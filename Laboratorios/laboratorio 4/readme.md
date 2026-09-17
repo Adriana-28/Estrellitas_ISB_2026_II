@@ -78,6 +78,7 @@ El procesamiento se realizó sobre el archivo basal1.txt, correspondiente a la a
 
 Se importaron las librerías necesarias para la manipulación de los datos, visualización de las señales y aplicación de los filtros digitales.
 
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, filtfilt, iirnotch
