@@ -46,6 +46,10 @@ A continuación, se muestran los videos grabados durante la adquisición de las 
 
 - Estado Basal:
   
+  | Basal DI | Basal DII | Basal DIII |
+  |:-----------|:--------:|:------:|
+  | https://github.com/user-attachments/assets/08c10fd2-b14d-4df7-9ab7-0c01d74b590f |  | |
+  
 - Hiperventilación:
   
 - Hipoventilación:
