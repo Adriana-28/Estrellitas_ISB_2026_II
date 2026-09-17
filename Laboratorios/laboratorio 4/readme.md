@@ -74,7 +74,7 @@ Para el procesamiento y análisis de los datos se desarrolló un código en Pyth
 
 El procesamiento se realizó sobre el archivo basal1.txt, correspondiente a la adquisición de la señal ECG en condición basal. A partir de este archivo se obtuvo la señal de interés, se realizó su filtrado y posteriormente se compararon sus características tanto en el dominio temporal como en el dominio frecuencial.
 
-## a) Librerías usadas
+**a) Librerías usadas**
 
 Se importaron las librerías necesarias para la manipulación de los datos, visualización de las señales y aplicación de los filtros digitales.
 
