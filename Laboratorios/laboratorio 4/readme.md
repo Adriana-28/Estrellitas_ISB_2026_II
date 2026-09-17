@@ -89,9 +89,8 @@ La librería NumPy se utilizó para el manejo de los datos y para realizar el c�
 
 ### b) Cargar y organizar los datos
 
-Se cargaron los datos de la adquisición se encuentran almacenados en el archivo basal1.txt. Debido a que el archivo contiene líneas de información que comienzan con el carácter #, estas líneas fueron excluidas antes de convertir los datos a un arreglo numérico.
+Se cargaron los datos de la adquisición que obtuvimos durante el laboratorio.
 
-# Abrimos el archivo sin incluir las filas que inician con "#"
 ```python
 with open("basal1.txt", "r") as f:
     lineas = f.readlines()
