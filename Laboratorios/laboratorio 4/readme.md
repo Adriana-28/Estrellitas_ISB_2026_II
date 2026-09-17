@@ -47,11 +47,23 @@ A continuación, se muestran los videos grabados durante la adquisición de las 
 - Estado Basal:
   
   | Basal DI | Basal DII | Basal DIII |
-  |:-----------|:--------:|:------:|
+  |:-----------:|:--------:|:------:|
   | https://github.com/user-attachments/assets/08c10fd2-b14d-4df7-9ab7-0c01d74b590f | https://github.com/user-attachments/assets/cce29694-c699-446d-b7e8-08ea2e9777f7 | |
   
 - Hiperventilación:
+
+  | Hiperventilación |
+  |:-----------:|
+  | https://github.com/user-attachments/assets/81fd1436-12cd-4a28-8a53-4444337e6627 |
   
 - Hipoventilación:
+
+  | Hipoventilación |
+  |:-----------:|
+  | https://github.com/user-attachments/assets/93acc030-8811-4839-9871-0527c0f1c176 |
   
 - Actividad Física Aeróbica:
+
+  | Ejercicio Aeróbico | Medición |
+  |:-----------:|:-----------:|
+  | https://github.com/user-attachments/assets/fe256214-56a9-44f2-be78-703842bffebb | https://github.com/user-attachments/assets/1aaa9691-7f8b-4eb0-9efb-d8d6023b232c |
