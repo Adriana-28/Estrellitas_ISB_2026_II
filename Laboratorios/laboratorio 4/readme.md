@@ -43,3 +43,11 @@ El ECG clínico estándar es registrado con 12 derivaciones, lo que hace posible
 5. Finalmente, se realizaron entre 5-10 minutos de actividad aeróbica hasta que la persona llegara a su límite. Tan pronto como terminó la actividad física se tomaron las mediciones de DI, DII y DIII, intercambiando la posición de los electrodos rápidamente entre derivadas para evitar que el ritmo cardíaco se estabilice.
 
 A continuación, se muestran los videos grabados durante la adquisición de las señales ECG en el laboratorio:
+
+- Estado Basal:
+  
+- Hiperventilación:
+  
+- Hipoventilación:
+  
+- Actividad Física Aeróbica:
