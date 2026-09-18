@@ -104,6 +104,46 @@ La señal ECG puede contener diferentes componentes de ruido e interferencias el
 Filtro Pasa Banda
 
 Se implementó un filtro pasa-banda Butterworth de cuarto orden con frecuencias de corte de 0.5 Hz y 40 Hz. Este filtro permite conservar las componentes de frecuencia comprendidas dentro de dicho intervalo y atenuar aquellas que se encuentran fuera de él.
-[
-t=\frac{n}{f_s}
-]
+
+```python
+def filtro_pasabanda(senal, fs, frec_baja=0.5, frec_alta=40.0, orden=4):
+    nyquist = 0.5 * fs
+    bajo = frec_baja / nyquist
+    alto = frec_alta / nyquist
+    b, a = butter(orden, [bajo, alto], btype="band")
+    return filtfilt(b, a, senal)
+```
+Para el diseño del filtro se utilizó la frecuencia de Nyquist, definida como:
+F_nyquist = F_muestreo / 2
+Y como la F_muestreo = 1000Hz, entonces la F_nyquist = 500Hz
+Las frecuencias de corte del filtro se normalizaron respecto a la frecuencia de Nyquist antes de diseñar el filtro Butterworth.
+
+El filtro se aplicó mediante la función filtfilt(), que realiza el filtrado en ambas direcciones de la señal. De esta manera, se evita introducir un desplazamiento de fase significativo en la señal resultante.
+
+Filtro Notch
+
+Después del filtro pasa-banda se aplicó un filtro notch centrado en 60 Hz, utilizando un factor de calidad (Q=30).
+
+```python
+def filtro_notch(senal, fs, frec_notch=60.0, Q=30.0):
+    nyquist = 0.5 * fs
+    w0 = frec_notch / nyquist
+    b, a = iirnotch(w0, Q)
+    return filtfilt(b, a, senal)
+```
+El filtro notch fue utilizado para reducir la interferencia localizada alrededor de los 60 Hz, asociada principalmente con la red eléctrica.
+
+El parámetro (Q = 30), denominado factor de calidad, determina el ancho de la banda de rechazo alrededor de la frecuencia central.
+
+Aplicación de los filtros:
+```python
+ecg_filtrado = filtro_pasabanda(ecg, fs, 0.5, 40)
+ecg_filtrado = filtro_notch(ecg_filtrado, fs, 60)
+```
+De esta manera, primero se atenúan las componentes de muy baja y alta frecuencia mediante el filtro pasa-banda y posteriormente se reduce específicamente la interferencia alrededor de los 60 Hz mediante el filtro notch
+
+### d) Ploteo de señales
+
+-Estado basal
+-Estado hiperventilación
+-
