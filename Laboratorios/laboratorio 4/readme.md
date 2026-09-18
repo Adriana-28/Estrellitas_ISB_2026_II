@@ -207,18 +207,18 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 ### Actividad aerobica
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_ejercicio_cruda.png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_filtrada.png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_ejercicio.png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_FFT_filtrada.png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_ejercicio_EN_dB.png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_ejercicio_EN_dB_filtrada.png" width="867" alt="ECG">  |
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_ejercicio_cruda(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_filtrada(1).png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_ejercicio(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_FFT_filtrada(1).png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_ejercicio_EN_dB(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_ejercicio_EN_dB_filtrada(1).png" width="867" alt="ECG">  |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_ejercicio_cruda(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_filtrada(2).png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_ejercicio(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_FFT_filtrada(2).png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_ejercicio_EN_dB(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_ejercicio_EN_dB_filtrada(2).png" width="867" alt="ECG">  |
