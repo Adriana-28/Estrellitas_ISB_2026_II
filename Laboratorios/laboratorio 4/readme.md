@@ -187,16 +187,16 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 ### Estado hipoventilación
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |  <img src="../../img/ECG_hipoventilacion_cruda(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_filtrada(2).png" width="867" alt="ECG">  |
-| FFT                |  <img src="../../img/ECG_FFT_hipoventilacion(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_FFT_filtrada(2).png" width="867" alt="ECG">  |
-| FFT (dB)              |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB_filtrada(2).png" width="867" alt="ECG">  |
+| Señal                |  <img src="../../img/ECG_hipoventilacion_cruda.png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_filtrada.png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_hipoventilacion.png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_FFT_filtrada.png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB.png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB_filtrada.png" width="867" alt="ECG">  |
 
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_hipoventilacion_cruda(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_filtrada(1).png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_hipoventilacion(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hipoventilacion_FFT_filtrada(1).png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB(1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_hipoventilacion_EN_dB_filtrada(1).png" width="867" alt="ECG">  |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
