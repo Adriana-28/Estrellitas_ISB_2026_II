@@ -222,3 +222,5 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 | Señal                |  <img src="../../img/ECG_ejercicio_cruda(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_filtrada(2).png" width="867" alt="ECG">  |
 | FFT                |  <img src="../../img/ECG_FFT_ejercicio(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_ejercicio_FFT_filtrada(2).png" width="867" alt="ECG">  |
 | FFT (dB)              |  <img src="../../img/ECG_FFT_ejercicio_EN_dB(2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_ejercicio_EN_dB_filtrada(2).png" width="867" alt="ECG">  |
+
+## **7. Discusión**
