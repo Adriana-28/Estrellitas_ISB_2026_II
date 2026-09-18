@@ -155,38 +155,69 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 ### Estado hiperventilación
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 ### Estado hipoventilación
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 ### Actividad aerobica
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
+| Señal                |    |    |
+| FFT                |    |    |
+| FFT (dB)              |    |    |
