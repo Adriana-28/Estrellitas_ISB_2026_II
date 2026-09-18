@@ -101,7 +101,7 @@ datos = np.array(datos_limpios, dtype=float)
 ### c) Aplicación de filtros
 La señal ECG puede contener diferentes componentes de ruido e interferencias eléctricas que dificultan su análisis. Por este motivo, se aplicaron dos filtros: un filtro pasa-banda y un filtro notch.
 
-## Filtro Pasa Banda
+### Filtro Pasa Banda
 
 Se implementó un filtro pasa-banda Butterworth de cuarto orden con frecuencias de corte de 0.5 Hz y 40 Hz. Este filtro permite conservar las componentes de frecuencia comprendidas dentro de dicho intervalo y atenuar aquellas que se encuentran fuera de él.
 
@@ -120,7 +120,7 @@ Las frecuencias de corte del filtro se normalizaron respecto a la frecuencia de 
 
 El filtro se aplicó mediante la función filtfilt(), que realiza el filtrado en ambas direcciones de la señal. De esta manera, se evita introducir un desplazamiento de fase significativo en la señal resultante.
 
-## Filtro Notch
+### Filtro Notch
 
 Después del filtro pasa-banda se aplicó un filtro notch centrado en 60 Hz, utilizando un factor de calidad (Q=30).
 
