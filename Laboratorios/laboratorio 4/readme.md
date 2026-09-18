@@ -231,4 +231,14 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 - **Comparación de las tres derivadas:** Al analizar la primera, segunda y tercera derivada, se observa que las derivadas sucesivas resaltan diferentes cambios rápidos de la señal ECG y hacen más evidentes algunas variaciones alrededor de los complejos cardíacos. Sin embargo, también hacen más notorias las componentes de alta frecuencia y el ruido. Después del filtrado, estas componentes se reducen y los patrones repetitivos del ECG se observan con mayor claridad. Esto demuestra que el filtrado es importante para realizar el análisis de las señales derivadas, especialmente cuando se trabaja posteriormente con su contenido frecuencial.
 
 ## **8. Cuestionario**
+**P1. ¿Cuáles son los tipos de fuentes de ruido más comunes que afectan a la señal de ECG?**
+
+Las fuentes de ruido más comunes que afectan una señal de ECG son:
 - 
+
+**P2. ¿Por qué el cambio en la posición de los sensores (derivación I–II) cambia los componentes de la señal de ECG? ¿Cómo cambian estos componentes?**
+
+**P3. Describa si existen diferencias importantes en la señal al adquirirla desde diferentes ubicaciones del cuerpo (por ejemplo, muñeca / clavícula / pecho). ¿Cuál podría ser la causa? ¿Esperaría observar estos cambios en la señal? Guarde un segmento de señal de cada ubicación para visualizar las diferencias.**
+**P4. Es bien sabido que los sistemas cardíaco y respiratorio están estrechamente relacionados. ¿Espera que diferentes tipos de respiración (por ejemplo, más rápida, más profunda) influyan en las señales de ECG? Muestre capturas de pantalla de las señales de ECG en diferentes circunstancias respiratorias y describa las diferencias, si las hubiera.**
+**P5. En la Guía de Laboratorio N.° 1 se observó que diferentes cantidades de fuerza producida por el músculo generaban señales con diferentes amplitudes. ¿Cómo influye el movimiento en la señal de ECG?**
+**P6. Según sus conocimientos, ¿cómo se pueden detectar la bradicardia y la taquicardia en una señal de ECG?**
