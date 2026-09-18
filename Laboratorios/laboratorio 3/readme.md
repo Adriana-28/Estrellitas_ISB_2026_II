@@ -430,9 +430,7 @@ Un filtro pasabanda es fundamental para eliminar componentes de frecuencia que n
 
 En las señales obtenidas se observó que la amplitud aumentó conforme aumentó la exigencia del movimiento. Durante el reposo se registraron amplitudes bajas, mientras que en el movimiento leve sin oposición aparecieron periodos de activación más definidos. Finalmente, durante el movimiento fuerte con oposición se observaron las mayores amplitudes en ambos músculos. La amplitud también puede variar entre músculos debido a sus características anatómicas, su función y la ubicación de los electrodos.
 
-**P4. Muestra una captura de pantalla de una parte relevante de los datos de Electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondiente a un músculo de interés.**
-
-¿Esta señal corresponde con lo que esperabas? ¿Por qué? ¿Qué emoción y acción realizaste para activar el músculo? ¿Qué músculo activaste?
+**P4. Muestra una captura de pantalla de una parte relevante de los datos de Electromiografía (EMG) obtenidos durante el experimento propuesto en la Sección D, correspondiente a un músculo de interés. ¿Esta señal corresponde con lo que esperabas? ¿Por qué? ¿Qué emoción y acción realizaste para activar el músculo? ¿Qué músculo activaste?**
 
 Se puede observar las imágenes obtenidas en la sección de resultados, donde la señal obtenida corresponde con lo esperado, ya que se observó una actividad muscular baja durante el reposo y un incremento de la amplitud durante las condiciones de movimiento. Para el flexor radial del carpo, se realizó un movimiento del antebrazo, observándose una mayor activación durante el movimiento fuerte con oposición. Para las fibras descendentes del trapecio, se realizó un movimiento que involucró la elevación o estabilización del hombro, observándose también una mayor actividad durante el movimiento fuerte con oposición.
 
