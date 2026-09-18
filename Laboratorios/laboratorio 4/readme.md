@@ -174,9 +174,9 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_hiperventilacion_cruda (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hiperventilacion_filtrada (1).png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_hiperventilacion_FFT_CRUDA (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hiperventilacion_FFT_filtrada (1).png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_hiperventilacion_FFT_CRUDA_EN_dB (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_hiperventilacion_FFT_CRUDA_EN_dB_filtrada (1).png" width="867" alt="ECG">  |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
