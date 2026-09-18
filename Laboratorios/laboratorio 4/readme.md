@@ -145,25 +145,45 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 ### d) Ploteo de señales
 
 ### Estado basal
-| Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
-| ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
+
+| Tipo                 |  Señal original - 1ra derivada  |  Señal filtrada - 1ra derivada  |
+| ------------------------------- | -------------------------- | -------------------------- |
 
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
-| ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ------------------------------- | -------------------------- | -------------------------- |
 
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
-| ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ------------------------------- | -------------------------- | -------------------------- |
 
 
 ### Estado hiperventilación
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
-| ------------------------------- | -------------------------- | -------------------------- | -------------------------- |
+| ------------------------------- | -------------------------- | -------------------------- |
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
 
-| Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
+| Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
+
 ### Estado hipoventilación
-### Actividad aerobica
+| Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
 
+| Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
+
+| Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
+
+### Actividad aerobica
+| Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
+
+| Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
+
+| Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
+| ------------------------------- | -------------------------- | -------------------------- |
