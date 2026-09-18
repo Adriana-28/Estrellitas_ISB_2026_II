@@ -155,15 +155,15 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 
 | Tipo                 | Señal original - 2da derivada| Señal filtrada - 2da derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |  <img src="../../img/ECG_cruda (1).png" width="867" alt="ECG_cruda">  |  <img src="../../img/ECG_cruda_filtrada (1).png" width="867" alt="ECG_cruda_filtrada">  |
+| Señal                |  <img src="../../img/ECG_cruda (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_cruda_filtrada (1).png" width="867" alt="ECG">  |
 | FFT                |  <img src="../../img/ECG_FFT_CRUDA (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_cruda_FFT_filtrada (1).png" width="867" alt="ECG">  |
 | FFT (dB)              |  <img src="../../img/ECG_FFT_CRUDA_EN_dB (1).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_CRUDA_EN_dB_filtrada (1).png" width="867" alt="ECG">  |
 
 | Tipo                 | Señal original - 3ra derivada| Señal filtrada - 3ra derivada|
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |    |    |
-| FFT                |    |    |
-| FFT (dB)              |    |    |
+| Señal                |  <img src="../../img/ECG_cruda (2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_cruda_filtrada (2).png" width="867" alt="ECG">  |
+| FFT                |  <img src="../../img/ECG_FFT_CRUDA (2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_cruda_FFT_filtrada (2).png" width="867" alt="ECG">  |
+| FFT (dB)              |  <img src="../../img/ECG_FFT_CRUDA_EN_dB (2).png" width="867" alt="ECG">  |  <img src="../../img/ECG_FFT_CRUDA_EN_dB_filtrada (2).png" width="867" alt="ECG">  |
 
 ### Estado hiperventilación
 | Tipo                 | Señal original - 1ra derivada| Señal filtrada - 1ra derivada|
