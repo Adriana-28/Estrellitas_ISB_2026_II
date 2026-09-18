@@ -148,7 +148,7 @@ De esta manera, primero se atenúan las componentes de muy baja y alta frecuenci
 
 | Tipo                 |  Señal original - 1ra derivada  |  Señal filtrada - 1ra derivada  |
 | ------------------------------- | -------------------------- | -------------------------- |
-| Señal                |  <img src="../resultados_lab3/ECG_cruda.png" width="867" alt="ECG_cruda">  |  <img src="../../resultados_lab3/ECG_cruda_filtrada.png" width="867" alt="ECG_cruda_filtrada">  |
+| Señal                |  <img src="../img/ECG_cruda.png" width="867" alt="ECG_cruda">  |  <img src="../../img/ECG_cruda_filtrada.png" width="867" alt="ECG_cruda_filtrada">  |
 | FFT                |    |    |
 | FFT (dB)              |    |    |
 
