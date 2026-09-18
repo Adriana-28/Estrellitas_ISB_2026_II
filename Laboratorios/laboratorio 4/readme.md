@@ -98,20 +98,12 @@ with open("basal1.txt", "r") as f:
 datos_limpios = [line.strip().split() for line in lineas if not line.startswith("#")]
 datos = np.array(datos_limpios, dtype=float)
 ```
+### c) Aplicación de filtros
+La señal ECG puede contener diferentes componentes de ruido e interferencias eléctricas que dificultan su análisis. Por este motivo, se aplicaron dos filtros: un filtro pasa-banda y un filtro notch.
 
-Posteriormente, se seleccionó la última columna del archivo como la señal ECG. La señal fue multiplicada por -1 para invertir su polaridad y obtener la orientación utilizada durante el análisis.
+Filtro Pasa Banda
 
-ecg = datos[:, -1] * -1
-
-La frecuencia de muestreo utilizada fue de 1000 Hz, por lo que se generó un vector de tiempo a partir del número de muestras de la señal:
-
-fs = 1000
-tiempo = np.arange(len(ecg)) / fs
-
-De esta manera, cada muestra de la señal queda asociada con su correspondiente instante de tiempo mediante la relación:
-
+Se implementó un filtro pasa-banda Butterworth de cuarto orden con frecuencias de corte de 0.5 Hz y 40 Hz. Este filtro permite conservar las componentes de frecuencia comprendidas dentro de dicho intervalo y atenuar aquellas que se encuentran fuera de él.
 [
 t=\frac{n}{f_s}
 ]
-
-donde (t) corresponde al tiempo en segundos, (n) al número de muestra y (f_s) a la frecuencia de muestreo.
