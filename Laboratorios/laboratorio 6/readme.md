@@ -130,6 +130,101 @@ Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cogn
 
 #### **5.3.3 Comparación entre sujetos**
 
+### **5.4 Música ruidosa: Candy Perreo y Hottiefrutti**
+
+#### **5.4.1 Procedimiento**
+
+Cada sujeto escuchó una canción distinta mientras se registraba su señal EEG con el BITalino (r)evolution a [frecuencia de muestreo] Hz. El Sujeto 1 (Rolando) escuchó Hottiefrutti durante ~77 s. El Sujeto 2 (Claudia) escuchó Candy Perreo durante ~32 s. El electrodo de medición se colocó en [FP1/FP2] para el Sujeto 1 y en [FP1/FP2] para el Sujeto 2, con la referencia en [posición]. Ambos sujetos permanecieron sentados, con los ojos [abiertos/cerrados], escuchando la canción por [audífonos/parlante]. [Explicar por qué las duraciones son distintas, si aplica.]
+
+El procesamiento fue el mismo que en la condición basal: filtro notch en 60 Hz, filtro pasa-banda de 0.5–45 Hz, densidad espectral de potencia (PSD), potencia relativa por banda y espectrograma.
+
+#### **5.4.2 Videos**
+
+- Hottiefrutti (Sujeto 1): https://www.youtube.com/watch?v=is8UDe2PhKQ
+Es una canción con influencias del género funk brasileño.
+- Candy Perreo (Sujeto 2): https://www.youtube.com/watch?v=WdPsMIJJBD4&list=RDWdPsMIJJBD4&start_radio=1 
+En una canción de reggaetón. 
+#### **5.4.3 Hottiefrutti (Sujeto 1)**
+
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/1_se%C3%B1al_cruda.png" width="450" alt="Hottiefrutti - señal cruda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/3_se%C3%B1al_filtrada.png" width="450" alt="Hottiefrutti - señal filtrada"> |
+| PSD | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/2_psd_cruda.png" width="450" alt="Hottiefrutti - PSD cruda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/4_psd_filtrada.png" width="450" alt="Hottiefrutti - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/5_potencia_por_banda.png" width="450" alt="Hottiefrutti - potencia por banda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_hottiefrutti/6_espectrograma.png" width="450" alt="Hottiefrutti - espectrograma"> |
+
+**Gráficas en el tiempo**
+
+- Las gráficas muestran la señal EEG del Sujeto 1. El eje X es el tiempo en segundos (0–77 s) y el eje Y la amplitud en µV aproximados.
+- **Señal cruda:** oscila mayormente entre ±20 µV. En los primeros ~35 s hay una deriva lenta de la línea base. Hay eventos de gran amplitud cerca de 6.3, 10.4, 16–18, 27–29 y 57.4 s. Varios llegan al límite de ±41 µV (6.3, 10.4, 16.2 y 57.4 s). Entre ~16.5 y ~17 s la señal queda plana en +41 µV, lo que indica saturación breve. Por su forma y duración, estos eventos son compatibles con parpadeos o movimientos. Desde ~35 s la señal es más estable.
+- **Señal filtrada:** queda mayormente entre ±15 µV. El filtro elimina la deriva lenta, pero los artefactos se mantienen: +38 µV aprox a 10.4 s aprox, −45 µV a 16.2 s aprox, +32 µV a 27.5 aprox s y −37 µV a 57.4 s aprox. Los tramos saturados no se pueden corregir con el filtrado.
+
+**Gráficas en frecuencia**
+
+- **PSD cruda:** la potencia es máxima cerca de 0.5 Hz (~60 µV²/Hz) y decae hasta ~0.03 µV²/Hz en 50 Hz. El pico de 60 Hz solo llega a ~4 µV²/Hz, así que la interferencia de la red es baja. Hay elevaciones leves cerca de ~10 y ~14 Hz, insuficientes para hablar de un ritmo dominante.
+- **PSD filtrada:** desaparece la componente de 60 Hz. El máximo está cerca de 1 Hz y el espectro decae de forma suave hasta 45 Hz. No hay un pico alpha visible.
+- **Potencia relativa por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 70 %, Theta ≈ 10 %, Alpha ≈ 5 %, Beta ≈ 8 %, Gamma ≈ 2 %.
+- **Espectrograma:** la energía se concentra en 0–10 Hz. Las zonas más intensas están cerca de ~10 s, ~16–18 s, ~27–29 s y ~57–60 s, que coinciden con los artefactos de la señal temporal. En las bandas superiores no hay cambios a lo largo del registro.
+
+**Interpretación**
+
+- Delta sube de ≈ 55 % en el basal a ≈ 73 % con Hottiefrutti. El aumento coincide con un registro con más artefactos grandes y con saturación breve. Se explica mejor por parpadeos o movimientos que por un cambio en la actividad cerebral.
+- La potencia relativa es un porcentaje. Si delta crece, las demás bandas bajan aunque su potencia real no cambie. Al recalcular sin delta, la proporción entre las otras bandas es parecida al basal: beta pasa de ≈ 36 % a ≈ 31 % y theta de ≈ 34 % a ≈ 42 %. No hay un aumento de beta atribuible a la canción.
+
+#### **5.4.4 Candy Perreo (Sujeto 2)**
+
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/1_se%C3%B1al_cruda.png" width="450" alt="Candy Perreo - señal cruda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/3_se%C3%B1al_filtrada.png" width="450" alt="Candy Perreo - señal filtrada"> |
+| PSD | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/2_psd_cruda.png" width="450" alt="Candy Perreo - PSD cruda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/4_psd_filtrada.png" width="450" alt="Candy Perreo - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/5_potencia_por_banda.png" width="450" alt="Candy Perreo - potencia por banda"> | <img src="Imagenes%20musica%20ruidosa/imagenes_cancion_candy_perreo_claudia/6_espectrograma.png" width="450" alt="Candy Perreo - espectrograma"> |
+
+**Gráficas en el tiempo**
+
+- Las gráficas muestran la señal EEG del Sujeto 2. El eje X es el tiempo en segundos (0–32 s) y el eje Y la amplitud en µV aproximados.
+- **Señal cruda:** forma una banda densa que ocupa casi todo el rango de ±41 µV. Toca el límite con frecuencia, sobre todo entre 0–4 s, 10–13 s, 16–18 s y 20–23 s. Hay saturación en buena parte del registro. La amplitud baja un poco entre ~4–8 s y desde ~25 s. A esta escala no se distingue ninguna forma de onda EEG, igual que en su registro basal.
+- **Señal filtrada:** queda mayormente entre ±10 µV. Al inicio hay un transitorio de hasta −26 µV que dura ~1 s, probablemente por el arranque del filtro. Hay picos aislados cerca de 7 s (+19 µV), 8 s (−17 µV) y 18–18.5 s (±17 µV). Los artefactos son menores que con Hottiefrutti.
+
+**Gráficas en frecuencia**
+
+- **PSD cruda:** el pico en 60 Hz llega a ~3–4 × 10² µV²/Hz, mientras el resto del espectro está entre ~5 µV²/Hz (cerca de 1 Hz) y ~0.03 µV²/Hz (cerca de 57 Hz). La interferencia de la red domina la señal cruda. Fuera de los 60 Hz hay elevaciones leves cerca de ~9.5, ~15 y ~20 Hz.
+- **PSD filtrada:** se elimina la componente de 60 Hz. El espectro tiene un máximo cerca de 1 Hz y queda casi plano entre ~3 y ~30 Hz. Luego cae hacia 45 Hz. No hay un pico alpha claro.
+- **Potencia relativa por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 35 %, Theta ≈ 16 %, Alpha ≈ 15 %, Beta ≈ 28 %, Gamma ≈ 6.5 %.
+- **Espectrograma:** la energía está repartida de forma bastante homogénea. Hay algo más de energía en 0–5 Hz cerca de ~5–10 s y ~22–30 s, sin un patrón temporal claro.
+
+**Interpretación**
+
+- La distribución es casi igual a la del basal de este sujeto (Delta ≈ 34 %, Theta ≈ 18 %, Alpha ≈ 15 %, Beta ≈ 27 %, Gamma ≈ 6 %). Puede que la canción no haya producido un cambio medible. También puede que ambos registros estén dominados por las mismas condiciones de ruido. Con la saturación presente no se puede distinguir entre ambas opciones.
+- El beta relativamente alto no indica por sí solo mayor activación. Con un espectro casi plano, las bandas más anchas acumulan más potencia solo por su ancho: beta abarca 17 Hz, mientras que delta abarca 3.5 Hz.
+- El registro dura solo ~32 s, lo que da menos ventanas para estimar la PSD y resultados menos estables.
+
+#### **5.4.5 Comparación entre canciones**
+
+| Banda | S1 basal (%) | Hottiefrutti, S1 (%) | S2 basal (%) | Candy Perreo, S2 (%) |
+|:------|:-----------:|:-----------:|:-----------:|:-----------:|
+| Delta (0.5–4 Hz) | ≈ 55 | ≈ 73 | ≈ 34 | ≈ 35 |
+| Theta (4–8 Hz) | ≈ 15 | ≈ 11 | ≈ 18 | ≈ 16 |
+| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 5.5 | ≈ 15 | ≈ 15 |
+| Beta (13–30 Hz) | ≈ 16 | ≈ 8 | ≈ 27 | ≈ 28 |
+| Gamma (30–45 Hz) | ≈ 3 | ≈ 1.5 | ≈ 6 | ≈ 6.5 |
+
+*Valores aproximados, leídos de las gráficas de potencia relativa.*
+
+- Cada sujeto escuchó una canción distinta. Por eso, comparar Hottiefrutti con Candy Perreo directamente mezcla el efecto de la canción con las diferencias entre sujetos y entre la calidad de los registros. La comparación más útil es la de cada canción con el basal del mismo sujeto.
+- Frente a su basal, el Sujeto 1 muestra más delta, en un registro con más artefactos. El Sujeto 2 prácticamente no cambia.
+- En el dominio del tiempo, el registro de Hottiefrutti tiene artefactos grandes y aislados, mientras que el de Candy Perreo está saturado de forma casi continua por la interferencia de 60 Hz. Esta diferencia es la misma que ya existía entre los dos sujetos en el basal.
+
+#### **5.4.7 Conclusión**
+
+No se encontró evidencia de que Hottiefrutti o Candy Perreo hayan cambiado el EEG de los sujetos. Con Hottiefrutti, delta subió de ≈ 55 % a ≈ 73 %. Ese aumento coincide con más parpadeos y con los tramos donde la señal se saturó. Si se quita delta del cálculo, las demás bandas quedan casi igual que en el basal. En Candy Perreo la distribución apenas cambió respecto al basal de ese sujeto, aunque esto dice poco porque la señal cruda estuvo saturada por los 60 Hz durante gran parte del registro. Para saber si la canción influye, lo mínimo sería que ambas las escuche el mismo sujeto durante el mismo tiempo. El contacto de los electrodos también tendría que mejorar, sobre todo en el caso de Candy Perreo.
+> **Limitaciones:** cada canción la escuchó un sujeto distinto; la amplitud está en µV aproximados; los porcentajes se leyeron de las gráficas; los artefactos no se eliminaron; los registros tienen duraciones distintas (~77 s y ~32 s); y en el Sujeto 2 la saturación impide conocer la amplitud real de la señal en buena parte del registro.
+
+
 ## **6. Cuestionario**
 
 ### **Q1. ¿Cuáles son las frecuencias relevantes del EEG y en qué se diferencian según la región del cerebro?**
@@ -145,6 +240,8 @@ Cada banda no aparece con la misma intensidad en todo el cuero cabelludo:
 - **Gamma** está más distribuida y es difícil de medir en superficie porque se confunde con la actividad muscular.
 
 En los registros basales de ambos sujetos predominó delta y no se observó un pico alpha claro. Esto es coherente con registros que no se hicieron sobre la región occipital y que incluyen artefactos.
+
+
 
 ## **7. Referencias**
 
