@@ -134,7 +134,7 @@ Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cogn
 
 #### **5.4.1 Procedimiento**
 
-Cada sujeto escuchó una canción distinta mientras se registraba su señal EEG con el BITalino. El Sujeto 1 (Rolando) escuchó Hottiefrutti durante ~77 s. El Sujeto 2 (Claudia) escuchó Candy Perreo durante ~32 s. El electrodo de medición se colocó en [FP1/FP2] para el Sujeto 1 y en [FP1/FP2] para el Sujeto 2, con la referencia en [posición]. Ambos sujetos permanecieron sentados, con los ojos [abiertos/cerrados], escuchando la canción por [audífonos/parlante]. [Explicar por qué las duraciones son distintas, si aplica.]
+Cada sujeto escuchó una canción distinta mientras se registraba su señal EEG con el BITalino. El Sujeto 1 (Rolando) escuchó Hottiefrutti durante ~77 s. El Sujeto 2 (Claudia) escuchó Candy Perreo durante ~32 s. Ambos sujetos permanecieron sentados, con los ojos cerrados, escuchando la canción por audífonos. 
 
 El procesamiento fue el mismo que en la condición basal: filtro notch en 60 Hz, filtro pasa-banda de 0.5–45 Hz, densidad espectral de potencia (PSD), potencia relativa por banda y espectrograma.
 
