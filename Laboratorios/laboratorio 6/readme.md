@@ -47,9 +47,11 @@ En el dominio del tiempo se observa cómo cambia la amplitud de la señal EEG co
 
 De forma general, este proceso puede representarse como:
 
-\[
-x(t) \xrightarrow{\text{FFT}} X(f)
-\]
+**Señal en el tiempo → FFT → Señal en frecuencia**
+
+Es decir:
+
+**x(t) → FFT → X(f)**
 
 donde:
 
