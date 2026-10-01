@@ -337,21 +337,21 @@ Cada banda no aparece con la misma intensidad en todo el cuero cabelludo:
 
 En los registros basales de ambos sujetos predominó delta y no se observó un pico alpha claro. Esto es coherente con registros que no se hicieron sobre la región occipital y que incluyen artefactos.
 
-### **Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?**
+### **Q2. ¿Qué tipo de filtro es esencial al trabajar con señales de EEG? ¿Por qué necesitamos aplicar ese filtro?**
 
-The filter that cannot be skipped when working with EEG is the **notch filter at the local power line frequency** (60 Hz in Peru, since the electrical grid runs at that frequency; 50 Hz in regions that use that standard). EEG amplitude is in the microvolt range, and the wiring, the body itself, and nearby equipment act as antennas for the electromagnetic field radiated by power lines and outlets. Without removing it, this interference can be orders of magnitude larger than the actual brain signal and completely masks it, as seen in the raw PSD plots where a sharp spike appears right at the edge of the 60 Hz region.
+El filtro que no se puede omitir al trabajar con EEG es el **filtro notch en la frecuencia de la red eléctrica local** (60 Hz en Perú, ya que la red eléctrica funciona a esa frecuencia; 50 Hz en regiones que usan ese estándar). La amplitud del EEG está en el rango de microvoltios, y el cableado, el propio cuerpo y los equipos cercanos actúan como antenas para el campo electromagnético irradiado por las líneas eléctricas y los tomacorrientes. Sin eliminarlo, esta interferencia puede ser órdenes de magnitud más grande que la señal cerebral real y enmascararla por completo, como se ve en los gráficos de PSD cruda donde aparece un pico pronunciado justo en el borde de la región de 60 Hz.
 
-Alongside the notch filter, a **band-pass filter** (commonly around 0.5-45 Hz for general EEG analysis) is also essential. It removes two things at once:
-- Very low frequency drift below ~0.5 Hz, caused by electrode-skin impedance changes, sweat, or slow motion artifacts, which otherwise dominates the spectrum and can be mistaken for delta activity.
-- High frequency noise above 45 Hz, which is mostly muscle activity (EMG) from the scalp, jaw, or forehead muscles rather than cortical activity, plus any remaining electronic noise.
+Junto con el filtro notch, un **filtro pasa-banda** (comúnmente alrededor de 0.5-45 Hz para análisis general de EEG) también es esencial. Este elimina dos cosas a la vez:
+- Deriva de muy baja frecuencia por debajo de ~0.5 Hz, causada por cambios en la impedancia electrodo-piel, sudor o artefactos de movimiento lento, que de otra forma domina el espectro y puede confundirse con actividad delta.
+- Ruido de alta frecuencia por encima de 45 Hz, que en su mayoría es actividad muscular (EMG) del cuero cabelludo, la mandíbula o la frente, en lugar de actividad cortical, además de cualquier ruido electrónico remanente.
 
-Together, these two filters keep only the frequency range where real cortical EEG rhythms (delta through gamma) exist, and reject the two main non-neural contaminants (power line interference and drift/muscle noise) that would otherwise make any band-power analysis meaningless.
+Juntos, estos dos filtros conservan únicamente el rango de frecuencia donde existen los ritmos de EEG corticales reales (de delta a gamma), y rechazan los dos principales contaminantes no neuronales (interferencia de línea eléctrica y deriva/ruido muscular) que de otra forma harían que cualquier análisis de potencia por banda careciera de sentido.
 
-### **Q7. To the best of your knowledge, does the EEG amplitude equal to the level of focus you have applied?**
+### **Q7. Según tu conocimiento, ¿la amplitud del EEG equivale al nivel de concentración que has aplicado?**
 
-No, amplitude by itself is not a direct readout of focus. What changes with focus and cognitive effort is mainly the **distribution of power across frequency bands**, not the raw amplitude of the signal. For example, a rise in beta power relative to delta/theta is more associated with active mental engagement, while a drop in alpha is associated with the brain moving away from a relaxed, idle state into active processing. Raw amplitude on its own can increase just as easily due to artifacts (blinking, jaw clenching, electrode movement, even sweating), which have nothing to do with how focused someone is, and this was visible in the frontal recordings where large-amplitude spikes appeared regardless of the cognitive task.
+No, la amplitud por sí sola no es un indicador directo de concentración. Lo que cambia con la concentración y el esfuerzo cognitivo es principalmente la **distribución de la potencia entre las bandas de frecuencia**, no la amplitud cruda de la señal. Por ejemplo, un aumento en la potencia beta relativa a delta/theta está más asociado con compromiso mental activo, mientras que una caída en alfa está asociada con que el cerebro se aleja de un estado relajado e inactivo hacia un procesamiento activo. La amplitud cruda por sí sola puede aumentar fácilmente debido a artefactos (parpadeo, apretar la mandíbula, movimiento del electrodo, incluso sudoración), que no tienen nada que ver con qué tan concentrada está la persona, y esto fue visible en los registros frontales donde aparecieron picos de gran amplitud independientemente de la tarea cognitiva.
 
-So interpreting focus from EEG means looking at relative band power or specific ratios (like beta/alpha or theta/beta), evaluated over a clean, artifact-filtered signal, rather than simply looking at how "big" the raw waveform gets at any given moment.
+Entonces, interpretar la concentración a partir del EEG implica observar la potencia relativa por banda o razones específicas (como beta/alfa o theta/beta), evaluadas sobre una señal limpia y filtrada de artefactos, en lugar de simplemente observar qué tan "grande" se vuelve la forma de onda cruda en un momento dado.
 
 ## **7. Referencias**
 
