@@ -39,52 +39,35 @@ La electroencefalografía (EEG) es una técnica para registrar la actividad elé
 
 ## **5. Resultados**
 
-### **5.1 Basal**
+### **5.1 Basal – Sujeto 1**
 
-Se realizaron dos registros en condición basal (reposo): **Basal 1** (~84 s) y **Basal 2** (~120 s). En ambos se aplicó un filtro notch (60 Hz) y un filtro pasa-banda de 0.5–45 Hz, y se calculó la densidad espectral de potencia (PSD), la potencia relativa por banda y el espectrograma.
-
-#### **Basal 1**
+Se registró la señal EEG del Sujeto 1 en condición basal (reposo) durante ~120 s. Se aplicó un filtro notch (60 Hz) y un filtro pasa-banda de 0.5–45 Hz, y se calculó la densidad espectral de potencia (PSD), la potencia relativa por banda y el espectrograma.
 
 | | Señal cruda | Señal filtrada |
 |:--|:--:|:--:|
-| Tiempo | <img src="imagenes_basal/basal1_senal_cruda.png" width="450" alt="Basal 1 - señal cruda"> | <img src="imagenes_basal/basal1_senal_filtrada.png" width="450" alt="Basal 1 - señal filtrada"> |
-| PSD | <img src="imagenes_basal/basal1_psd_cruda.png" width="450" alt="Basal 1 - PSD cruda"> | <img src="imagenes_basal/basal1_psd_filtrada.png" width="450" alt="Basal 1 - PSD filtrada"> |
+| Tiempo | <img src="imagenes_basal/basal_senal_cruda.png" width="450" alt="Basal - señal cruda"> | <img src="imagenes_basal/basal_senal_filtrada.png" width="450" alt="Basal - señal filtrada"> |
+| PSD | <img src="imagenes_basal/basal_psd_cruda.png" width="450" alt="Basal - PSD cruda"> | <img src="imagenes_basal/basal_psd_filtrada.png" width="450" alt="Basal - PSD filtrada"> |
 
 | Potencia relativa por banda | Espectrograma |
 |:--:|:--:|
-| <img src="imagenes_basal/basal1_potencia_bandas.png" width="450" alt="Basal 1 - potencia por banda"> | <img src="imagenes_basal/basal1_espectrograma.png" width="450" alt="Basal 1 - espectrograma"> |
+| <img src="imagenes_basal/basal_potencia_bandas.png" width="450" alt="Basal - potencia por banda"> | <img src="imagenes_basal/basal_espectrograma.png" width="450" alt="Basal - espectrograma"> |
 
-- **Dominio del tiempo:** la señal cruda oscila mayormente entre ±20 µV, pero entre ~17–18 s y ~27–40 s aparecen deflexiones grandes y lentas que llegan al límite de ±41 µV, donde la señal se ve recortada (saturación). Por su forma y amplitud, lo más probable es que sean artefactos (parpadeos o movimientos) y no actividad cerebral. El filtrado no los elimina porque su contenido cae dentro de la banda 0.5–45 Hz.
-- **PSD cruda:** la potencia es máxima por debajo de 1 Hz y decae de forma progresiva con la frecuencia. Se observa un aumento brusco en 60 Hz, que corresponde a la interferencia de la red eléctrica.
-- **PSD filtrada:** desaparece el pico de 60 Hz y la componente por debajo de 0.5 Hz se atenúa. No se aprecia un pico claro en la banda alpha.
-- **Potencia por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 82 %, Theta ≈ 7 %, Alpha ≈ 4 %, Beta ≈ 5 %, Gamma ≈ 1 %.
-- **Espectrograma:** la energía se concentra en 0–5 Hz durante todo el registro, con mayor intensidad entre ~27 y ~40 s, justo donde aparecen los artefactos en la señal temporal.
+**Análisis**
 
-#### **Basal 2**
+- **Dominio del tiempo:** la señal oscila mayormente entre ±20 µV. Se observan picos aislados de mayor amplitud (cerca de 24, 34, 60, 65, 96 y 104 s), algunos llegan a ~±40 µV. Por su forma breve y su amplitud, son compatibles con parpadeos u otros artefactos, no con actividad cerebral. Tras el filtrado estos picos se mantienen, aunque más estrechos, porque su contenido cae dentro de la banda 0.5–45 Hz.
+- **PSD cruda:** la potencia es máxima por debajo de ~1 Hz y decae progresivamente con la frecuencia. Hay un aumento brusco en 60 Hz, que corresponde a la interferencia de la red eléctrica. Se ven pequeñas elevaciones alrededor de ~7 Hz y ~14 Hz, pero son leves y no permiten afirmar un ritmo dominante.
+- **PSD filtrada:** desaparece la componente de 60 Hz y se atenúa lo que está por debajo de 0.5 Hz. No se aprecia un pico alpha claro.
+- **Potencia relativa por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 55 %, Theta ≈ 15 %, Alpha ≈ 10.5 %, Beta ≈ 16 %, Gamma ≈ 3 %.
+- **Espectrograma:** la energía se concentra en 0–5 Hz durante todo el registro, con zonas más intensas cerca de ~25 s y ~100–105 s, que coinciden con los picos de la señal temporal.
 
-| | Señal cruda | Señal filtrada |
-|:--|:--:|:--:|
-| Tiempo | <img src="imagenes_basal/basal2_senal_cruda.png" width="450" alt="Basal 2 - señal cruda"> | <img src="imagenes_basal/basal2_senal_filtrada.png" width="450" alt="Basal 2 - señal filtrada"> |
-| PSD | <img src="imagenes_basal/basal2_psd_cruda.png" width="450" alt="Basal 2 - PSD cruda"> | <img src="imagenes_basal/basal2_psd_filtrada.png" width="450" alt="Basal 2 - PSD filtrada"> |
+**Interpretación**
 
-| Potencia relativa por banda | Espectrograma |
-|:--:|:--:|
-| <img src="imagenes_basal/basal2_potencia_bandas.png" width="450" alt="Basal 2 - potencia por banda"> | <img src="imagenes_basal/basal2_espectrograma.png" width="450" alt="Basal 2 - espectrograma"> |
+- **Delta es la banda con mayor potencia relativa.** En una persona despierta y en reposo esto no indica sueño profundo. Se explica mejor por: (1) los artefactos oculares y de movimiento, que concentran su energía en frecuencias bajas, y (2) la forma natural del espectro EEG, cuya potencia disminuye a medida que aumenta la frecuencia.
+- Theta, alpha y beta tienen porcentajes similares entre sí (≈ 10–16 %), lo que sugiere un estado de vigilia sin un ritmo claramente dominante.
+- No se observa un pico alpha marcado. Esto es esperable si el registro se hizo con los ojos abiertos o si el electrodo no estaba sobre la región occipital, donde alpha es más visible.
+- Este registro sirve como **línea base** para comparar con las demás actividades (ojos abiertos/cerrados, preguntas y canciones).
 
-- **Dominio del tiempo:** la señal es más estable que en el Basal 1. Se ven picos aislados de gran amplitud (por ejemplo, cerca de 24, 34, 60, 65, 96 y 104 s), compatibles con parpadeos u otros artefactos breves; tras el filtrado se mantienen, aunque más estrechos.
-- **PSD cruda:** mismo patrón de decaimiento con la frecuencia y el pico de interferencia en 60 Hz. Se observan pequeñas elevaciones alrededor de ~7 Hz y ~14 Hz, pero son leves y no permiten afirmar un ritmo dominante.
-- **PSD filtrada:** se elimina la componente de 60 Hz; el espectro es más plano que en el Basal 1.
-- **Potencia por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 55 %, Theta ≈ 15 %, Alpha ≈ 10.5 %, Beta ≈ 16 %, Gamma ≈ 3 %.
-- **Espectrograma:** sigue predominando la energía en 0–5 Hz, con zonas más intensas cerca de ~25 s y ~100–105 s, que coinciden con los picos de la señal temporal.
-
-#### **Comparación e interpretación**
-
-- En ambos registros **delta es la banda con mayor potencia relativa**, pero en el Basal 1 es mucho más alta (≈ 82 % frente a ≈ 55 %). La diferencia coincide con que el Basal 1 tiene más artefactos de baja frecuencia y saturación, por lo que buena parte de esa potencia delta probablemente no es actividad cerebral.
-- En una persona despierta en reposo no se espera que delta refleje sueño profundo. Su predominio aquí se explica mejor por: (1) artefactos oculares y de movimiento, que concentran su energía en frecuencias bajas, y (2) la forma natural del espectro EEG, cuya potencia disminuye a medida que aumenta la frecuencia.
-- El **Basal 2 es el registro más confiable** como línea base: tiene menos artefactos y una distribución más repartida entre theta, alpha y beta.
-- No se observa un pico alpha marcado en ninguno de los dos registros. Esto es esperable si el registro fue con ojos abiertos o si el electrodo no estaba sobre la región occipital, donde alpha es más visible.
-
-> **Limitaciones:** la amplitud está en µV aproximados (depende de la conversión usada en el procesamiento); los porcentajes por banda se leyeron de las gráficas y no de valores numéricos exportados; y la saturación del Basal 1 impide conocer la amplitud real de esos segmentos.
+> **Limitaciones:** la amplitud está en µV aproximados (depende de la conversión usada en el procesamiento); los porcentajes por banda se leyeron de la gráfica y no de valores numéricos exportados; y los artefactos no se eliminaron, por lo que inflan la potencia de las bandas bajas.
 
 ## **6. Cuestionario**
 
@@ -100,7 +83,7 @@ Cada banda no aparece con la misma intensidad en todo el cuero cabelludo:
 - **Delta** en adultos sanos aparece sobre todo durante el sueño profundo; en vigilia su presencia elevada suele indicar artefactos.
 - **Gamma** está más distribuida y es difícil de medir en superficie porque se confunde con la actividad muscular.
 
-En nuestro registro basal predominó delta y no se observó un pico alpha claro, lo que es coherente con un registro que no se hizo sobre la región occipital y que incluye artefactos de baja frecuencia.
+En el registro basal del Sujeto 1 predominó delta y no se observó un pico alpha claro, lo que es coherente con un registro que no se hizo sobre la región occipital y que incluye artefactos de baja frecuencia.
 
 ## **7. Referencias**
 
