@@ -131,7 +131,7 @@ Se registró la señal EEG del Sujeto 1 mientras se le realizaban preguntas cogn
 
 | Potencia relativa por banda | Espectrograma |
 |:--:|:--:|
-| <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_potencia_por_banda.png" width="450" alt="Preguntas - potencia por banda"> | <img src="imagenes_basal/sujeto1_preguntas_espectrograma.png" width="450" alt="Preguntas - espectrograma"> |
+| <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_potencia_por_banda.png" width="450" alt="Preguntas - potencia por banda"> | <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_espectrograma.png" width="450" alt="Preguntas - espectrograma"> |
 
 #### **5.3.2 Sujeto 2**
 
