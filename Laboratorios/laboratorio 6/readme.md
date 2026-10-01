@@ -137,6 +137,15 @@ Se registró la señal EEG del Sujeto 1 mientras se le realizaban preguntas cogn
 
 Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cognitivas para que resuelva mentalmente (reposo) durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
 
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="imagenes_preguntas_cognitivas/sujeto2_señal_cruda_preguntas.png" width="450" alt="Preguntas - señal cruda"> | <img src="imagenes_preguntas_cognitivas/sujeto2_señal_filtrada_preguntas.png" width="450" alt="Preguntas - señal filtrada"> |
+| PSD | <img src="imagenes_preguntas_cognitivas/sujeto2_psd_cruda_preguntas.png" width="450" alt="Preguntas - PSD cruda"> | <img src="imagenes_preguntas_cognitivas/sujeto2_psd_filtrada_preguntas.png" width="450" alt="Preguntas - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="imagenes_preguntas_cognitivas/sujeto2_potencia_por_banda_preguntas.png" width="450" alt="Preguntas - potencia por banda"> | <img src="imagenes_preguntas_cognitivas/sujeto2_espectrograma_preguntas.png" width="450" alt="Preguntas - espectrograma"> |
+
 #### **5.3.3 Comparación entre sujetos**
 
 ### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
