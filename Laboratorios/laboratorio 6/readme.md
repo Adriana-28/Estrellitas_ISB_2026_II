@@ -181,7 +181,48 @@ Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cogn
 |:--:|:--:|
 | <img src="imagenes_preguntas_cognitivas/sujeto2_potencia_por_banda_preguntas.png" width="450" alt="Preguntas - potencia por banda"> | <img src="imagenes_preguntas_cognitivas/sujeto2_espectrograma_preguntas.png" width="450" alt="Preguntas - espectrograma"> |
 
-#### **5.3.3 Comparación entre sujetos**
+#### **5.3.3 Análisis**
+
+**Sujeto 1**
+
+- La señal cruda muestra picos de gran amplitud (hasta ±40 µV) que se repiten aproximadamente cada 15-20 s a lo largo de los 133 s de registro. Ese patrón casi periódico no es típico de actividad cortical espontánea; se parece más a artefactos de movimiento, tensión del músculo frontal o microdesplazamientos del electrodo (por ejemplo, al reacomodar la venda de los ojos).
+- Esos picos sobreviven al filtrado, lo que confirma que no son ruido de alta frecuencia (el pasa-banda 0.5-45 Hz no los elimina), sino componentes de baja frecuencia mezclados con la señal real.
+- La distribución de potencia está fuertemente concentrada en delta (~75%), con theta, alfa, beta y gamma todos por debajo del 10% individualmente. Este nivel de dominancia delta en un sujeto despierto y resolviendo problemas mentales es más coherente con artefactos de baja frecuencia que con actividad delta genuina (la cual se asocia normalmente a sueño profundo).
+- El espectrograma confirma que la energía se concentra de forma sostenida por debajo de los 10 Hz durante todo el registro, sin cambios marcados que uno esperaría asociados a distintas fases de la tarea cognitiva.
+
+**Sujeto 2**
+
+- La señal cruda y filtrada son visualmente más "limpias": no se observan picos periódicos de gran amplitud como en el sujeto 1, aunque el registro es más corto (~95 s).
+- La distribución de potencia es más balanceada: delta baja a ~35%, mientras que beta sube a ~28% y alfa a ~13%. Ese perfil es más consistente con un estado de alerta y participación activa en una tarea cognitiva, donde se espera mayor actividad beta asociada a concentración y procesamiento activo.
+- El PSD cruda muestra el típico comportamiento 1/f de la señal EEG, con un repunte cerca de 60 Hz correspondiente a interferencia de la red eléctrica, que desaparece correctamente tras aplicar el notch.
+- El espectrograma también muestra concentración de energía en bajas frecuencias, pero de forma menos dominante que en el sujeto 1, y con algo más de variación en bandas medias a lo largo del tiempo.
+
+#### **5.3.4 Interpretación**
+
+- La diferencia más llamativa entre los dos sujetos es el peso de la banda delta: 75% en sujeto 1 contra 35% en sujeto 2. Dado que ambos hicieron la misma tarea bajo las mismas condiciones, esa diferencia probablemente refleja calidad de señal/artefactos más que una diferencia fisiológica real entre sujetos.
+- Los picos periódicos de alta amplitud en el sujeto 1 son el candidato más probable para explicar su exceso de delta: con solo 3 electrodos frontales y sin canal de referencia para movimiento ocular o EMG, el sistema no puede distinguir actividad cortical de artefactos de parpadeo, tensión muscular frontal o desplazamiento de electrodos.
+- La proporción más alta de beta en sujeto 2 (28% vs 7%) es compatible con mayor actividad cognitiva activa, pero también hay que considerar que la región frontal es sensible a actividad del músculo frontalis, así que parte de ese beta (y del gamma, aunque bajo en ambos casos) podría tener un componente mioeléctrico en lugar de ser puramente cortical.
+- La banda alfa es baja en ambos sujetos (6% y 13%) a pesar de tener los ojos vendados, condición bajo la cual normalmente se esperaría más alfa (ritmo alfa asociado a ojos cerrados/relajación). Esto tiene sentido porque la tarea no era de reposo, sino de resolución activa de preguntas mentales, lo cual típicamente atenúa el alfa (bloqueo/desincronización asociada a actividad cognitiva) incluso con los ojos cerrados.
+- En ambos espectrogramas la energía se mantiene concentrada en frecuencias bajas durante todo el registro sin transiciones claras, lo que sugiere que, si hay cambios en el estado cognitivo durante la prueba, no se reflejan con claridad en este montaje de 3 electrodos frontales. Esto es consistente con la limitación esperada de un sistema de bajo costo y pocos canales frente a configuraciones de 16+ canales usadas en estudios de EEG más completos.
+- En conjunto, los datos sugieren que el sujeto 2 ofrece una señal más representativa de actividad cortical relacionada a la tarea, mientras que el sujeto 1 está más contaminado por artefactos de baja frecuencia, probablemente de origen motor o de contacto del electrodo.
+
+#### **5.3.5 Comparación entre sujetos**
+
+| Banda | Sujeto 1 (%) | Sujeto 2 (%) |
+|---|---|---|
+| Delta (0.5-4 Hz) | ≈75 | ≈35 |
+| Theta (4-8 Hz) | ≈9 | ≈16 |
+| Alpha (8-13 Hz) | ≈6 | ≈13 |
+| Beta (13-30 Hz) | ≈7 | ≈28 |
+| Gamma (30-45 Hz) | ≈2 | ≈8 |
+
+*Valores aproximados, leídos de los gráficos de potencia relativa generados a partir de la PSD filtrada (Welch).*
+
+## Limitaciones
+
+- Con 3 electrodos frontales no es posible aislar movimiento ocular o actividad muscular de la señal EEG real; lo que se interpreta como "delta" podría incluir artefactos de baja frecuencia no relacionados a actividad cerebral.
+- La duración de los registros no fue idéntica entre sujetos (≈133 s vs ≈95 s), lo que puede afectar la resolución espectral del cálculo de Welch y dificultar una comparación estrictamente controlada.
+- No se aplicó ningún método de rechazo de artefactos (como ICA o umbral de amplitud) antes de calcular las bandas, por lo que los picos de gran amplitud observados en el sujeto 1 entraron directamente al cálculo de potencia.
 
 ### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
 
