@@ -124,27 +124,36 @@ Se registró la señal EEG del Sujeto 2 en condición basal (reposo) durante ~16
 
 Se registró la señal EEG del Sujeto 1 mientras se le realizaban preguntas cognitivas para que resuelva mentalmente (reposo) durante ~120 s. Se aplicó un filtro notch (60 Hz) y un filtro pasa-banda de 0.5–45 Hz, y se calculó la densidad espectral de potencia (PSD), la potencia relativa por banda y el espectrograma.
 
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_señal_cruda.png" width="450" alt="Preguntas - señal cruda"> | <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_señal_filtrada.png" width="450" alt="Preguntas - señal filtrada"> |
+| PSD | <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_psd_cruda.png" width="450" alt="Preguntas - PSD cruda"> | <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_psd_filtrada.png" width="450" alt="Preguntas - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="imagenes_preguntas_cognitivas/sujeto1_preguntas_potencia_por_banda.png" width="450" alt="Preguntas - potencia por banda"> | <img src="imagenes_basal/sujeto1_preguntas_espectrograma.png" width="450" alt="Preguntas - espectrograma"> |
+
 #### **5.3.2 Sujeto 2**
 
 Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cognitivas para que resuelva mentalmente (reposo) durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
 
 #### **5.3.3 Comparación entre sujetos**
 
-### **5.4 Música ruidosa: Candy Perreo y Hottiefrutti**
+### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
 
-#### **5.4.1 Procedimiento**
+#### **5.5.1 Procedimiento**
 
 Cada sujeto escuchó una canción distinta mientras se registraba su señal EEG con el BITalino. El Sujeto 1 (Rolando) escuchó Hottiefrutti durante ~77 s. El Sujeto 2 (Claudia) escuchó Candy Perreo durante ~32 s. Ambos sujetos permanecieron sentados, con los ojos cerrados, escuchando la canción por audífonos. 
 
 El procesamiento fue el mismo que en la condición basal: filtro notch en 60 Hz, filtro pasa-banda de 0.5–45 Hz, densidad espectral de potencia (PSD), potencia relativa por banda y espectrograma.
 
-#### **5.4.2 Videos**
+#### **5.5.2 Videos**
 
 - Hottiefrutti (Sujeto 1): https://www.youtube.com/watch?v=is8UDe2PhKQ
 Es una canción con influencias del género funk brasileño.
 - Candy Perreo (Sujeto 2): https://www.youtube.com/watch?v=WdPsMIJJBD4&list=RDWdPsMIJJBD4&start_radio=1 
 En una canción de reggaetón. 
-#### **5.4.3 Hottiefrutti (Sujeto 1)**
+#### **5.5.3 Hottiefrutti (Sujeto 1)**
 
 | | Señal cruda | Señal filtrada |
 |:--|:--:|:--:|
@@ -173,7 +182,7 @@ En una canción de reggaetón.
 - Delta sube de ≈ 55 % en el basal a ≈ 73 % con Hottiefrutti. El aumento coincide con un registro con más artefactos grandes y con saturación breve. Se explica mejor por parpadeos o movimientos que por un cambio en la actividad cerebral.
 - La potencia relativa es un porcentaje. Si delta crece, las demás bandas bajan aunque su potencia real no cambie. Al recalcular sin delta, la proporción entre las otras bandas es parecida al basal: beta pasa de ≈ 36 % a ≈ 31 % y theta de ≈ 34 % a ≈ 42 %. No hay un aumento de beta atribuible a la canción.
 
-#### **5.4.4 Candy Perreo (Sujeto 2)**
+#### **5.5.4 Candy Perreo (Sujeto 2)**
 
 | | Señal cruda | Señal filtrada |
 |:--|:--:|:--:|
@@ -203,7 +212,7 @@ En una canción de reggaetón.
 - El beta relativamente alto no indica por sí solo mayor activación. Con un espectro casi plano, las bandas más anchas acumulan más potencia solo por su ancho: beta abarca 17 Hz, mientras que delta abarca 3.5 Hz.
 - El registro dura solo ~32 s, lo que da menos ventanas para estimar la PSD y resultados menos estables.
 
-#### **5.4.5 Comparación entre canciones**
+#### **5.5.5 Comparación entre canciones**
 
 | Banda | S1 basal (%) | Hottiefrutti, S1 (%) | S2 basal (%) | Candy Perreo, S2 (%) |
 |:------|:-----------:|:-----------:|:-----------:|:-----------:|
@@ -219,7 +228,7 @@ En una canción de reggaetón.
 - Frente a su basal, el Sujeto 1 muestra más delta, en un registro con más artefactos. El Sujeto 2 prácticamente no cambia.
 - En el dominio del tiempo, el registro de Hottiefrutti tiene artefactos grandes y aislados, mientras que el de Candy Perreo está saturado de forma casi continua por la interferencia de 60 Hz. Esta diferencia es la misma que ya existía entre los dos sujetos en el basal.
 
-#### **5.4.7 Conclusión**
+#### **5.5.7 Conclusión**
 
 No se encontró evidencia de que Hottiefrutti o Candy Perreo hayan cambiado el EEG de los sujetos. Con Hottiefrutti, delta subió de ≈ 55 % a ≈ 73 %. Ese aumento coincide con más parpadeos y con los tramos donde la señal se saturó. Si se quita delta del cálculo, las demás bandas quedan casi igual que en el basal. En Candy Perreo la distribución apenas cambió respecto al basal de ese sujeto, aunque esto dice poco porque la señal cruda estuvo saturada por los 60 Hz durante gran parte del registro. Para saber si la canción influye, lo mínimo sería que ambas las escuche el mismo sujeto durante el mismo tiempo. El contacto de los electrodos también tendría que mejorar, sobre todo en el caso de Candy Perreo.
 > **Limitaciones:** cada canción la escuchó un sujeto distinto; la amplitud está en µV aproximados; los porcentajes se leyeron de las gráficas; los artefactos no se eliminaron; los registros tienen duraciones distintas (~77 s y ~32 s); y en el Sujeto 2 la saturación impide conocer la amplitud real de la señal en buena parte del registro.
