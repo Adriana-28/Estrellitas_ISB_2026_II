@@ -118,6 +118,18 @@ Se registró la señal EEG del Sujeto 2 en condición basal (reposo) durante ~16
 
 > **Limitaciones:** la amplitud está en µV aproximados (depende de la conversión usada en el procesamiento); los porcentajes se leyeron de las gráficas; los artefactos no se eliminaron; y en el Sujeto 2 la saturación impide conocer la amplitud real de la señal en la mayor parte del registro.
 
+### **5.3 Preguntas cognitivas**
+
+#### **5.3.1 Sujeto 1**
+
+Se registró la señal EEG del Sujeto 1 mientras se le realizaban preguntas cognitivas para que resuelva mentalmente (reposo) durante ~120 s. Se aplicó un filtro notch (60 Hz) y un filtro pasa-banda de 0.5–45 Hz, y se calculó la densidad espectral de potencia (PSD), la potencia relativa por banda y el espectrograma.
+
+#### **5.3.2 Sujeto 2**
+
+Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cognitivas para que resuelva mentalmente (reposo) durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
+
+#### **5.3.3 Comparación entre sujetos**
+
 ## **6. Cuestionario**
 
 ### **Q1. ¿Cuáles son las frecuencias relevantes del EEG y en qué se diferencian según la región del cerebro?**
