@@ -36,6 +36,7 @@ La electroencefalografía (EEG) es una técnica para registrar la actividad elé
 | Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Laptop" width="250"> |
 
 ## **4. Metodología**
+### **4.1 Uso de FFT e identificación de bandas EEG**
 
 ## **5. Resultados**
 
