@@ -337,7 +337,21 @@ Cada banda no aparece con la misma intensidad en todo el cuero cabelludo:
 
 En los registros basales de ambos sujetos predominó delta y no se observó un pico alpha claro. Esto es coherente con registros que no se hicieron sobre la región occipital y que incluyen artefactos.
 
+### **Q2. Which kind of filter is essential when working with EEG signals? Why do we need to apply such a filter?**
 
+The filter that cannot be skipped when working with EEG is the **notch filter at the local power line frequency** (60 Hz in Peru, since the electrical grid runs at that frequency; 50 Hz in regions that use that standard). EEG amplitude is in the microvolt range, and the wiring, the body itself, and nearby equipment act as antennas for the electromagnetic field radiated by power lines and outlets. Without removing it, this interference can be orders of magnitude larger than the actual brain signal and completely masks it, as seen in the raw PSD plots where a sharp spike appears right at the edge of the 60 Hz region.
+
+Alongside the notch filter, a **band-pass filter** (commonly around 0.5-45 Hz for general EEG analysis) is also essential. It removes two things at once:
+- Very low frequency drift below ~0.5 Hz, caused by electrode-skin impedance changes, sweat, or slow motion artifacts, which otherwise dominates the spectrum and can be mistaken for delta activity.
+- High frequency noise above 45 Hz, which is mostly muscle activity (EMG) from the scalp, jaw, or forehead muscles rather than cortical activity, plus any remaining electronic noise.
+
+Together, these two filters keep only the frequency range where real cortical EEG rhythms (delta through gamma) exist, and reject the two main non-neural contaminants (power line interference and drift/muscle noise) that would otherwise make any band-power analysis meaningless.
+
+### **Q7. To the best of your knowledge, does the EEG amplitude equal to the level of focus you have applied?**
+
+No, amplitude by itself is not a direct readout of focus. What changes with focus and cognitive effort is mainly the **distribution of power across frequency bands**, not the raw amplitude of the signal. For example, a rise in beta power relative to delta/theta is more associated with active mental engagement, while a drop in alpha is associated with the brain moving away from a relaxed, idle state into active processing. Raw amplitude on its own can increase just as easily due to artifacts (blinking, jaw clenching, electrode movement, even sweating), which have nothing to do with how focused someone is, and this was visible in the frontal recordings where large-amplitude spikes appeared regardless of the cognitive task.
+
+So interpreting focus from EEG means looking at relative band power or specific ratios (like beta/alpha or theta/beta), evaluated over a clean, artifact-filtered signal, rather than simply looking at how "big" the raw waveform gets at any given moment.
 
 ## **7. Referencias**
 
