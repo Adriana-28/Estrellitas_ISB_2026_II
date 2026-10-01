@@ -37,6 +37,41 @@ La electroencefalografía (EEG) es una técnica para registrar la actividad elé
 
 ## **4. Metodología**
 ### **4.1 Uso de FFT e identificación de bandas EEG**
+## Uso de la FFT para el análisis de señales EEG
+
+La señal de electroencefalografía (EEG) registra la actividad eléctrica cerebral a lo largo del tiempo. Sin embargo, cuando se observa únicamente la señal original, puede ser difícil identificar qué frecuencias están presentes, ya que diferentes componentes de frecuencia se encuentran mezclados dentro de la misma señal.
+
+Por esta razón se utiliza la **Transformada Rápida de Fourier (FFT, Fast Fourier Transform)**. La FFT es un método que permite transformar una señal desde el **dominio del tiempo** hacia el **dominio de la frecuencia**.
+
+En el dominio del tiempo se observa cómo cambia la amplitud de la señal EEG conforme transcurre el tiempo. En cambio, después de aplicar la FFT se puede observar qué frecuencias están presentes en la señal y cuál de ellas tiene una mayor amplitud o contribución.
+
+De forma general, este proceso puede representarse como:
+
+\[
+x(t) \xrightarrow{\text{FFT}} X(f)
+\]
+
+donde:
+
+- \(x(t)\) representa la señal EEG en función del tiempo.
+- \(X(f)\) representa la señal después de la FFT, expresada en función de la frecuencia.
+- \(f\) representa la frecuencia en Hz.
+
+El uso de la FFT es importante en EEG porque la actividad cerebral se suele clasificar en diferentes **bandas de frecuencia**. Las principales bandas son:
+
+| Banda EEG | Rango de frecuencia aproximado |
+|---|---|
+| Delta | 0.5 – 4 Hz |
+| Theta | 4 – 8 Hz |
+| Alpha | 8 – 13 Hz |
+| Beta | 13 – 30 Hz |
+| Gamma | > 30 Hz |
+
+Una vez obtenida la FFT, estas bandas pueden identificarse observando en qué rangos de frecuencia aparecen los principales picos o aumentos de amplitud. Por ejemplo, si se observa un aumento importante alrededor de los **10 Hz**, este componente pertenece a la banda **Alpha**, ya que se encuentra dentro del rango de 8 a 13 Hz.
+
+De esta manera, la FFT facilita la comparación de la actividad cerebral en diferentes condiciones. En el caso de una prueba de **ojos abiertos y ojos cerrados**, se espera observar principalmente cambios en la banda Alpha. Generalmente, cuando una persona se encuentra relajada con los ojos cerrados, la actividad Alpha aumenta, mientras que al abrir los ojos esta actividad suele disminuir.
+
+Por lo tanto, la FFT permite analizar con mayor claridad la composición en frecuencia de la señal EEG e identificar qué bandas cerebrales presentan cambios durante una determinada actividad o condición experimental.
 
 ## **5. Resultados**
 
