@@ -6,6 +6,11 @@ La electroencefalografía (EEG) es una técnica para registrar la actividad elé
 
 ## **2. Objetivos del laboratorio**
 
+- Registrar la señal EEG de un integrante del grupo durante la exposición a diferentes estímulos.
+- Configurar de manera adecuada el dispositivo BiTalino.
+- Representar gráficamente las señales EEG utilizando el software OpenSignals (r)evolution.
+- Interpretar y analizar los datos obtenidos a partir del registro.
+
 ## **3. Materiales**
 
 ## **4. Metodología**
