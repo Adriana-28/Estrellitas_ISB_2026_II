@@ -208,27 +208,23 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 #### **5.2.3 Interpretación**
 
-## Interpretación
-
 - En ambos sujetos se esperaba observar un aumento de la actividad **Alpha (8–13 Hz)** durante los periodos con los ojos cerrados y una disminución al abrirlos. Sin embargo, este comportamiento no se observa de manera claramente diferenciada en las gráficas obtenidas, ya que no aparecen cinco incrementos bien definidos de Alpha correspondientes a los cinco ciclos realizados.
 
-- En el **Sujeto 1** se observa una fuerte predominancia de la banda Delta, con aproximadamente 79 % de la potencia total, mientras que Alpha representa solo cerca del 4–5 %. Debido a que el sujeto se encontraba despierto, esta elevada potencia en bajas frecuencias probablemente no corresponde únicamente a actividad cerebral Delta, sino que puede estar influenciada por parpadeos, movimientos oculares y otros artefactos de baja frecuencia producidos durante la apertura y cierre de los ojos.
+- En el **Sujeto 1** se observa una fuerte predominancia de la banda Delta, con aproximadamente 79 % de la potencia total, mientras que Alpha representa solo cerca del 4–5 %.
 
 - El **Sujeto 2** presenta una distribución de potencia más equilibrada. Delta continúa siendo la banda predominante, pero disminuye hasta aproximadamente 47–48 %, mientras que Alpha aumenta hasta alrededor del 10 % y Beta alcanza cerca del 21–22 %. Esto indica que en este sujeto existe una mayor presencia relativa de actividad en frecuencias medias y altas, aunque tampoco se observa un incremento de Alpha suficientemente claro como para relacionarlo directamente con cada periodo de ojos cerrados.
 
 - Las diferencias entre ambos sujetos muestran que la respuesta EEG puede variar considerablemente entre personas y que la calidad del registro también puede verse afectada por factores como la ubicación de los electrodos, movimientos durante la adquisición, parpadeos y contacto de los electrodos. Por ello, una elevada potencia en una banda determinada no debe interpretarse únicamente como un cambio en la actividad cerebral sin considerar posibles artefactos.
 
-- Una posible razón por la que el efecto de abrir y cerrar los ojos no se distingue claramente es que la PSD y la potencia relativa fueron calculadas considerando el registro completo. De esta manera, los periodos con ojos abiertos y cerrados se encuentran mezclados en un mismo análisis. Para observar mejor el fenómeno esperado, sería conveniente separar ambas condiciones y comparar directamente la potencia de Alpha durante los periodos con ojos abiertos y con ojos cerrados.
-
 #### **5.2.4 Comparación entre sujetos**
 
 | Banda | Sujeto 1 (%) | Sujeto 2 (%) |
 |:------|:-----------:|:-----------:|
-| Delta (0.5–4 Hz) | ≈ 55 | ≈ 34 |
-| Theta (4–8 Hz) | ≈ 15 | ≈ 18 |
-| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 15 |
-| Beta (13–30 Hz) | ≈ 16 | ≈ 27 |
-| Gamma (30–45 Hz) | ≈ 3 | ≈ 6 |
+| Delta (0.5–4 Hz) | ≈ 79 | ≈ 48 |
+| Theta (4–8 Hz) | ≈ 8 | ≈ 13 |
+| Alpha (8–13 Hz) | ≈ 5 | ≈ 10 |
+| Beta (13–30 Hz) | ≈ 7 | ≈ 22 |
+| Gamma (30–45 Hz) | ≈ 2 | ≈ 6 |
 
 *Valores aproximados, leídos de las gráficas de potencia relativa.*
 
