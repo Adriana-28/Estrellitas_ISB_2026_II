@@ -196,7 +196,33 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 **Análisis – Sujeto 2**
 
+### Sujeto 2
 
+- La señal EEG registrada durante aproximadamente 94 s presenta una amplitud elevada y bastante variable en la señal cruda, llegando con frecuencia a valores cercanos a ±40 µV. Después del filtrado, la señal se concentra principalmente alrededor de ±10 µV, aunque permanecen algunos picos aislados que alcanzan aproximadamente entre ±20 y ±30 µV. Esto indica que el filtrado reduce considerablemente parte del ruido presente en el registro, pero conserva las variaciones correspondientes a componentes dentro del rango de interés del EEG.
+
+- En la PSD de la señal cruda se observa una elevada potencia en las frecuencias bajas y un aumento muy pronunciado alrededor de 60 Hz, correspondiente a interferencia de la red eléctrica. Esta componente desaparece después de aplicar el filtro notch, mientras que la PSD filtrada mantiene una mayor potencia en las frecuencias bajas y disminuye progresivamente hacia frecuencias mayores. A diferencia del Sujeto 1, también se observan pequeñas variaciones en frecuencias intermedias, aunque sin un pico Alpha claramente definido entre 8 y 13 Hz.
+
+- La distribución de potencia presenta aproximadamente **Delta ≈ 47–48 %, Theta ≈ 15 %, Alpha ≈ 10 %, Beta ≈ 21–22 % y Gamma ≈ 5–6 %**. Aunque Delta continúa siendo la banda con mayor potencia, su predominancia es menor que en el Sujeto 1. Además, destaca una mayor participación de Beta y Alpha, lo que indica que la potencia está distribuida de manera más equilibrada entre las diferentes bandas EEG.
+
+- El espectrograma muestra mayor intensidad en las frecuencias bajas durante prácticamente todo el registro, especialmente por debajo de aproximadamente 5 Hz. Sin embargo, también se observa actividad distribuida en frecuencias medias y altas. En el rango Alpha (8–13 Hz) no se distinguen claramente cinco aumentos periódicos de potencia que puedan asociarse directamente con los cinco periodos de ojos cerrados, por lo que el efecto de apertura y cierre ocular tampoco resulta evidente únicamente mediante esta representación.
+
+- En conjunto, el Sujeto 2 presenta un comportamiento diferente al Sujeto 1: existe una menor concentración de potencia exclusivamente en Delta y una mayor contribución de Theta, Alpha y especialmente Beta. A pesar de esta distribución más equilibrada, no se identifica claramente el patrón esperado de cinco incrementos de actividad Alpha correspondientes a los periodos de ojos cerrados, por lo que al analizar el registro completo las diferencias entre ojos abiertos y cerrados continúan siendo difíciles de distinguir.
+
+#### **5.2.3 Comparación entre sujetos**
+
+
+
+#### **5.2.3 Comparación entre sujetos**
+
+| Banda | Sujeto 1 (%) | Sujeto 2 (%) |
+|:------|:-----------:|:-----------:|
+| Delta (0.5–4 Hz) | ≈ 55 | ≈ 34 |
+| Theta (4–8 Hz) | ≈ 15 | ≈ 18 |
+| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 15 |
+| Beta (13–30 Hz) | ≈ 16 | ≈ 27 |
+| Gamma (30–45 Hz) | ≈ 3 | ≈ 6 |
+
+*Valores aproximados, leídos de las gráficas de potencia relativa.*
 
 ### **5.3 Preguntas cognitivas**
 
