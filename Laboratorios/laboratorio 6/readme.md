@@ -543,3 +543,7 @@ Entonces, interpretar la concentración a partir del EEG implica observar la pot
 - Klimesch, W. (1999). EEG alpha and theta oscillations reflect cognitive and memory performance: A review and analysis. *Brain Research Reviews, 29*(2–3), 169–195. https://doi.org/10.1016/S0165-0173(98)00056-3
 - Pfurtscheller, G., & Lopes da Silva, F. H. (1999). Event-related EEG/MEG synchronization and desynchronization: Basic principles. *Clinical Neurophysiology, 110*(11), 1842–1857. https://doi.org/10.1016/S1388-2457(99)00141-8
 - Schomer, D. L., & Lopes da Silva, F. H. (Eds.). (2018). *Niedermeyer's electroencephalography: Basic principles, clinical applications, and related fields* (7th ed.). Oxford University Press.
+- Webster, K., & Ro, T. (2020). Visual modulation of resting state α oscillations. eNeuro, 7(1), ENEURO.0268-19.2019. https://doi.org/10.1523/ENEURO.0268-19.2019
+- Chakladar, D. D., & Roy, P. P. (2024). Cognitive workload estimation using physiological measures: A review. Cognitive Neurodynamics, 18(4), 1445–1465. https://doi.org/10.1007/s11571-023-10051-3
+- Rogenmoser, L., Zollinger, N., Elmer, S., & Jäncke, L. (2016). Independent component processes underlying emotions during natural music listening. Social Cognitive and Affective Neuroscience, 11(9), 1428–1439. https://doi.org/10.1093/scan/nsw048
+- Croft, R. J., & Barry, R. J. (2000). Removal of ocular artifact from the EEG: A review. Neurophysiologie Clinique/Clinical Neurophysiology, 30(1), 5–19. https://doi.org/10.1016/S0987-7053(00)00055-1
