@@ -171,6 +171,7 @@ Se registró la señal EEG del Sujeto 1 mientras abría y sus ojos con un total 
 | <img src="imagen_abrir y cerrar ojos/rolando_potencia_por_banda.png" width="450" alt="Basal - señal cruda"> | <img src="imagen_abrir y cerrar ojos/rolando_espectrograma.png" width="450" alt="Basal - señal filtrada"> |
 
 **Análisis – Sujeto 1**
+
 **Interpretación – Sujeto 1**
 
 #### **5.2.2 Sujeto 2**
@@ -178,11 +179,15 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 | | Señal cruda | Señal filtrada |
 |:--|:--:|:--:|
+| Tiempo | <img src="imagen_abrir y cerrar ojos/claudia_señal_cruda.png" width="450" alt="Basal - señal cruda"> | <img src="imagen_abrir y cerrar ojos/claudia_señal_filtrada.png" width="450" alt="Basal - señal filtrada"> |
+| PSD | <img src="imagen_abrir y cerrar ojos/claudia_psd_cruda.png" width="450" alt="Basal - señal cruda"> | <img src="imagen_abrir y cerrar ojos/claudia_psd_filtrada.png" width="450" alt="Basal - señal filtrada"> |
 
 | Potencia relativa por banda | Espectrograma |
 |:--:|:--:|
+| <img src="imagen_abrir y cerrar ojos/claudia_potencia_por_banda.png" width="450" alt="Basal - señal cruda"> | <img src="imagen_abrir y cerrar ojos/claudia_espectrograma.png" width="450" alt="Basal - señal filtrada"> |
 
 **Análisis – Sujeto 2**
+
 **Interpretación – Sujeto 2**
 
 ### **5.3 Preguntas cognitivas**
