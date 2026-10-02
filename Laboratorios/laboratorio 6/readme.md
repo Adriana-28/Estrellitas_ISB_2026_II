@@ -172,7 +172,15 @@ Se registró la señal EEG del Sujeto 1 mientras abría y sus ojos con un total 
 
 **Análisis – Sujeto 1**
 
-**Interpretación – Sujeto 1**
+- La señal EEG presenta variaciones de amplitud durante todo el registro, con varios picos que alcanzan aproximadamente ±40 µV. Estos cambios se mantienen incluso después del filtrado, por lo que corresponden principalmente a componentes de baja frecuencia presentes dentro del rango de análisis y podrían estar relacionados con movimientos oculares o parpadeos durante la actividad.
+
+- El análisis en frecuencia muestra que la mayor parte de la potencia se concentra en las frecuencias bajas. Además, en la señal sin filtrar se observa una componente alrededor de 60 Hz, la cual desaparece después del filtrado, indicando que el filtro notch eliminó correctamente la interferencia de la red eléctrica.
+
+- La distribución de potencia por bandas está dominada por Delta (0.5–4 Hz), con aproximadamente 79 % de la potencia total. Las demás bandas presentan valores considerablemente menores: Theta ≈ 7–8 %, Alpha ≈ 4–5 %, Beta ≈ 6–7 % y Gamma ≈ 1–2 %.
+
+- A pesar de que la actividad consistía en realizar cinco ciclos de apertura y cierre de los ojos, no se observa un aumento claramente definido de la banda Alpha (8–13 Hz). Tanto la PSD como el espectrograma muestran una mayor concentración de energía en frecuencias bajas y no permiten distinguir claramente los cinco periodos en los que se cerraron los ojos.
+
+- En general, las gráficas muestran un comportamiento consistente entre sí: existe una fuerte predominancia de actividad de baja frecuencia y una contribución relativamente pequeña de Alpha. Por ello, a partir del análisis global de todo el registro no se puede identificar de forma clara el cambio esperado entre los periodos de ojos abiertos y ojos cerrados.
 
 #### **5.2.2 Sujeto 2**
 Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con un total de 5 ciclos., con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
@@ -188,7 +196,7 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 **Análisis – Sujeto 2**
 
-**Interpretación – Sujeto 2**
+
 
 ### **5.3 Preguntas cognitivas**
 
