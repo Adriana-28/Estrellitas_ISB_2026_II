@@ -429,7 +429,7 @@ Es una canción de reggaetón.
 
 - **PSD cruda:** la potencia es máxima cerca de 0.5 Hz (~60 µV²/Hz) y decae hasta ~0.03 µV²/Hz en 50 Hz. El pico de 60 Hz solo llega a ~4 µV²/Hz, así que la interferencia de la red es baja. Hay elevaciones leves cerca de ~10 y ~14 Hz, insuficientes para hablar de un ritmo dominante.
 - **PSD filtrada:** desaparece la componente de 60 Hz. El máximo está cerca de 1 Hz y el espectro decae de forma suave hasta 45 Hz. No hay un pico alpha visible.
-- **Potencia relativa por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 70 %, Theta ≈ 10 %, Alpha ≈ 5 %, Beta ≈ 8 %, Gamma ≈ 2 %.
+- **Potencia relativa por banda (valores leídos de la gráfica, aproximados):** Delta ≈ 73 %, Theta ≈ 11 %, Alpha ≈ 5.5 %, Beta ≈ 8 %, Gamma ≈ 1.5 %.
 - **Espectrograma:** la energía se concentra en 0–10 Hz. Las zonas más intensas están cerca de ~10 s, ~16–18 s, ~27–29 s y ~57–60 s, que coinciden con los artefactos de la señal temporal. En las bandas superiores no hay cambios a lo largo del registro.
 
 **Interpretación**
@@ -471,11 +471,11 @@ Es una canción de reggaetón.
 
 | Banda | S1 basal (%) | Hottiefrutti, S1 (%) | S2 basal (%) | Candy Perreo, S2 (%) |
 |:------|:-----------:|:-----------:|:-----------:|:-----------:|
-| Delta (0.5–4 Hz) | ≈ 55 | ≈ 70 | ≈ 34 | ≈ 35 |
-| Theta (4–8 Hz) | ≈ 15 | ≈ 10 | ≈ 18 | ≈ 16 |
-| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 5 | ≈ 15 | ≈ 15 |
+| Delta (0.5–4 Hz) | ≈ 55 | ≈ 73 | ≈ 34 | ≈ 35 |
+| Theta (4–8 Hz) | ≈ 15 | ≈ 11 | ≈ 18 | ≈ 16 |
+| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 5.5 | ≈ 15 | ≈ 15 |
 | Beta (13–30 Hz) | ≈ 16 | ≈ 8 | ≈ 27 | ≈ 28 |
-| Gamma (30–45 Hz) | ≈ 3 | ≈ 2 | ≈ 6 | ≈ 6.5 |
+| Gamma (30–45 Hz) | ≈ 3 | ≈ 1.5 | ≈ 6 | ≈ 6.5 |
 
 *Valores aproximados, leídos de las gráficas de potencia relativa.*
 
