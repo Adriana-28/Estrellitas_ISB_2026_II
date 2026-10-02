@@ -40,8 +40,30 @@ La electroencefalografía (EEG) es una técnica para registrar la actividad elé
 | Laptop | 1 | <img src="../../img/laptop_ejemplo.jpg" alt="Laptop" width="250"> |
 
 ## **4. Metodología**
-### **4.1 Uso de FFT e identificación de bandas EEG**
-## Uso de la FFT para el análisis de señales EEG
+
+# Procedimiento realizado
+
+Para este laboratorio se seleccionaron 2 integrantes del grupo como sujetos de prueba, sobre quienes se registraron señales de EEG bajo distintas condiciones experimentales.
+
+Antes de la colocación de los electrodos, se limpió la zona de la frente de cada sujeto, ya que los 3 electrodos del BITalino (r)evolution se colocaron en esa región para la medición del EEG frontal. Una vez colocados los electrodos, se vendaron los ojos de los sujetos y se les colocaron audífonos con cancelación de ruido, con el fin de aislarlos de estímulos visuales y auditivos externos durante todo el experimento.
+
+Todas las mediciones se registraron desde el software OpenSignals, con una duración aproximada de 90 a 120 segundos cada una (con excepción de una medición del sujeto 1, que se descartó de este análisis por no cumplir con esa duración).
+
+Las condiciones evaluadas, en el orden en que se realizaron, fueron las siguientes:
+
+1. **Medición basal (reposo):** los sujetos permanecieron sentados, vendados, con los audífonos de cancelación de ruido puestos y sin realizar ningún esfuerzo físico o mental, en estado de reposo.
+
+2. **Apertura y cierre de ojos:** se les retiró momentáneamente la venda y se les pidió abrir y cerrar los ojos a un ritmo constante, con el objetivo de observar el efecto de este movimiento sobre la señal registrada.
+
+3. **Preguntas cognitivas:** nuevamente con los ojos vendados, se les realizó una serie de preguntas cognitivas, incluyendo cálculos mentales de nivel medio y preguntas que requerían razonamiento, con el fin de estimular su actividad mental activa.
+
+4. **Música relajante (Lo-Fi):** se les hizo escuchar una pista de música Lo-Fi de carácter relajante, buscando inducir un estado de relajación.
+
+5. **Música de ritmo acelerado:** finalmente, se les hizo escuchar música de un ritmo más intenso y ruidoso (reggaetón, funk brasileño), con el fin de contrastar el efecto de un estímulo auditivo más estimulante frente a la condición anterior.
+
+En todas las condiciones se mantuvo el mismo montaje de electrodos (3 canales frontales) y las mismas condiciones de aislamiento sensorial (venda y audífonos con cancelación de ruido), variando únicamente la tarea o el estímulo presentado al sujeto.
+
+# Uso de la FFT para el análisis de señales EEG
 
 La señal de electroencefalografía (EEG) registra la actividad eléctrica cerebral a lo largo del tiempo. Sin embargo, cuando se observa únicamente la señal original, puede ser difícil identificar qué frecuencias están presentes, ya que diferentes componentes de frecuencia se encuentran mezclados dentro de la misma señal.
 
