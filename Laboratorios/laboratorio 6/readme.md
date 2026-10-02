@@ -163,6 +163,7 @@ Se registró la señal EEG del Sujeto 1 mientras abría y sus ojos con un total 
 
 | | Señal cruda | Señal filtrada |
 |:--|:--:|:--:|
+| Tiempo | <img src="imagen_abrir y cerrar ojos/rolando_señal_cruda.png" width="450" alt="Basal - señal cruda"> | <img src="imagen_abrir y cerrar ojos/rolando_señal_filtrada.png" width="450" alt="Basal - señal filtrada"> |
 
 | Potencia relativa por banda | Espectrograma |
 |:--:|:--:|
