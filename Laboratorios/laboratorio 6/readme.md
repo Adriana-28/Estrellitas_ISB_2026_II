@@ -526,7 +526,7 @@ En los registros de este laboratorio sí se logró visualizar un cambio general 
 ### **Q4. Muestra una captura de pantalla de una porción relevante de la señal de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?**
 
 <p align="center">
-  <img src="imagenes_preguntas_cognitivas/sujeto2_señal_filtrada_preguntas.png" alt="Ondas caracteríasticas del EEG" width="350">
+  <img src="imagenes_preguntas_cognitivas/sujeto2_señal_filtrada_preguntas.png" alt="Ondas caracteríasticas del EEG" width="600">
 </p>
 
 Esta señal corresponde parcialmente a lo esperado. Por un lado, se observa el comportamiento típico de una señal EEG filtrada: oscilaciones rápidas de amplitud relativamente baja (generalmente por debajo de ±20 µV), sin una tendencia de deriva en el tiempo, lo cual indica que el filtro pasa-banda (0.5-45 Hz) cumplió su función de eliminar el offset de línea base y el ruido de alta frecuencia.
