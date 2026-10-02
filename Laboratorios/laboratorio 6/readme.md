@@ -309,9 +309,27 @@ Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cogn
 
 Se registró la señal EEG del Sujeto 1 mientras se le hizo escuchar música relajante tipo LoFi, con los ojos vendados y con audífonos con cancelación de ruido durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
 
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_señal_cruda.png" width="450" alt="Canción Relajada - señal cruda"> | <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_señal_filtrada.png" width="450" alt="Canción Relajada - señal filtrada"> |
+| PSD | <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_psd_cruda.png" width="450" alt="Canción Relajada - PSD cruda"> | <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_psd_filtrada.png" width="450" alt="Canción Relajada - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_potencia_por_banda.png" width="450" alt="Canción Relajada - potencia por banda"> | <img src="imagenes_cancion_relajada/sujeto1_cancion_relajada_espectrograma.png" width="450" alt="Canción Relajada - espectrograma"> |
+
 #### **5.4.2 Sujeto 2**
 
 Se registró la señal EEG del Sujeto 2 mientras se le hizo escuchar música relajante tipo LoFi durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
+
+| | Señal cruda | Señal filtrada |
+|:--|:--:|:--:|
+| Tiempo | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_señal_cruda.png" width="450" alt="Canción Relajada - señal cruda"> | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_señal_filtrada.png" width="450" alt="Canción Relajada - señal filtrada"> |
+| PSD | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_psd_cruda.png" width="450" alt="Canción Relajada - PSD cruda"> | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_psd_filtrada.png" width="450" alt="Canción Relajada - PSD filtrada"> |
+
+| Potencia relativa por banda | Espectrograma |
+|:--:|:--:|
+| <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_potencia_por_banda.png" width="450" alt="Canción Relajada - potencia por banda"> | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_espectrograma.png" width="450" alt="Canción Relajada - espectrograma"> |
 
 ### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
 
