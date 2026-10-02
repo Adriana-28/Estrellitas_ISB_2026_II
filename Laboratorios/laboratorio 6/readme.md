@@ -407,7 +407,7 @@ El procesamiento fue el mismo que en la condición basal: filtro notch en 60 Hz,
 - Hottiefrutti (Sujeto 1): https://www.youtube.com/watch?v=is8UDe2PhKQ
 Es una canción con influencias del género funk brasileño.
 - Candy Perreo (Sujeto 2): https://www.youtube.com/watch?v=WdPsMIJJBD4&list=RDWdPsMIJJBD4&start_radio=1 
-En una canción de reggaetón. 
+Es una canción de reggaetón. 
 #### **5.5.3 Hottiefrutti (Sujeto 1)**
 
 | | Señal cruda | Señal filtrada |
@@ -471,11 +471,11 @@ En una canción de reggaetón.
 
 | Banda | S1 basal (%) | Hottiefrutti, S1 (%) | S2 basal (%) | Candy Perreo, S2 (%) |
 |:------|:-----------:|:-----------:|:-----------:|:-----------:|
-| Delta (0.5–4 Hz) | ≈ 55 | ≈ 73 | ≈ 34 | ≈ 35 |
-| Theta (4–8 Hz) | ≈ 15 | ≈ 11 | ≈ 18 | ≈ 16 |
-| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 5.5 | ≈ 15 | ≈ 15 |
+| Delta (0.5–4 Hz) | ≈ 55 | ≈ 70 | ≈ 34 | ≈ 35 |
+| Theta (4–8 Hz) | ≈ 15 | ≈ 10 | ≈ 18 | ≈ 16 |
+| Alpha (8–13 Hz) | ≈ 10.5 | ≈ 5 | ≈ 15 | ≈ 15 |
 | Beta (13–30 Hz) | ≈ 16 | ≈ 8 | ≈ 27 | ≈ 28 |
-| Gamma (30–45 Hz) | ≈ 3 | ≈ 1.5 | ≈ 6 | ≈ 6.5 |
+| Gamma (30–45 Hz) | ≈ 3 | ≈ 2 | ≈ 6 | ≈ 6.5 |
 
 *Valores aproximados, leídos de las gráficas de potencia relativa.*
 
@@ -532,6 +532,11 @@ En los registros de este laboratorio sí se logró visualizar un cambio general 
 Esta señal corresponde parcialmente a lo esperado. Por un lado, se observa el comportamiento típico de una señal EEG filtrada: oscilaciones rápidas de amplitud relativamente baja (generalmente por debajo de ±20 µV), sin una tendencia de deriva en el tiempo, lo cual indica que el filtro pasa-banda (0.5-45 Hz) cumplió su función de eliminar el offset de línea base y el ruido de alta frecuencia.
 
 Por otro lado, no corresponde completamente a lo esperado en el sentido de que una señal EEG "limpia" de actividad cortical debería mostrar una mezcla más balanceada de ritmos (delta, theta, alfa, beta) dependiendo del estado del sujeto, mientras que en varios de los registros se observan picos puntuales de gran amplitud (hasta ±40-50 µV) que sobresalen claramente del resto de la señal. Estos picos son más compatibles con artefactos de movimiento, parpadeo o tensión muscular frontal que con actividad neuronal real, ya que su amplitud y forma abrupta no son características de los ritmos corticales típicos. Esto es esperable dado que el montaje usado (3 electrodos frontales con un equipo de bajo costo como el BITalino) es mucho más sensible a este tipo de interferencias que un sistema clínico de EEG con mayor número de canales y electrodos de referencia dedicados.
+
+
+### **Q5. ¿Hay alguna diferencia en la señal entre las dos ubicaciones, FP1 y FP2?**
+
+Un electrodo va en FP1, otro en FP2 y el tercero, de referencia, detrás de la oreja, lo que se registra es la diferencia de potencial entre FP1 y FP2, así que no hay una señal de cada posición, sino una sola señal que resulta de restarlas. Esto hace que con nuestro montaje no se puedan comparar las dos ubicaciones por separado. Para comparar FP1 con FP2 habría que registrar cada posición contra la referencia detrás de la oreja, en canales separados. Se podría hacer con dos sensores EEG a la vez, o en dos registros seguidos moviendo el electrodo.
 
 ### **Q6. ¿Qué frecuencias deberían cambiar en las tareas realizadas? ¿Se pueden observar estos cambios específicos en la señal RAW? Describe lo observado.**
 
