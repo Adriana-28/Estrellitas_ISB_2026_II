@@ -515,6 +515,24 @@ Junto con el filtro notch, un **filtro pasa-banda** (comúnmente alrededor de 0.
 
 Juntos, estos dos filtros conservan únicamente el rango de frecuencia donde existen los ritmos de EEG corticales reales (de delta a gamma), y rechazan los dos principales contaminantes no neuronales (interferencia de línea eléctrica y deriva/ruido muscular) que de otra forma harían que cualquier análisis de potencia por banda careciera de sentido.
 
+### **Q3. ¿Se puede influir en la señal de EEG mediante los pensamientos? ¿Qué acción se puede realizar para intentar generar un cambio en una banda de frecuencia específica? ¿Se logró visualizar el cambio en la señal?**
+
+Sí, es posible influir en la señal de EEG de forma indirecta a través de la actividad mental y de ciertas acciones voluntarias, aunque no se trata de un control consciente directo sobre una frecuencia específica, sino del efecto que distintos estados cognitivos o motores tienen sobre la actividad cortical.
+
+La acción más clásica y efectiva para intentar generar un cambio visible en una banda de frecuencia es la **apertura y cierre de ojos a un ritmo constante**, realizada en uno de los ejercicios del laboratorio. Esto se basa en el fenómeno de **bloqueo alfa (alpha blocking)**: al cerrar los ojos, la corteza occipital/visual reduce su actividad y típicamente aumenta la potencia en la banda alfa (8-13 Hz); al abrir los ojos, ese ritmo se atenúa o desaparece. Otra acción que puede modular la señal es la **realización de cálculos mentales o tareas cognitivas activas**, que tiende a favorecer un aumento relativo de la banda beta (13-30 Hz) frente a un estado de reposo.
+
+En los registros de este laboratorio sí se logró visualizar un cambio general entre condiciones: al comparar la distribución de potencia por banda del estado basal/relajado contra la condición de preguntas cognitivas, se observó un corrimiento hacia mayor proporción de beta y menor proporción de delta en al menos uno de los sujetos (sujeto 2), lo cual es consistente con lo esperado al pasar de un estado relajado a uno de actividad mental. Sin embargo, con un montaje de solo 3 electrodos frontales (sin referencia occipital) no fue posible aislar con claridad el efecto específico de abrir y cerrar los ojos sobre la banda alfa, ya que esa señal se observa mejor en electrodos ubicados en la zona posterior de la cabeza.
+
+### **Q4. Muestra una captura de pantalla de una porción relevante de la señal de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?**
+
+<p align="center">
+  <img src="imagenes_preguntas_cognitivas/sujeto2_señal_filtrada_preguntas.png" alt="Ondas caracteríasticas del EEG" width="350">
+</p>
+
+Esta señal corresponde parcialmente a lo esperado. Por un lado, se observa el comportamiento típico de una señal EEG filtrada: oscilaciones rápidas de amplitud relativamente baja (generalmente por debajo de ±20 µV), sin una tendencia de deriva en el tiempo, lo cual indica que el filtro pasa-banda (0.5-45 Hz) cumplió su función de eliminar el offset de línea base y el ruido de alta frecuencia.
+
+Por otro lado, no corresponde completamente a lo esperado en el sentido de que una señal EEG "limpia" de actividad cortical debería mostrar una mezcla más balanceada de ritmos (delta, theta, alfa, beta) dependiendo del estado del sujeto, mientras que en varios de los registros se observan picos puntuales de gran amplitud (hasta ±40-50 µV) que sobresalen claramente del resto de la señal. Estos picos son más compatibles con artefactos de movimiento, parpadeo o tensión muscular frontal que con actividad neuronal real, ya que su amplitud y forma abrupta no son características de los ritmos corticales típicos. Esto es esperable dado que el montaje usado (3 electrodos frontales con un equipo de bajo costo como el BITalino) es mucho más sensible a este tipo de interferencias que un sistema clínico de EEG con mayor número de canales y electrodos de referencia dedicados.
+
 ### **Q6. ¿Qué frecuencias deberían cambiar en las tareas realizadas? ¿Se pueden observar estos cambios específicos en la señal RAW? Describe lo observado.**
 
 Las bandas que se esperaba que cambiaran dependían de la actividad realizada. Sin embargo, estos cambios corresponden principalmente a modificaciones en la **potencia de determinadas frecuencias** y no necesariamente a un aumento o disminución directa de la amplitud de la señal RAW.
