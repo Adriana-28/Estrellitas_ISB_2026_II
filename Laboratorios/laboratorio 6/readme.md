@@ -196,8 +196,6 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 **Análisis – Sujeto 2**
 
-### Sujeto 2
-
 - La señal EEG registrada durante aproximadamente 94 s presenta una amplitud elevada y bastante variable en la señal cruda, llegando con frecuencia a valores cercanos a ±40 µV. Después del filtrado, la señal se concentra principalmente alrededor de ±10 µV, aunque permanecen algunos picos aislados que alcanzan aproximadamente entre ±20 y ±30 µV. Esto indica que el filtrado reduce considerablemente parte del ruido presente en el registro, pero conserva las variaciones correspondientes a componentes dentro del rango de interés del EEG.
 
 - En la PSD de la señal cruda se observa una elevada potencia en las frecuencias bajas y un aumento muy pronunciado alrededor de 60 Hz, correspondiente a interferencia de la red eléctrica. Esta componente desaparece después de aplicar el filtro notch, mientras que la PSD filtrada mantiene una mayor potencia en las frecuencias bajas y disminuye progresivamente hacia frecuencias mayores. A diferencia del Sujeto 1, también se observan pequeñas variaciones en frecuencias intermedias, aunque sin un pico Alpha claramente definido entre 8 y 13 Hz.
@@ -208,11 +206,21 @@ Se registró la señal EEG del Sujeto 2 mientras también abría y sus ojos con 
 
 - En conjunto, el Sujeto 2 presenta un comportamiento diferente al Sujeto 1: existe una menor concentración de potencia exclusivamente en Delta y una mayor contribución de Theta, Alpha y especialmente Beta. A pesar de esta distribución más equilibrada, no se identifica claramente el patrón esperado de cinco incrementos de actividad Alpha correspondientes a los periodos de ojos cerrados, por lo que al analizar el registro completo las diferencias entre ojos abiertos y cerrados continúan siendo difíciles de distinguir.
 
-#### **5.2.3 Comparación entre sujetos**
+#### **5.2.3 Interpretación**
 
+## Interpretación
 
+- En ambos sujetos se esperaba observar un aumento de la actividad **Alpha (8–13 Hz)** durante los periodos con los ojos cerrados y una disminución al abrirlos. Sin embargo, este comportamiento no se observa de manera claramente diferenciada en las gráficas obtenidas, ya que no aparecen cinco incrementos bien definidos de Alpha correspondientes a los cinco ciclos realizados.
 
-#### **5.2.3 Comparación entre sujetos**
+- En el **Sujeto 1** se observa una fuerte predominancia de la banda Delta, con aproximadamente 79 % de la potencia total, mientras que Alpha representa solo cerca del 4–5 %. Debido a que el sujeto se encontraba despierto, esta elevada potencia en bajas frecuencias probablemente no corresponde únicamente a actividad cerebral Delta, sino que puede estar influenciada por parpadeos, movimientos oculares y otros artefactos de baja frecuencia producidos durante la apertura y cierre de los ojos.
+
+- El **Sujeto 2** presenta una distribución de potencia más equilibrada. Delta continúa siendo la banda predominante, pero disminuye hasta aproximadamente 47–48 %, mientras que Alpha aumenta hasta alrededor del 10 % y Beta alcanza cerca del 21–22 %. Esto indica que en este sujeto existe una mayor presencia relativa de actividad en frecuencias medias y altas, aunque tampoco se observa un incremento de Alpha suficientemente claro como para relacionarlo directamente con cada periodo de ojos cerrados.
+
+- Las diferencias entre ambos sujetos muestran que la respuesta EEG puede variar considerablemente entre personas y que la calidad del registro también puede verse afectada por factores como la ubicación de los electrodos, movimientos durante la adquisición, parpadeos y contacto de los electrodos. Por ello, una elevada potencia en una banda determinada no debe interpretarse únicamente como un cambio en la actividad cerebral sin considerar posibles artefactos.
+
+- Una posible razón por la que el efecto de abrir y cerrar los ojos no se distingue claramente es que la PSD y la potencia relativa fueron calculadas considerando el registro completo. De esta manera, los periodos con ojos abiertos y cerrados se encuentran mezclados en un mismo análisis. Para observar mejor el fenómeno esperado, sería conveniente separar ambas condiciones y comparar directamente la potencia de Alpha durante los periodos con ojos abiertos y con ojos cerrados.
+
+#### **5.2.4 Comparación entre sujetos**
 
 | Banda | Sujeto 1 (%) | Sujeto 2 (%) |
 |:------|:-----------:|:-----------:|
