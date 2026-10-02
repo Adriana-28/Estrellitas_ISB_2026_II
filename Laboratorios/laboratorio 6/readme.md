@@ -303,6 +303,16 @@ Se registró la señal EEG del Sujeto 2 mientras se le realizaban preguntas cogn
 - La duración de los registros no fue idéntica entre sujetos (≈133 s vs ≈95 s), lo que puede afectar la resolución espectral del cálculo de Welch y dificultar una comparación estrictamente controlada.
 - No se aplicó ningún método de rechazo de artefactos (como ICA o umbral de amplitud) antes de calcular las bandas, por lo que los picos de gran amplitud observados en el sujeto 1 entraron directamente al cálculo de potencia.
 
+### **5.4 Música relajante**
+
+#### **5.4.1 Sujeto 1**
+
+Se registró la señal EEG del Sujeto 1 mientras se le hizo escuchar música relajante tipo LoFi, con los ojos vendados y con audífonos con cancelación de ruido durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
+
+#### **5.4.2 Sujeto 2**
+
+Se registró la señal EEG del Sujeto 2 mientras se le hizo escuchar música relajante tipo LoFi durante ~165 s, con el mismo procesamiento: filtro notch (60 Hz) y pasa-banda de 0.5–45 Hz.
+
 ### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
 
 #### **5.5.1 Procedimiento**
