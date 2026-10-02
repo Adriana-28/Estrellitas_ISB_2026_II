@@ -331,6 +331,47 @@ Se registró la señal EEG del Sujeto 2 mientras se le hizo escuchar música rel
 |:--:|:--:|
 | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_potencia_por_banda.png" width="450" alt="Canción Relajada - potencia por banda"> | <img src="imagenes_cancion_relajada/sujeto2_cancion_relajada_espectrograma.png" width="450" alt="Canción Relajada - espectrograma"> |
 
+#### **5.4.3 Análisis**
+
+**Sujeto 1**
+
+- La señal cruda muestra un tramo particularmente agitado entre los segundos 17 y 40 aproximadamente, con picos que llegan a saturar cerca de ±40 µV, seguido de un tramo mucho más estable y de menor amplitud desde el segundo 40 en adelante. Este patrón sugiere que el sujeto se movió, parpadeó con fuerza o ajustó la venda/audífonos durante la primera mitad del registro, y luego se asentó en un estado más tranquilo.
+- La distribución de potencia está dominada casi por completo por delta (~82%), con todas las demás bandas por debajo del 10%. Ese nivel de dominancia, igual que en el experimento anterior, es demasiado alto para tratarse únicamente de actividad delta cortical genuina; es más coherente con la combinación de (a) artefactos de movimiento durante el tramo inicial agitado y (b) un efecto real de relajación profunda una vez que el sujeto se estabiliza, ya que la música y el aislamiento sensorial sí favorecen el aumento de ondas lentas.
+- El espectrograma confirma energía concentrada por debajo de 5 Hz de forma sostenida en casi todo el registro, sin bandas intermedias (alfa/beta) que se destaquen visualmente.
+
+**Sujeto 2**
+
+- La señal cruda es visiblemente más uniforme en amplitud a lo largo de todo el registro (~68 s), sin el tramo de saturación que se ve en el sujeto 1, aunque sí mantiene una amplitud de fondo relativamente alta (±40 µV en varios tramos) comparada con el registro de preguntas cognitivas.
+- La distribución de potencia sigue favoreciendo delta (~38%) pero de forma mucho menos extrema que el sujeto 1, con una proporción considerable aún en beta (~26.5%) y aportes similares de theta y alfa (~14% y ~13.5%). Esto indica que, aunque hay más actividad de baja frecuencia que en la tarea cognitiva previa (como se esperaría en relajación), el sujeto no entra en un estado tan dominado por ondas lentas como el sujeto 1.
+- El espectrograma muestra energía concentrada en bajas frecuencias, pero con algo más de variabilidad en frecuencias medias comparado con el sujeto 1, consistente con un estado relajado pero no tan "aplanado" espectralmente.
+
+#### **5.4.4 Interpretación**
+
+- En ambos sujetos, delta aumentó su participación relativa frente al experimento de preguntas cognitivas (75%→82% en sujeto 1; 35%→38% en sujeto 2), lo cual va en la dirección esperada: quitar estímulos visuales, aislar el ruido externo y escuchar música relajante favorece un incremento de actividad de baja frecuencia asociada a relajación, en comparación con tener que resolver problemas mentales activamente.
+- El contraste entre sujetos sigue siendo el mismo patrón que en el experimento anterior: el sujeto 1 muestra una concentración extrema en delta (82%) mientras que el sujeto 2 mantiene un perfil más distribuido entre bandas. Esto refuerza la idea de que buena parte de ese exceso de delta en el sujeto 1 no es solo relajación real, sino una combinación con artefactos de baja frecuencia (que ya se observaban también en el experimento de preguntas), especialmente visibles en el tramo de alta amplitud entre los segundos 17-40 de su registro.
+- Que el sujeto 2 conserve una proporción relativamente alta de beta (~26.5%) incluso en condición de relajación es llamativo; podría explicarse porque la música todavía representa un estímulo auditivo activo (aunque relajante), o porque persiste algo de actividad mioeléctrica frontal pese al intento de relajación.
+- La comparación entre el experimento de preguntas cognitivas y este de música relajante sugiere que el EEG frontal sí capta, al menos de forma relativa, un corrimiento hacia bandas más bajas cuando se pasa de una tarea activa a una pasiva, aunque la magnitud del cambio difiere bastante entre sujetos, probablemente por diferencias individuales en cómo se relajan y en la calidad de la señal captada por cada uno.
+- Al igual que antes, la banda alfa no se dispara de forma notoria en ninguno de los dos sujetos pese a tener los ojos vendados, lo cual podría deberse a que el estímulo auditivo activo (la música) mantiene cierto nivel de procesamiento cortical que compite con el clásico aumento de alfa asociado solo al cierre ocular en silencio.
+
+#### **5.4.5 Comparación de sujetos**
+
+| Banda | Sujeto 1 (%) | Sujeto 2 (%) |
+|---|---|---|
+| Delta (0.5-4 Hz) | ≈82 | ≈38 |
+| Theta (4-8 Hz) | ≈7 | ≈14 |
+| Alpha (8-13 Hz) | ≈4 | ≈13.5 |
+| Beta (13-30 Hz) | ≈5 | ≈26.5 |
+| Gamma (30-45 Hz) | ≈1 | ≈7.5 |
+
+*Valores aproximados, leídos de los gráficos de potencia relativa generados a partir de la PSD filtrada (Welch).*
+
+## Limitaciones
+
+- Con solo 3 electrodos frontales no se puede descartar que el artefacto de movimiento observado en el sujeto 1 (segundos 17-40) esté inflando artificialmente su porcentaje de delta; sería necesario un canal de referencia para movimiento ocular o EMG para separar ambos componentes.
+- La duración de los registros no es idéntica entre sujetos (≈85 s vs ≈68 s), lo que puede introducir pequeñas diferencias en la resolución del cálculo de potencia por Welch.
+- No se aplicó rechazo de artefactos antes de calcular la potencia por banda, por lo que los picos de alta amplitud detectados en el sujeto 1 quedaron incluidos directamente en el análisis espectral.
+- No se controló el volumen ni el contenido específico de la pista Lo-Fi entre sujetos, por lo que posibles diferencias en el estímulo auditivo (ritmo, intensidad) podrían contribuir a parte de la variabilidad observada entre ambos.
+
 ### **5.5 Música ruidosa: Candy Perreo y Hottiefrutti**
 
 #### **5.5.1 Procedimiento**
