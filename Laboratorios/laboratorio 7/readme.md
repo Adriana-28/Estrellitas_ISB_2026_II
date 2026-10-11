@@ -1,6 +1,6 @@
 # Resumen del Laboratorio 7: Filtros adaptativos y Transformada Wavelet en ECG
 
-Laboratorio del curso **Introducción a las Señales Biomédicas** (Universidad Peruana Cayetano Heredia). La idea del lab es simple: tomar un ECG real, ensuciarlo a propósito con ruido conocido, probar varias técnicas de filtrado y ver cuál recupera mejor la señal original. Todo está hecho en Python dentro de un notebook de Google Colab.
+La idea del laboratorio es tomar un ECG real, ensuciarlo a propósito con ruido conocido, probar varias técnicas de filtrado y ver cuál recupera mejor la señal original. Todo está hecho en Python dentro de un notebook de Google Colab.
 
 ## Objetivo
 
