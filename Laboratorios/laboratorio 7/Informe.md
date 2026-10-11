@@ -66,5 +66,12 @@ Este funciona como un ciclo de prueba y error:
 3. Corrige sus coeficientes un poquito para equivocarse menos la próxima vez.
 4. Repite miles de veces por segundo.
 
-
+## 12. Ideas clave
+1. Una wavelet es una onda corta que se desliza y se estira para ver qué pasa y cuándo.
+2. Escala pequeña detecta lo rápido y escala grande detecta lo lento.
+3. La CWT da el mapa visual (escalograma). La DWT separa tendencia (cA) y detalle (cD).
+4. La DWT consiste en filtrar, decimar y repetir. Reconstruir es interpolar y filtrar.
+5. Con n niveles hay n cD y un cA.
+6. Para limpiar ruido de banda ancha se descompone, se reducen los niveles ruidosos y se reconstruye. Para una interferencia de una sola frecuencia, mejor un notch.
+7. El LMS se corrige solo cuando el ruido cambia, y en la cancelación el error es la señal limpia.
 
