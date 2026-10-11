@@ -1,21 +1,20 @@
 # Transformada wavelet
 
 ## Definición de wavelet
-Es una onda corta que tiene un fin a diferencia del seno que no tiene un límite. Su energía se concentra en un intervalo pequeño de tiempo.
+Es una onda corta que tiene un fin, a diferencia del seno que no tiene un límite. Su energía se concentra en un intervalo pequeño de tiempo.
 Tiene tres caracteristicas principales: duración finita, localización temporal y es multiescala. 
 
 Todas las wavelets de una familia salen de una sola: la wavelet madre ψ(t). Esta se puede escalar y trasladar. 
  ψ_a,b(t) = (1/√|a|) · ψ((t - b) / a)
-
-
-## Diferencia con Fourier
-Fourier descompone la señal en senos infinitos. Te dice las frecuencias que hay, pero no en que momento aparecen. La wavelet conserva la información de tiempo.
 
 El parámetro "b" mueve la wavelet en el tiempo y el parámetro "a" la comprime o estira. 
 | Escala | Wavelet | Detecta |
 |---|---|---|
 | Pequeña | Comprimida | Altas frecuencias, eventos rápidos |
 | Grande | Expandida | Bajas frecuencias, tendencias lentas |
+
+## Diferencia con Fourier
+Fourier descompone la señal en senos infinitos. Te dice las frecuencias que hay, pero no en que momento aparecen. La wavelet conserva la información de tiempo.
 
 ## Transformada wavelet continua (CWT)
 La fórmula es 
