@@ -2,6 +2,10 @@
 
 La idea del laboratorio es tomar un ECG real, ensuciarlo a propósito con ruido conocido, probar varias técnicas de filtrado y ver cuál recupera mejor la señal original. Todo está hecho en Python dentro de un notebook de Google Colab.
 
+<p align="center">
+  <img src="../../img/wavelet.jpg" alt="Transformada wavelet" width="350">
+</p>
+
 ## Objetivo
 
 Evaluar y comparar distintas técnicas de filtrado digital (pasa-banda, notch, filtro adaptativo LMS y Transformada Wavelet) para la recuperación de una señal ECG contaminada de forma controlada, utilizando criterios visuales y métricas cuantitativas (RMSE, SNR y correlación).
