@@ -15,3 +15,20 @@ Los electrodos no registran una UM aislada, registran la suma espacial y tempora
 | Amplitud | De microvoltios (reposo) a pocos milivoltios (hasta unos 10 mV pico a pico) |
 | Banda útil | Aprox. 20 a 450/500 Hz |
 | Energía dominante | Aprox. 50 a 150 Hz |
+
+## 2. Qué se puede medir con sEMG
+
+La señal permite cuantificar de forma objetiva tres cosas. La intensidad de activación muscular (más señal implica más esfuerzo), el momento de activación entre músculos y el estado fisiológico del músculo (normal, anormal o fatigado). Cada efecto fisiológico se asocia a una característica de la señal y a un cálculo concreto.
+
+Tambien hay disfunciones que pueden medirse, los más frecuentes son:
+
+1. Exceso de tono basal (hipertonía), es decir, activación en reposo cuando el músculo debería estar relajado.
+2. Asimetría muscular en movimientos bilaterales.
+3. Déficit de actividad muscular, cuando un músculo trabaja menos de lo que debería.
+4. Exceso de coactivación.
+5. Sinergia alterada y timing de activación.
+
+## 3. Adquisición de la señal
+
+
+
