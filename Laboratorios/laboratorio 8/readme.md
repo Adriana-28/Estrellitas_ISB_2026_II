@@ -97,14 +97,6 @@ Con muchas UM la sEMG tiende a ser cuasi gaussiana. La saturación recorta las c
 | MDF (frecuencia mediana) | Frecuencia que divide la potencia en dos mitades | Más robusta al ruido |
 | Potencia por bandas | Fracción de potencia en 20 a 80, 80 a 150 y 150 a 450 Hz | Distribución espectral gruesa |
 
-## 6. Clasificación y validación
-**LDA** (análisis discriminante lineal) es rápido, robusto, con pocos parámetros y muy usado en control mioeléctrico. Supone clases gaussianas con la misma covarianza. **SVM con kernel RBF** permite una frontera de decisión no lineal. En ambos casos la normalización z-score se ajusta solo con los datos de entrenamiento, por lo que se encapsula en un `Pipeline`.
-
-**Diseño de la comparación.** Cada clasificador se evalúa con tres conjuntos de características para medir cuánto aporta la amplitud: las 15 características, solo RMS y todas menos las de amplitud (curtosis, asimetría, MNF, MDF y bandas). Como referencia simple se añade un árbol de decisión de profundidad 1, que aprende exactamente un umbral sobre el RMS. También se prueba el LDA con log(RMS), porque el logaritmo comprime valores grandes y acerca los datos al supuesto gaussiano del LDA.
-
-**Fuga de datos (data leakage).** Con solapamiento del 50 %, dos ventanas consecutivas comparten la mitad de sus muestras. Si una cae en entrenamiento y su vecina en prueba, el modelo ya vio parte de la prueba y el desempeño se sobreestima. La solución es dividir por grupos con `GroupKFold` de 5 pliegues, usando el ciclo como grupo, de modo que cada ciclo completo vaya a entrenamiento o a prueba. Para mostrar el efecto se compara con un `KFold` aleatorio. En estudios con varios sujetos, el equivalente es dividir por sujeto.
-
-**Métrica.** Exactitud balanceada, que promedia el acierto de cada clase (0.5 equivale al azar y 1.0 a acertar todo). Se complementa con la matriz de confusión.
 
 
 
