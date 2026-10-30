@@ -98,7 +98,7 @@ Con muchas UM la sEMG tiende a ser cuasi gaussiana. La saturación recorta las c
 | Potencia por bandas | Fracción de potencia en 20 a 80, 80 a 150 y 150 a 450 Hz | Distribución espectral gruesa |
 
 ## 6. Clasificación y validación
-*Clasificadores.** **LDA** (análisis discriminante lineal) es rápido, robusto, con pocos parámetros y muy usado en control mioeléctrico. Supone clases gaussianas con la misma covarianza. **SVM con kernel RBF** permite una frontera de decisión no lineal. En ambos casos la normalización z-score se ajusta solo con los datos de entrenamiento, por lo que se encapsula en un `Pipeline`.
+**LDA** (análisis discriminante lineal) es rápido, robusto, con pocos parámetros y muy usado en control mioeléctrico. Supone clases gaussianas con la misma covarianza. **SVM con kernel RBF** permite una frontera de decisión no lineal. En ambos casos la normalización z-score se ajusta solo con los datos de entrenamiento, por lo que se encapsula en un `Pipeline`.
 
 **Diseño de la comparación.** Cada clasificador se evalúa con tres conjuntos de características para medir cuánto aporta la amplitud: las 15 características, solo RMS y todas menos las de amplitud (curtosis, asimetría, MNF, MDF y bandas). Como referencia simple se añade un árbol de decisión de profundidad 1, que aprende exactamente un umbral sobre el RMS. También se prueba el LDA con log(RMS), porque el logaritmo comprime valores grandes y acerca los datos al supuesto gaussiano del LDA.
 
