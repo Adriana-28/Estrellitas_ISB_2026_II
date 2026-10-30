@@ -43,11 +43,68 @@ La condición obligatoria del diseño es `0 < f_baja < f_alta < Fs/2`. Antes de 
 
 Un pasa-bajos de 50 Hz no es adecuado para limpiar la sEMG porque eliminaría gran parte de la energía muscular, que se extiende hasta unos 150 Hz o más, y dejaría pasar los artefactos de movimiento.
 
-**Evaluación de la calidad.** Se verifica la respuesta en frecuencia de la cascada pasa-banda más notch. Se compara el espectro antes y después de filtrar. Se mide la altura del pico de 60 Hz respecto de sus vecinas. Por último, se estima la relación señal-ruido usando el baseline filtrado como piso de ruido.
+## 4. Segmentación, ventaneo y etiquetado
 
-```math
-SNR \approx 20 \log_{10} \frac{RMS_{prueba}}{RMS_{ruido}}
-```
+**Envolvente y detección de inicio de actividad.** La envolvente RMS móvil (ventana de 200 ms) resume la amplitud instantánea. La actividad se detecta comparando la envolvente con un umbral derivado del reposo.
+
+**Ventaneo.** La sEMG es no estacionaria, por lo que las características se calculan sobre ventanas cortas.
+
+**Etiquetado automático.** Cada ventana recibe una etiqueta según la fracción de sus muestras que cae dentro de una contracción detectada.
+
+| Etiqueta | Criterio | Uso |
+| --- | --- | --- |
+| Contracción | 80 % o más dentro de una contracción | Entrenamiento |
+| Reposo | 5 % o menos | Entrenamiento |
+| Transición | El resto | Se excluye por etiqueta ambigua |
+
+## 5. Extracción de características
+
+**Amplitud y energía.** Indican cuánta actividad hay. Crecen con el reclutamiento y la frecuencia de disparo.
+
+| Característica | Definición | Intuición |
+| --- | --- | --- |
+| MAV | Media del valor absoluto | Amplitud media rectificada |
+| RMS | Raíz de la media de los cuadrados | Relacionada con la potencia |
+| iEMG | Suma del valor absoluto | Área bajo la señal rectificada |
+| VAR | Varianza muestral (N−1) | Potencia, pues la señal filtrada tiene media cercana a 0 |
+
+
+**Complejidad y forma de onda.** Forman el conjunto clásico de Hudgins et al. (1993) para control de prótesis. ZC, SSC y WAMP usan un umbral de ruido ε para no contar fluctuaciones del piso de ruido. Se fijó en ε = 3σ del baseline filtrado.
+
+| Característica | Definición | Intuición |
+| --- | --- | --- |
+| WL (longitud de onda) | Suma de \|x(i+1) − x(i)\| | Longitud del trazo, combina amplitud y frecuencia |
+| ZC (cruces por cero) | Cambios de signo de x con diferencia mayor o igual a ε | Estimador temporal de frecuencia |
+| SSC (cambios de signo de pendiente) | Cambios de signo de la pendiente que superan ε | Densidad de picos |
+| WAMP (amplitud de Willison) | Veces que \|x(i+1) − x(i)\| supera ε | Relacionada con el disparo de UM |
+
+Como cuentan solo eventos mayores que ε, estas tres características mezclan amplitud y frecuencia.
+
+**Estadísticas de la distribución.** Preguntan si las amplitudes se parecen a una campana de Gauss.
+
+| Característica | Interpretación |
+| --- | --- |
+| Asimetría (skewness) | 0 indica distribución simétrica |
+| Curtosis de Fisher | 0 indica gaussiana. Mayor que 0 indica colas pesadas o picos aislados. Menor que 0 indica distribución aplanada |
+
+Con muchas UM la sEMG tiende a ser cuasi gaussiana. La saturación recorta las colas y empuja la curtosis hacia valores negativos.
+
+**Espectrales.** Se calculan sobre la PSD de Welch de cada ventana (`nperseg = 128`), restringida a 20 a 450 Hz.
+
+| Característica | Definición | Interpretación |
+| --- | --- | --- |
+| MNF (frecuencia media) | Suma de f·P dividida por la suma de P | Centro de masa del espectro |
+| MDF (frecuencia mediana) | Frecuencia que divide la potencia en dos mitades | Más robusta al ruido |
+| Potencia por bandas | Fracción de potencia en 20 a 80, 80 a 150 y 150 a 450 Hz | Distribución espectral gruesa |
+
+## 6. Clasificación y validación
+*Clasificadores.** **LDA** (análisis discriminante lineal) es rápido, robusto, con pocos parámetros y muy usado en control mioeléctrico. Supone clases gaussianas con la misma covarianza. **SVM con kernel RBF** permite una frontera de decisión no lineal. En ambos casos la normalización z-score se ajusta solo con los datos de entrenamiento, por lo que se encapsula en un `Pipeline`.
+
+**Diseño de la comparación.** Cada clasificador se evalúa con tres conjuntos de características para medir cuánto aporta la amplitud: las 15 características, solo RMS y todas menos las de amplitud (curtosis, asimetría, MNF, MDF y bandas). Como referencia simple se añade un árbol de decisión de profundidad 1, que aprende exactamente un umbral sobre el RMS. También se prueba el LDA con log(RMS), porque el logaritmo comprime valores grandes y acerca los datos al supuesto gaussiano del LDA.
+
+**Fuga de datos (data leakage).** Con solapamiento del 50 %, dos ventanas consecutivas comparten la mitad de sus muestras. Si una cae en entrenamiento y su vecina en prueba, el modelo ya vio parte de la prueba y el desempeño se sobreestima. La solución es dividir por grupos con `GroupKFold` de 5 pliegues, usando el ciclo como grupo, de modo que cada ciclo completo vaya a entrenamiento o a prueba. Para mostrar el efecto se compara con un `KFold` aleatorio. En estudios con varios sujetos, el equivalente es dividir por sujeto.
+
+**Métrica.** Exactitud balanceada, que promedia el acierto de cada clase (0.5 equivale al azar y 1.0 a acertar todo). Se complementa con la matriz de confusión.
 
 
 
