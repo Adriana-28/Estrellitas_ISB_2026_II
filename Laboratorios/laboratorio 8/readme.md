@@ -97,6 +97,61 @@ Con muchas UM la sEMG tiende a ser cuasi gaussiana. La saturación recorta las c
 | MDF (frecuencia mediana) | Frecuencia que divide la potencia en dos mitades | Más robusta al ruido |
 | Potencia por bandas | Fracción de potencia en 20 a 80, 80 a 150 y 150 a 450 Hz | Distribución espectral gruesa |
 
+## 6. Deep learning
 
+### Características diseñadas vs. aprendidas
+Hasta ahora las características (RMS, ZC, MDF…) las elegimos nosotros con base en conocimiento fisiológico. En deep learning, la red **aprende sus propios filtros** a partir de los datos.
+
+| | Clásico (características + LDA/SVM) | Deep learning (CNN) |
+|---|---|---|
+| Entrada | Vector de ~15 números | Señal cruda (1D-CNN) o imagen tiempo-frecuencia |
+| Conocimiento experto | Alto | Bajo (la red lo descubre) |
+| Datos necesarios | Pocos | Muchos (miles de ventanas, varios sujetos) |
+| Interpretabilidad | Alta | Baja |
+| Costo computacional | Mínimo | Alto (entrenamiento) |
+
+### De la señal a una imagen: la STFT
+- La FFT dice **qué** frecuencias hay, pero no **cuándo**. La STFT aplica la FFT sobre ventanas deslizantes.
+- El **espectrograma** |X(m,k)|² es una matriz tiempo × frecuencia, es decir, **una imagen**, y las CNN extraen muy bien patrones de imágenes.
+- **Incertidumbre tiempo-frecuencia:** ventana larga = buena resolución en frecuencia y mala en tiempo, y viceversa. Con `nperseg = 64` a 1000 Hz la resolución es de 15.6 Hz y 64 ms.
+- Otras representaciones usadas en la literatura: wavelet continua (escalogramas), Hilbert-Huang y matrices multicanal HD-sEMG.
+
+### Preparación de los datos
+- Ventanas de **500 ms** (50 % de solapamiento), con transiciones descartadas.
+- Cada ventana se convierte en un espectrograma de **27 frecuencias × 29 instantes** (banda 20–450 Hz, escala log10).
+- Total: **185 imágenes** (106 reposo, 79 contracción).
+- En los espectrogramas, la contracción llega a ≈ −3 (log10) frente a ≈ −5 del reposo, es decir, unas **100 veces más potencia**.
+- El espectrograma del registro completo muestra ~20 franjas verticales brillantes (una por contracción), más intensas en las frecuencias bajas.
+
+### Modelo y entrenamiento
+- CNN muy pequeña: **1 330 parámetros entrenables**, elegida a propósito porque hay pocos datos (las CNN de imágenes suelen tener millones).
+- Entrenamiento con Adam y entropía cruzada, evaluado con **GroupKFold (5 pliegues)**: cada ciclo reposo + contracción va completo al entrenamiento o a la prueba, sin fuga de datos.
+
+### Resultados
+| Pliegue | 1 | 2 | 3 | 4 | 5 | Promedio |
+|---|---|---|---|---|---|---|
+| Exactitud balanceada | 0.955 | 1.000 | 1.000 | 0.967 | 0.969 | **0.978 ± 0.019** |
+
+- **Matriz de confusión agregada:** 104/106 reposos y 77/79 contracciones bien clasificados, solo **4 errores en 185 imágenes**.
+- **Curva de pérdida:** baja rápido en las primeras épocas, pero luego tiene saltos bruscos y sube al final, lo que indica un entrenamiento inestable. Una tasa de aprendizaje menor o detener el entrenamiento en el mínimo de la pérdida probablemente lo estabilizaría.
+
+### ¿Qué aprendió la red?
+- Se visualizaron las activaciones de los **8 filtros de la primera capa**: no responden todos igual. Por ejemplo, el filtro 7 se activa en frecuencias bajas, mientras que los filtros 1 y 5 lo hacen en frecuencias altas.
+- Son **características aprendidas**: no tienen nombre ni fórmula fisiológica clara, y esa es la pérdida de **interpretabilidad** del deep learning.
+
+### Comparación con el enfoque clásico
+| Método | Exactitud balanceada |
+|---|---|
+| CNN (espectrograma) | 0.978 ± 0.019 |
+| SVM (15 características) | 0.972 ± 0.016 |
+| LDA (15 características) | 0.966 ± 0.023 |
+| **Un solo umbral en RMS** | **0.991 ± 0.011** |
+
+### Conclusiones
+- La CNN supera numéricamente al LDA y a la SVM, pero la diferencia es **menor que la variación entre pliegues**, así que no es concluyente.
+- Para reposo vs. contracción, **un solo umbral en RMS rinde incluso mejor** que la CNN: tarea fácil, no hace falta un modelo complejo.
+- Para esta tarea, las características clásicas ofrecen similar rendimiento con menor costo e interpretabilidad mucho mayor.
+- Las CNN cobran sentido en tareas más difíciles (p. ej. distinguir varios gestos) y con muchos más datos.
+- Limitación: ~200 imágenes de **un solo sujeto**, por lo que no se puede asegurar que el modelo generalice a otra persona.
 
 
