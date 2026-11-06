@@ -104,6 +104,7 @@ flowchart LR
 
 El archivo de OpenSignals trae una cabecera JSON (frecuencia de muestreo, resolución, canales) y columnas de datos (`nSeq`, entradas y salidas digitales, canal analógico del ECG).
 Las cuentas del ADC se pasan a milivoltios con la fórmula del sensor ECG de BITalino:
+
 $$
 ECG_{mV} = \frac{\left(\dfrac{ADC}{2^{n}} - \dfrac{1}{2}\right) \cdot V_{CC}}{G_{ECG}} \times 1000
 $$
