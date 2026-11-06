@@ -131,7 +131,7 @@ $$
 
 - Regla: se trabaja con una sola derivación a la vez. Si se mezclan, el clasificador aprendería la derivación y no la condición fisiológica.
 
-Criterios para elegir la derivación: que estén las 4 condiciones, que tenga pocos archivos con problemas de calidad y que el QRS sea positivo (para que las medidas morfológicas conserven su nombre anatómico).
+- Criterios para elegir la derivación: que estén las 4 condiciones, que tenga pocos archivos con problemas de calidad y que el QRS sea positivo (para que las medidas morfológicas conserven su nombre anatómico).
 
 ### 2.5 Paso 3: filtrado
 
@@ -156,7 +156,7 @@ Criterios para elegir la derivación: que estén las 4 condiciones, que tenga po
 El umbral usado es `0.3 × percentil 99` de la señal integrada.
 
 
-### 2.7 Paso 5: segmentación en latidos
+### 2.6 Paso 4: segmentación en latidos
 
 Se recorta una ventana de **200 ms antes y 400 ms después** de cada pico R. A 1000 Hz son 600 muestras por latido.
 
@@ -169,7 +169,7 @@ Se recorta una ventana de **200 ms antes y 400 ms después** de cada pico R. A 1
 - Se descartan el primer y el último latido, porque no tienen RR a ambos lados.
 - Se descartan los latidos con RR anómalo.
 
-### 2.8 Paso 6: extracción de 24 características
+### 2.7 Paso 5: extracción de 24 características
 
 | Familia | Pregunta que responde | Características |
 |---|---|---|
@@ -191,7 +191,7 @@ Los 600 valores del latido se tratan como datos de una distribución.
 | Asimetría (*skewness*, 3.er orden) | Un R alto y estrecho da asimetría positiva |
 | Curtosis (4.º orden) | Un R muy agudo con el resto plano da curtosis alta |
 
-### 2.9 Paso 7: tabla de características
+### 2.8 Paso 6: tabla de características
 
 Se juntan las cinco familias para todos los latidos.
 
@@ -203,7 +203,7 @@ Se juntan las cinco familias para todos los latidos.
 
 Es exactamente el formato de datos tabulares que necesita un algoritmo de machine learning.
 
-### 2.10 Paso 8: clasificación y validación
+### 2.9 Paso 7: clasificación y validación
 
 #### Los cinco clasificadores
 
@@ -224,7 +224,7 @@ Antes de entrenar, las características se estandarizan con `StandardScaler`. En
 | Exactitud | Porcentaje de latidos bien clasificados |
 | F1 macro | Promedio del F1 de cada clase. Es más justo cuando una clase tiene más latidos |
 
-### 2.11 Limitaciones
+### 2.10 Limitaciones
 
 - [ ] Un solo participante y unos 30 s por condición. El modelo aprende las condiciones de esta persona en esta sesión. Parte de lo que distingue dos archivos puede ser el propio registro (contacto de electrodos, minutos de diferencia) y no solo la fisiología.
 - [ ] Medidas morfológicas aproximadas, porque usan ventanas fijas.
